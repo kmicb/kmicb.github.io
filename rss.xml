@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+<rss version="2.0" 
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
+    <atom:link href="https://raw.githubusercontent.com/kmicb/kmicb.github.io/main/rss.xml" rel="self" type="application/rss+xml" />
     <title>Concertos of Chaos</title>
     <link>https://kmicb.github.io</link>
     <description>A Deaf Pianist Orchestrates Raw Mental Health Conversations Uncensored, Unedited, Unapologetic</description>
@@ -9,8 +12,8 @@
       <title>00 Pilot Episode</title>
       <link>https://drive.google.com/uc?id=19hIgfHfdhi_qDyYO6G2-0W_zYKyUBRFM&amp;export=download</link>
       <description>This pilot episode is meant to give a feel of my show. Bear with me as this first episode has all the mistakes in it like popping, clicking, and smacking of my mouth. :-) Gotta learn to walk before we can run! I hope you enjoy this episode!</description>
-      <guid>https://kmicb.github.io/episodes/00-pilot-episode</guid>
-      <pubDate>Fri, 08 Dec 2024 14:00:00 +0000</pubDate>
+      <guid>concertos-of-chaos-episode-00</guid>
+      <pubDate>Sun, 08 Dec 2024 14:00:00 +0000</pubDate>
       <enclosure url="https://drive.google.com/uc?id=19hIgfHfdhi_qDyYO6G2-0W_zYKyUBRFM&amp;export=download" length="15537208" type="audio/mp4"/>
     </item>
   </channel>
