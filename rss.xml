@@ -1,0 +1,17 @@
+<rss version="2.0">
+  <channel>
+    <title>Your Podcast Name</title>
+    <link>http://yourwebsite.com</link>
+    <description>A short description of your podcast.</description>
+    <language>en-us</language>
+    <item>
+      <title>Episode 1 Title</title>
+      <link>DIRECT_FILE_LINK</link>
+      <description>Episode 1 description.</description>
+      <guid>DIRECT_FILE_LINK</guid>
+      <pubDate>Fri, 08 Dec 2024 14:00:00 +0000</pubDate>
+      <enclosure url="https://drive.google.com/uc?id=FILE_ID&export=download" length="12345678" type="audio/mpeg"/>
+    </item>
+    <!-- Repeat <item> for additional episodes -->
+  </channel>
+</rss>
