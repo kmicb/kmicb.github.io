@@ -1,13 +1,13 @@
 <rss version="2.0">
   <channel>
-    <title>Your Podcast Name</title>
-    <link>http://yourwebsite.com</link>
-    <description>A short description of your podcast.</description>
+    <title>Concertos of Chaos</title>
+    <link>http://kmicb.github.io</link>
+    <description>A Deaf Pianist Orchestrates Raw Mental Health Conversations Uncensored, Unedited, Unapologetic</description>
     <language>en-us</language>
     <item>
-      <title>Episode 1 Title</title>
+      <title>00_Pilot_Episode</title>
       <link>DIRECT_FILE_LINK</link>
-      <description>Episode 1 description.</description>
+      <description>This pilot episode is meant to give a feel of my show. Bear with me as this first episode has all the mistakes in it like popping, clicking, and smacking of my mouth. :-) Gotta learn to walk before we can run! I hope you enjoy this episode!</description>
       <guid>DIRECT_FILE_LINK</guid>
       <pubDate>Fri, 08 Dec 2024 14:00:00 +0000</pubDate>
       <enclosure url="https://drive.google.com/uc?id=FILE_ID&export=download" length="12345678" type="audio/mpeg"/>
