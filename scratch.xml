@@ -1,24 +1,217 @@
-<item>
-    <title>S01E01(Audio) - Pilot</title>
-    <itunes:title>S01E01 - Introductory Pilot Episode</itunes:title>
-    <link>https://drive.google.com/uc?export=download&amp;id=19hIgfHfdhi_qDyYO6G2-0W_zYKyUBRFM</link>
-    <pubDate>Tue, 12 Nov 2024 20:21:21 -0500</pubDate>
-    <guid>https://kmicb.github.io/rss.xml#S01E01(Audio)pilot_episode</guid>
-    <description>
-    <![CDATA[ <p>This pilot episode is meant to give a feel of my show. Bear with me as this first episode has all the mistakes in it like popping, clicking, and smacking of my mouth. :-) Gotta learn to walk before we can run! I hope you enjoy this episode!</p> ]]>
-    </description>
-    <content:encoded>
-    <![CDATA[ <p>This pilot episode is meant to give a feel of my show. Bear with me as this first episode has all the mistakes in it like popping, clicking, and smacking of my mouth. :-) Gotta learn to walk before we can run! I hope you enjoy this episode!</p> ]]>
-    </content:encoded>
-    <enclosure url="https://drive.google.com/uc?export=download&amp;id=19hIgfHfdhi_qDyYO6G2-0W_zYKyUBRFM" length="15537208" type="audio/x-mp4"/>
-    <itunes:summary>
-    <![CDATA[ This pilot episode is meant to give a feel of my show. Bear with me as this first episode has all the mistakes in it like popping, clicking, and smacking of my mouth. :-) Gotta learn to walk before we can run! I hope you enjoy this episode! ]]>
-    </itunes:summary>
-    <itunes:author>Krystifer Colli-Biondi</itunes:author>
-    <itunes:explicit>true</itunes:explicit>
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:spotify="http://www.spotify.com/ns/rss" xmlns:podcast="https://podcastindex.org/namespace/1.0" xmlns:media="http://search.yahoo.com/mrss/" version="2.0">
+  <channel>
+    <title>Concertos of Chaos</title>
+    <atom:link href="https://raw.githubusercontent.com/kmicb/kmicb.github.io/refs/heads/main/rss.xml" rel="self" type="application/rss+xml" />
+    <link>https://kmicb.github.io</link>
+    <description>A Deaf Pianist Orchestrates Raw Mental Health Conversations Uncensored, Unedited, Unapologetic</description>
+    <pubDate>Tue, 10 Dec 2024 20:22:43 -0500</pubDate>
+    <!-- <generator></generator> -->
+    <language>en-us</language>
+    <copyright>Copyright 2024 All rights reserved.</copyright>
+    <category>Health & Fitness:Mental Helath</category>
+    <ttl>1440</ttl>
+    <itunes:type>episodic</itunes:type>
+    <itunes:summary/>
+    <itunes:author>Krystifer</itunes:author>
+    <itunes:category text="Health & Fitness">
+        <itunes:category text="Mental Health"/>
+    </itunes:category>
+    <itunes:owner>
+        <itunes:name>Krystifer</itunes:name>
+    </itunes:owner>
     <itunes:block>No</itunes:block>
-    <itunes:duration>17:50</itunes:duration>
-    <itunes:season>1</itunes:season>
-    <itunes:episode>1</itunes:episode>
-    <itunes:episodeType>full</itunes:episodeType>
-</item>
+    <itunes:explicit>true</itunes:explicit>
+    <itunes:image href="https://link.to.image"/>
+  <!-- S01E01 Audio -->
+    <item>
+        <title>S01E01(Audio) - Pilot</title>
+        <itunes:title>S01E01 - Introductory Pilot Episode</itunes:title>
+        <link>https://drive.google.com/uc?export=download&amp;id=19hIgfHfdhi_qDyYO6G2-0W_zYKyUBRFM</link>
+        <pubDate>Tue, 12 Nov 2024 20:21:21 -0500</pubDate>
+        <guid>https://kmicb.github.io/rss.xml#S01E01(Audio)pilot_episode</guid>
+        <description>
+        <![CDATA[ <p>This pilot episode is meant to give a feel of my show. Bear with me as this first episode has all the mistakes in it like popping, clicking, and smacking of my mouth. :-) Gotta learn to walk before we can run! I hope you enjoy this episode!</p> ]]>
+        </description>
+        <content:encoded>
+        <![CDATA[ <p>This pilot episode is meant to give a feel of my show. Bear with me as this first episode has all the mistakes in it like popping, clicking, and smacking of my mouth. :-) Gotta learn to walk before we can run! I hope you enjoy this episode!</p> ]]>
+        </content:encoded>
+        <enclosure url="https://drive.google.com/uc?export=download&amp;id=19hIgfHfdhi_qDyYO6G2-0W_zYKyUBRFM" length="15537208" type="audio/x-mp4"/>
+        <itunes:summary>
+        <![CDATA[ This pilot episode is meant to give a feel of my show. Bear with me as this first episode has all the mistakes in it like popping, clicking, and smacking of my mouth. :-) Gotta learn to walk before we can run! I hope you enjoy this episode! ]]>
+        </itunes:summary>
+        <itunes:author>Krystifer Colli-Biondi</itunes:author>
+        <itunes:explicit>true</itunes:explicit>
+        <itunes:block>No</itunes:block>
+        <itunes:duration>17:50</itunes:duration>
+        <itunes:season>1</itunes:season>
+        <itunes:episode>1</itunes:episode>
+        <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <!-- S01E02 Audio -->
+    <item>
+        <title></title>
+        <itunes:title></itunes:title>
+        <link></link>
+        <pubDate></pubDate>
+        <guid></guid>
+        <description>
+        <![CDATA[ <p>description goes here</p> ]]>
+        </description>
+        <content:encoded>
+        <![CDATA[ <p>description goes here</p> ]]>
+        </content:encoded>
+        <enclosure url="" length="" type=""/>
+        <itunes:summary>
+        <![CDATA[ <p>description goes here</p> ]]>
+        </itunes:summary>
+        <itunes:author>Krystifer Colli-Biondi</itunes:author>
+        <itunes:explicit>true</itunes:explicit>
+        <itunes:block>No</itunes:block>
+        <itunes:duration>17:50</itunes:duration>
+        <itunes:season>1</itunes:season>
+        <itunes:episode>1</itunes:episode>
+        <itunes:episodeType>full</itunes:episodeType>
+    </item>
+</channel>
+</rss>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:spotify="http://www.spotify.com/ns/rss" xmlns:podcast="https://podcastindex.org/namespace/1.0" xmlns:media="http://search.yahoo.com/mrss/" version="2.0">
+  <channel>
+    <title>Concertos of Chaos</title>
+    <atom:link href="https://raw.githubusercontent.com/kmicb/kmicb.github.io/refs/heads/main/rss.xml" rel="self" type="application/rss+xml" />
+    <link>https://kmicb.github.io</link>
+    <description>A Deaf Pianist Orchestrates Raw Mental Health Conversations Uncensored, Unedited, Unapologetic</description>
+    <pubDate>Tue, 10 Dec 2024 20:22:43 -500</pubDate>
+    <generator></generator>
+    <language>en-us</language>
+    <copyright>Copyright 2024 All rights reserved.</copyright>
+    <category>Health & Fitness:Mental Helath</category>
+    <ttl>1440</ttl>
+    <itunes:type>episodic</itunes:type>
+    <itunes:summary/>
+    <itunes:author>Krystifer</itunes:author>
+    <itunes:category text="Health & Fitness">
+        <itunes:category text="Mental Health"/>
+    </itunes:category>
+    <itunes:owner>
+        <itunes:name>Krystifer</itunes:name>
+    </itunes:owner>
+    <itunes:block>No</itunes:block>
+    <itunes:explicit>true</itunes:explicit>
+    <itunes:image href="https://link.to.image"/>
+    <item>
+        <title>S01E01(Audio) - Pilot</title>
+        <link>https://drive.google.com/uc?export=download&amp;id=19hIgfHfdhi_qDyYO6G2-0W_zYKyUBRFM</link>
+        <description>This pilot episode is meant to give a feel of my show. Bear with me as this first episode has all the mistakes in it like popping, clicking, and smacking of my mouth. :-) Gotta learn to walk before we can run! I hope you enjoy this episode!</description>
+        <guid>https://kmicb.github.io/rss.xml#S01E01(Audio)pilot_episode</guid>
+        <pubDate>Sun, 08 Dec 2024 14:00:00 +0000</pubDate>
+        <enclosure url="https://drive.google.com/uc?export=download&amp;id=19hIgfHfdhi_qDyYO6G2-0W_zYKyUBRFM" length="15537208" type="audio/mp4"/>
+    </item>
+    <item>
+        <title>S01E02(Video) - Conducting Through Chaos: When Your Relationship Symphony Plays In A Toxic Key</title>
+        <link>https://drive.google.com/uc?export=download&amp;id=1Sa4JsL9KS5-hjs01hNwmZxM73JSqyb94</link>
+        <description>Join me and my guest as we dive into toxic relationships!</description>
+        <guid>https://kmicb.github.io/rss.xml#S01E02(Video)Conducting_Through_Chaos</guid>
+        <pubDate>Sun, 08 Dec 2024 14:00:00 +0000</pubDate>
+        <enclosure url="https://drive.google.com/uc?export=download&amp;id=1Sa4JsL9KS5-hjs01hNwmZxM73JSqyb94" length="521586988" type="video/quicktime"/>
+    </item>
+    <item>
+        <title>S01E02(Audio) - Conducting Through Chaos: When Your Relationship Symphony Plays In A Toxic Key</title>
+        <link>https://drive.google.com/uc?export=download&amp;id=1C0hy_1orb1OvsTnAhPL58dq0FLFLL_Ue</link>
+        <description>Join me and my guest as we dive into toxic relationships!</description>
+        <guid>https://kmicb.github.io/rss.xml#S01E02(Audio)Conducting_Through_Chaos</guid>
+        <pubDate>Sun, 08 Dec 2024 14:00:00 +0000</pubDate>
+        <enclosure url="https://drive.google.com/uc?export=download&amp;id=1C0hy_1orb1OvsTnAhPL58dq0FLFLL_Ue" length="39192218" type="audio/mp4"/>
+    </item>
+    <item>
+        <title>S01E02(Video) - Sustained!</title>
+        <link>https://drive.google.com/uc?export=download&amp;id=1Sa4JsL9KS5-hjs01hNwmZxM73JSqyb94</link>
+        <description>Systemic oppression sneaks up through seemingly harmless words &amp; rules that fuck us. Just look at history: the worst started with acceptable hate that people in power gave a thumbs up to and continues to this day. When folks with influence cosign discrimination, it gives others permission to be  sticks. We can't continue to let trash be normal. And yes, it absolutely fucks with your mental health!</description>
+        <guid>https://kmicb.github.io/rss.xml#S01E02(Video)Sustained</guid>
+        <pubDate>Sun, 08 Dec 2024 14:00:00 +0000</pubDate>
+        <enclosure url="https://drive.google.com/uc?export=download&amp;id=1Sa4JsL9KS5-hjs01hNwmZxM73JSqyb94" length="6184025" type="video/quicktime"/>
+    </item>
+    <item>
+        <title>S01E03(Video) - Living in a New Key: Breaking Free from Life's Opus</title>
+        <link>https://drive.google.com/uc?export=download&amp;id=1drEFXLDG7de98usI8fp7U01FvoMnPYL9</link>
+        <description>Join Brandon and me on our journey breaking free from how life tells us how we should live our lives! This drive is all over the place! Hope you can follow, and enjoy!</description>
+        <guid>https://kmicb.github.io/rss.xml#S01E03(Video)Living_New_Key</guid>
+        <pubDate>Sun, 08 Dec 2024 14:00:00 +0000</pubDate>
+        <enclosure url="https://drive.google.com/uc?export=download&amp;id=1drEFXLDG7de98usI8fp7U01FvoMnPYL9" length="2420785974" type="video/quicktime"/>
+    </item>
+    <item>
+        <title>S01E03(Audio) - Living in a New Key: Breaking Free from Life's Opus</title>
+        <link>https://drive.google.com/uc?export=download&amp;id=1YozEpy0cUS_j1pTA1oXpPeJepe6mrbB-</link>
+        <description>Join Brandon and me on our journey breaking free from how life tells us how we should live our lives! This drive is all over the place! Hope you can follow, and enjoy!</description>
+        <guid>https://kmicb.github.io/rss.xml#S01E03(Audio)_Living_New_Key</guid>
+        <pubDate>Sun, 08 Dec 2024 14:00:00 +0000</pubDate>
+        <enclosure url="https://drive.google.com/uc?export=download&amp;id=1YozEpy0cUS_j1pTA1oXpPeJepe6mrbB-" length="48528074" type="audio/mp4"/>
+    </item>
+    <item>
+        <title>S01E05(Video) - Appoggiaturas and Fermatas: When Holding On Fucks Your Harmony</title>
+        <link>https://drive.google.com/uc?export=download&amp;id=1UXuQMmBbkD4aU5B7v84G5EhjZnpZA6OH</link>
+        <description>I discuss prioritizing mental health over capitalistic bullshit.</description>
+        <guid>https://kmicb.github.io/rss.xml#S01E05(Video)_Appogg_Fermatas</guid>
+        <pubDate>Sun, 08 Dec 2024 14:00:00 +0000</pubDate>
+        <enclosure url="https://drive.google.com/uc?export=download&amp;id=1UXuQMmBbkD4aU5B7v84G5EhjZnpZA6OH" length="3000475660" type="video/quicktime"/>
+    </item>
+    <item>
+        <title>S01E05(Audio) - Appoggiaturas and Fermatas: When Holding On Fucks Your Harmony</title>
+        <link>https://drive.google.com/uc?export=download&amp;id=1tsY8LOR54EgJnlCajo0rzSjbzw7_4F21</link>
+        <description>I discuss prioritizing mental health over capitalistic bullshit.</description>
+        <guid>https://kmicb.github.io/rss.xml#S01E05(Audio)Appogg_Fermatas</guid>
+        <pubDate>Sun, 08 Dec 2024 14:00:00 +0000</pubDate>
+        <enclosure url="https://drive.google.com/uc?export=download&amp;id=1tsY8LOR54EgJnlCajo0rzSjbzw7_4F21" length="94649300" type="audio/mp4"/>
+    </item>
+  </channel>
+</rss> -->
