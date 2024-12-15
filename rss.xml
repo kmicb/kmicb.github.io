@@ -1,31 +1,28 @@
-<rss xmlns:content="http://purl.org/rss/1.0/modules/content/"
-    xmlns:wfw="http://wellformedweb.org/CommentAPI/"
-    xmlns:dc="http://purl.org/dc/elements/1.1/"
-    xmlns:atom="http://www.w3.org/2005/Atom"
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0"
     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
-    xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0"
-    xmlns:spotify="http://www.spotify.com/ns/rss"
-    xmlns:podcast="https://podcastindex.org/namespace/1.0"
-    xmlns:media="http://search.yahoo.com/mrss/" version="2.0">
+    xmlns:content="http://purl.org/rss/1.0/modules/content/"
+    xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
+        <atom:link href="https://concertosofchaos.com/rss.xml" rel="self" type="application/rss+xml"/>
+        <itunes:owner>
+            <itunes:name>Krystifer</itunes:name>
+            <itunes:email>krystifer@concertosofchaos.com</itunes:email>
+        </itunes:owner>
         <title>Concertos of Chaos</title>
-        <atom:link href="https://raw.githubusercontent.com/kmicb/kmicb.github.io/refs/heads/main/rss.xml" rel="self" type="application/rss+xml" />
         <link>https://concertosofchaos.com</link>
         <description>A Deaf Pianist Orchestrates Raw Mental Health Conversations Uncensored, Unedited, Unapologetic</description>
         <pubDate>Tue, 10 Dec 2024 20:22:43 -0500</pubDate>
         <language>en-us</language>
         <copyright>Copyright 2024 All rights reserved.</copyright>
-        <category>Health &amp; Fitness:Mental Helath</category>
+        <category>Health &amp; Fitness:Mental Health</category>
         <ttl>1440</ttl>
         <itunes:type>episodic</itunes:type>
-        <itunes:summary/>
+        <itunes:summary>A Deaf Pianist Orchestrates Raw Mental Health Conversations Uncensored, Unedited, Unapologetic</itunes:summary>
         <itunes:author>Krystifer</itunes:author>
         <itunes:category text="Health &amp; Fitness">
-        <itunes:category text="Mental Health"/>
+            <itunes:category text="Mental Health"/>
         </itunes:category>
-        <itunes:owner>
-        <itunes:name>Krystifer</itunes:name>
-        </itunes:owner>
         <itunes:block>No</itunes:block>
         <itunes:explicit>true</itunes:explicit>
         <itunes:image href="https://concertosofchaos.com/podcast_me.jpeg"/>
@@ -37,10 +34,10 @@
             <pubDate>Sun, 08 Dec 2024 14:00:00 -0500</pubDate>
             <guid>https://concertosofchaos.com/rss.xml#S01E05(Video)Appogg_Fermatas</guid>
             <description>
-                <![CDATA[<p>I discuss prioritizing mental health over capitalistic bullshit.</p>]]>
+                I discuss prioritizing mental health over capitalistic bullshit.
             </description>
             <content:encoded>
-                <![CDATA[<p>I discuss prioritizing mental health over capitalistic bullshit.</p>]]>
+                I discuss prioritizing mental health over capitalistic bullshit.
             </content:encoded>
             <enclosure url="https://drive.google.com/uc?export=download&amp;id=1UXuQMmBbkD4aU5B7v84G5EhjZnpZA6OH" length="94649300" type="video/quicktime" />
             <itunes:author>Krystifer</itunes:author>
@@ -59,14 +56,14 @@
             <pubDate>Sun, 08 Dec 2024 14:00:00 -0500</pubDate>
             <guid>https://concertosofchaos.com/rss.xml#S01E05(Audio)Appogg_Fermatas</guid>
             <description>
-                <![CDATA[<p>I discuss prioritizing mental health over capitalistic bullshit.</p>]]>
+                I discuss prioritizing mental health over capitalistic bullshit.
             </description>
             <content:encoded>
-                <![CDATA[<p>I discuss prioritizing mental health over capitalistic bullshit.</p>]]>
+                I discuss prioritizing mental health over capitalistic bullshit.
             </content:encoded>
             <enclosure url="https://drive.google.com/uc?export=download&amp;id=1tsY8LOR54EgJnlCajo0rzSjbzw7_4F21" length="94649300" type="audio/x-m4a" />
             <itunes:summary>
-                <![CDATA[<p>I discuss prioritizing mental health over capitalistic bullshit.</p>]]>
+                I discuss prioritizing mental health over capitalistic bullshit.
             </itunes:summary>
             <itunes:author>Krystifer</itunes:author>
             <itunes:explicit>true</itunes:explicit>
@@ -74,26 +71,6 @@
             <itunes:duration>51:05</itunes:duration>
             <itunes:season>1</itunes:season>
             <itunes:episode>5</itunes:episode>
-            <itunes:episodeType>full</itunes:episodeType>
-        </item>
-        <!-- S01E04 -->
-        <item>
-            <title>S01E04 Nope</title>
-            <itunes:title>S01E04 Nope</itunes:title>
-            <description>
-                <![CDATA[<p>Due to a horrible mental health week, there is no episode 04.</p>]]>
-            </description>
-            <content:encoded>
-                <![CDATA[<p>Due to a horrible mental health week, there is no episode 04.</p>]]>
-            </content:encoded>
-            <itunes:summary>
-                <![CDATA[<p>Due to a horrible mental health week, there is no episode 04.</p>]]>
-            </itunes:summary>
-            <itunes:author>Krystifer</itunes:author>
-            <itunes:explicit>true</itunes:explicit>
-            <itunes:block>No</itunes:block>
-            <itunes:duration>00:00:00</itunes:duration>
-            <itunes:episode>4</itunes:episode>
             <itunes:episodeType>full</itunes:episodeType>
         </item>
         <!-- S01E03 Video -->
@@ -104,14 +81,14 @@
             <pubDate>Sun, 08 Dec 2024 14:00:00 -0500</pubDate>
             <guid>https://concertosofchaos.com/rss.xml#S01E03(Video)Living_New_Key</guid>
             <description>
-                <![CDATA[<p>Join Brandon and me on our journey breaking free from how life tells us how we should live our lives! This drive is all over the place! Hope you can follow, and enjoy!</p>]]>
+                Join Brandon and me on our journey breaking free from how life tells us how we should live our lives! This drive is all over the place! Hope you can follow, and enjoy!
             </description>
             <content:encoded>
-                <![CDATA[<p>Join Brandon and me on our journey breaking free from how life tells us how we should live our lives! This drive is all over the place! Hope you can follow, and enjoy!</p>]]>
+                Join Brandon and me on our journey breaking free from how life tells us how we should live our lives! This drive is all over the place! Hope you can follow, and enjoy!
             </content:encoded>
             <enclosure url="https://drive.google.com/uc?export=download&amp;id=1drEFXLDG7de98usI8fp7U01FvoMnPYL9" length="2420785974" type="video/quicktime" />
             <itunes:summary>
-                <![CDATA[<p>Join Brandon and me on our journey breaking free from how life tells us how we should live our lives! This drive is all over the place! Hope you can follow, and enjoy!</p>]]>
+                Join Brandon and me on our journey breaking free from how life tells us how we should live our lives! This drive is all over the place! Hope you can follow, and enjoy!
             </itunes:summary>
             <itunes:author>Krystifer</itunes:author>
             <itunes:explicit>true</itunes:explicit>
@@ -128,14 +105,14 @@
             <pubDate>Tue, 26 Nov 2024 21:48:50 -0500</pubDate>
             <guid>https://concertosofchaos.com/rss.xml#S01E03(Audio)_Living_New_Key</guid>
             <description>
-                <![CDATA[<p>Join Brandon and me on our journey breaking free from how life tells us how we should live our lives! This drive is all over the place! Hope you can follow, and enjoy!</p>]]>
+                Join Brandon and me on our journey breaking free from how life tells us how we should live our lives! This drive is all over the place! Hope you can follow, and enjoy!
             </description>
             <content:encoded>
-                <![CDATA[<p>Join Brandon and me on our journey breaking free from how life tells us how we should live our lives! This drive is all over the place! Hope you can follow, and enjoy!</p>]]>
+                Join Brandon and me on our journey breaking free from how life tells us how we should live our lives! This drive is all over the place! Hope you can follow, and enjoy!
             </content:encoded>
             <enclosure url="https://drive.google.com/uc?export=download&amp;id=1YozEpy0cUS_j1pTA1oXpPeJepe6mrbB-" length="48528074" type="audio/x-m4a" />
             <itunes:summary>
-                <![CDATA[Join Brandon and me on our journey breaking free from how life tells us how we should live our lives! This drive is all over the place! Hope you can follow, and enjoy!]]>
+                Join Brandon and me on our journey breaking free from how life tells us how we should live our lives! This drive is all over the place! Hope you can follow, and enjoy!
             </itunes:summary>
             <itunes:author>Krystifer</itunes:author>
             <itunes:explicit>true</itunes:explicit>
@@ -152,14 +129,14 @@
             <pubDate>Sun, 08 Dec 2024 14:00:00 -0500</pubDate>
             <guid>https://concertosofchaos.com/rss.xml#S01E02(Audio)Sustained</guid>
             <description>
-                <![CDATA[ <p dir="ltr">Systemic oppression sneaks up through seemingly harmless words &amp; rules that fuck us. Just look at history: the worst started with acceptable hate that people in power gave a thumbs up to and continues to this day. When folks with influence cosign discrimination, it gives others permission to be dicks. We can't continue to let trash be normal. And yes, it absolutely fucks with your mental health!</p> ]]>
+                Systemic oppression sneaks up through seemingly harmless words &amp; rules that fuck us. Just look at history: the worst started with acceptable hate that people in power gave a thumbs up to and continues to this day. When folks with influence cosign discrimination, it gives others permission to be dicks. We can't continue to let trash be normal. And yes, it absolutely fucks with your mental health! 
             </description>
             <content:encoded>
-                <![CDATA[ <p dir="ltr">Systemic oppression sneaks up through seemingly harmless words &amp; rules that fuck us. Just look at history: the worst started with acceptable hate that people in power gave a thumbs up to and continues to this day. When folks with influence cosign discrimination, it gives others permission to be dicks. We can't continue to let trash be normal. And yes, it absolutely fucks with your mental health!</p> ]]>
+                Systemic oppression sneaks up through seemingly harmless words &amp; rules that fuck us. Just look at history: the worst started with acceptable hate that people in power gave a thumbs up to and continues to this day. When folks with influence cosign discrimination, it gives others permission to be dicks. We can't continue to let trash be normal. And yes, it absolutely fucks with your mental health! 
             </content:encoded>
             <enclosure url="https://drive.google.com/uc?export=download&amp;id=1zoY8QyVBDWopOYUyCIw1IEoFSoqOrf7X" length="6184025" type="audio/x-m4a" />
             <itunes:summary>
-                <![CDATA[ Systemic oppression sneaks up through seemingly harmless words &amp; rules that  us. Just look at history: the worst started with acceptable hate that people in power gave a thumbs up to and continues to this day. When folks with influence cosign discrimination, it gives others permission to be  sticks. We can't continue to let trash be normal. And yes, it absolutely phucks with your mental health!]]>
+                 Systemic oppression sneaks up through seemingly harmless words &amp; rules that  us. Just look at history: the worst started with acceptable hate that people in power gave a thumbs up to and continues to this day. When folks with influence cosign discrimination, it gives others permission to be  sticks. We can't continue to let trash be normal. And yes, it absolutely phucks with your mental health! 
             </itunes:summary>
             <itunes:author>Krystifer</itunes:author>
             <itunes:explicit>true</itunes:explicit>
@@ -176,14 +153,14 @@
             <pubDate>Sun, 08 Dec 2024 14:00:00 -0500</pubDate>
             <guid>https://concertosofchaos.com/rss.xml#S01E02(Video)Conducting_Through_Chaos</guid>
             <description>
-                <![CDATA[ <p>Join me and my guest as we dive into toxic relationships!</p> ]]>
+                 Join me and my guest as we dive into toxic relationships! 
             </description>
             <content:encoded>
-                <![CDATA[ <p>Join me and my guest as we dive into toxic relationships!</p> ]]>
+                 Join me and my guest as we dive into toxic relationships! 
             </content:encoded>
             <enclosure url="https://drive.google.com/uc?export=download&amp;id=1Sa4JsL9KS5-hjs01hNwmZxM73JSqyb94" length="39192218" type="video/quicktime" />
             <itunes:summary>
-                <![CDATA[ <p>Join me and my guest as we dive into toxic relationships!</p> ]]>
+                 Join me and my guest as we dive into toxic relationships! 
             </itunes:summary>
             <itunes:author>Krystifer</itunes:author>
             <itunes:explicit>true</itunes:explicit>
@@ -201,14 +178,14 @@
             <pubDate>Sun, 08 Dec 2024 14:00:00 -0500</pubDate>
             <guid>https://concertosofchaos.com/rss.xml#S01E02(Audio)Conducting_Through_Chaos</guid>
             <description>
-                <![CDATA[ <p>Join me and my guest as we dive into toxic relationships!</p> ]]>
+                 Join me and my guest as we dive into toxic relationships! 
             </description>
             <content:encoded>
-                <![CDATA[ <p>Join me and my guest as we dive into toxic relationships!</p> ]]>
+                 Join me and my guest as we dive into toxic relationships! 
             </content:encoded>
             <enclosure url="https://drive.google.com/uc?export=download&amp;id=1C0hy_1orb1OvsTnAhPL58dq0FLFLL_Ue" length="39192218" type="audio/x-m4a" />
             <itunes:summary>
-                <![CDATA[ <p>Join me and my guest as we dive into toxic relationships!</p> ]]>
+                 Join me and my guest as we dive into toxic relationships! 
             </itunes:summary>
             <itunes:author>Krystifer</itunes:author>
             <itunes:explicit>true</itunes:explicit>
@@ -226,14 +203,14 @@
             <pubDate>Tue, 12 Nov 2024 20:21:21 -0500</pubDate>
             <guid>https://concertosofchaos.com/rss.xml#S01E01(Audio)pilot_episode</guid>
             <description>
-                <![CDATA[ <p>This pilot episode is meant to give a feel of my show. Bear with me as this first episode has all the mistakes in it like popping, clicking, and smacking of my mouth. :-) Gotta learn to walk before we can run! I hope you enjoy this episode!</p> ]]>
+                 This pilot episode is meant to give a feel of my show. Bear with me as this first episode has all the mistakes in it like popping, clicking, and smacking of my mouth. :-) Gotta learn to walk before we can run! I hope you enjoy this episode! 
             </description>
             <content:encoded>
-                <![CDATA[ <p>This pilot episode is meant to give a feel of my show. Bear with me as this first episode has all the mistakes in it like popping, clicking, and smacking of my mouth. :-) Gotta learn to walk before we can run! I hope you enjoy this episode!</p> ]]>
+                 This pilot episode is meant to give a feel of my show. Bear with me as this first episode has all the mistakes in it like popping, clicking, and smacking of my mouth. :-) Gotta learn to walk before we can run! I hope you enjoy this episode! 
             </content:encoded>
             <enclosure url="https://drive.google.com/uc?export=download&amp;id=19hIgfHfdhi_qDyYO6G2-0W_zYKyUBRFM" length="15537208" type="audio/x-m4a" />
             <itunes:summary>
-                <![CDATA[ This pilot episode is meant to give a feel of my show. Bear with me as this first episode has all the mistakes in it like popping, clicking, and smacking of my mouth. :-) Gotta learn to walk before we can run! I hope you enjoy this episode! ]]>
+                 This pilot episode is meant to give a feel of my show. Bear with me as this first episode has all the mistakes in it like popping, clicking, and smacking of my mouth. :-) Gotta learn to walk before we can run! I hope you enjoy this episode! 
             </itunes:summary>
             <itunes:author>Krystifer Colli-Biondi</itunes:author>
             <itunes:explicit>true</itunes:explicit>
