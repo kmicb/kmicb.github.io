@@ -48,6 +48,20 @@
             padding: 1.5em;
             border-radius: 8px;
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            display: flex;
+            gap: 1.5em;
+        }
+
+        .episode-content {
+            flex: 1;
+        }
+
+        .episode-image {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 4px;
+            align-self: center;
         }
 
         .episode h2 {
@@ -133,6 +147,9 @@
                     const enclosure = item.getElementsByTagName('enclosure')[0];
                     const fileType = enclosure?.getAttribute('type');
                     const downloadUrl = enclosure?.getAttribute('url');
+                    const imageUrl = item.getElementsByTagName('itunes:image')[0]?.getAttribute('href') || 
+                                    xmlDoc.getElementsByTagName('itunes:image')[0]?.getAttribute('href') ||
+                                    'podcast_me.jpeg';
                     
                     const episodeDiv = document.createElement('div');
                     episodeDiv.className = 'episode';
