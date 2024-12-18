@@ -48,19 +48,22 @@
             padding: 1.5em;
             border-radius: 8px;
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-            display: flex;
-            gap: 1.5em;
+            position: relative
         }
 
         .episode-content {
-            flex: 1;
+            margin-right: 170px;
         }
 
         .episode-image {
+            position: absolute;
+            right: 1.5em;
+            top: 1.5em;
             width: 150px;
             height: 150px;
             object-fit: cover;
             border-radius: 4px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
             align-self: center;
         }
 
@@ -158,23 +161,26 @@
                     const mediaType = isVideo ? 'Video' : 'Audio';
                     
                     episodeDiv.innerHTML = `
-                        <h2>${title}</h2>
-                        <div class="episode-meta">
-                            <span class="episode-type">${mediaType}</span>
-                            ${season ? `Season ${season}` : ''}
-                            ${episode ? `Episode ${episode}` : ''}
-                            <span class="episode-duration">${duration}</span>
-                            <div>${pubDate.toLocaleDateString('en-US', { 
-                                year: 'numeric', 
-                                month: 'long', 
-                                day: 'numeric' 
-                            })}</div>
-                        </div>
-                        <div class="episode-description">${description}</div>
-                        <div class="download-links">
-                            <a href="${downloadUrl}" class="download-button">
-                                Download ${mediaType}
-                            </a>
+                        <img src="podcast_me.jpeg" alt="${title}" class="episode-image">
+                        <div class="episode-content">
+                            <h2>${title}</h2>
+                            <div class="episode-meta">
+                                <span class="episode-type">${mediaType}</span>
+                                ${season ? `Season ${season}` : ''}
+                                ${episode ? `Episode ${episode}` : ''}
+                                <span class="episode-duration">${duration}</span>
+                                <div>${pubDate.toLocaleDateString('en-US', { 
+                                    year: 'numeric', 
+                                    month: 'long', 
+                                    day: 'numeric' 
+                                })}</div>
+                            </div>
+                            <div class="episode-description">${description}</div>
+                            <div class="download-links">
+                                <a href="${downloadUrl}" class="download-button">
+                                    Download ${mediaType}
+                                </a>
+                            </div>
                         </div>
                     `;
                     
