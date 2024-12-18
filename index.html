@@ -1,1 +1,176 @@
-Check later!
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Concertos of Chaos</title>
+    <style>
+        :root {
+            --primary-color: #2d3748;
+            --secondary-color: #4a5568;
+            --accent-color: #667eea;
+            --background-color: #f7fafc;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: var(--background-color);
+            line-height: 1.6;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 2em;
+            padding: 2em;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .podcast-title {
+            font-size: 2.5em;
+            color: var(--primary-color);
+            margin-bottom: 0.5em;
+        }
+
+        .podcast-description {
+            color: var(--secondary-color);
+            font-size: 1.2em;
+            margin-bottom: 1em;
+        }
+
+        .episode {
+            background: white;
+            margin-bottom: 1.5em;
+            padding: 1.5em;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .episode h2 {
+            color: var(--primary-color);
+            margin: 0 0 0.5em 0;
+            font-size: 1.4em;
+        }
+
+        .episode-meta {
+            color: var(--secondary-color);
+            font-size: 0.9em;
+            margin-bottom: 1em;
+        }
+
+        .episode-description {
+            color: var(--secondary-color);
+            margin-bottom: 1em;
+        }
+
+        .download-links {
+            display: flex;
+            gap: 1em;
+            margin-top: 1em;
+        }
+
+        .download-button {
+            display: inline-flex;
+            align-items: center;
+            padding: 0.5em 1em;
+            background-color: var(--accent-color);
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            font-size: 0.9em;
+            transition: background-color 0.2s;
+        }
+
+        .download-button:hover {
+            background-color: #5a67d8;
+        }
+
+        .episode-type {
+            display: inline-block;
+            padding: 0.25em 0.5em;
+            background-color: #e2e8f0;
+            border-radius: 4px;
+            margin-right: 0.5em;
+            font-size: 0.8em;
+        }
+
+        .episode-duration {
+            margin-left: 1em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="podcast-title">Concertos of Chaos</h1>
+        <div class="podcast-description">A Deaf Pianist Orchestrates Raw Mental Health Conversations Uncensored, Unedited, Unapologetic</div>
+    </header>
+    
+    <main id="episodes-container"></main>
+
+    <script>
+        async function fetchAndDisplayPodcast() {
+            try {
+                const response = await fetch('rss.xml');
+                const text = await response.text();
+                const parser = new DOMParser();
+                const xmlDoc = parser.parseFromString(text, 'text/xml');
+                
+                const items = xmlDoc.getElementsByTagName('item');
+                const episodesContainer = document.getElementById('episodes-container');
+                
+                Array.from(items).forEach(item => {
+                    const title = item.getElementsByTagName('title')[0]?.textContent;
+                    const description = item.getElementsByTagName('description')[0]?.textContent.trim();
+                    const pubDate = new Date(item.getElementsByTagName('pubDate')[0]?.textContent);
+                    const duration = item.getElementsByTagName('itunes:duration')[0]?.textContent;
+                    const season = item.getElementsByTagName('itunes:season')[0]?.textContent;
+                    const episode = item.getElementsByTagName('itunes:episode')[0]?.textContent;
+                    const episodeType = item.getElementsByTagName('itunes:episodeType')[0]?.textContent;
+                    const enclosure = item.getElementsByTagName('enclosure')[0];
+                    const fileType = enclosure?.getAttribute('type');
+                    const downloadUrl = enclosure?.getAttribute('url');
+                    
+                    const episodeDiv = document.createElement('div');
+                    episodeDiv.className = 'episode';
+                    
+                    const isVideo = fileType?.includes('video');
+                    const mediaType = isVideo ? 'Video' : 'Audio';
+                    
+                    episodeDiv.innerHTML = `
+                        <h2>${title}</h2>
+                        <div class="episode-meta">
+                            <span class="episode-type">${mediaType}</span>
+                            ${season ? `Season ${season}` : ''}
+                            ${episode ? `Episode ${episode}` : ''}
+                            <span class="episode-duration">${duration}</span>
+                            <div>${pubDate.toLocaleDateString('en-US', { 
+                                year: 'numeric', 
+                                month: 'long', 
+                                day: 'numeric' 
+                            })}</div>
+                        </div>
+                        <div class="episode-description">${description}</div>
+                        <div class="download-links">
+                            <a href="${downloadUrl}" class="download-button">
+                                Download ${mediaType}
+                            </a>
+                        </div>
+                    `;
+                    
+                    episodesContainer.appendChild(episodeDiv);
+                });
+            } catch (error) {
+                console.error('Error fetching podcast feed:', error);
+                document.getElementById('episodes-container').innerHTML = 
+                    '<p>Error loading podcast episodes. Please try again later.</p>';
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', fetchAndDisplayPodcast);
+    </script>
+</body>
+</html>
