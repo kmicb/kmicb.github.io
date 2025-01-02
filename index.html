@@ -118,6 +118,21 @@
         .episode-duration {
             margin-left: 1em;
         }
+        .header-image {
+            width: 100%;
+            height: auto;
+            display: block;
+            margin: 1em auto 0;
+            border-radius: 8px;
+        }
+        /* Responsive styling for mobile devices */
+    @media screen and (max-width: 768px) {
+        .header-image {
+            width: 90%;  /* Slightly narrower on mobile */
+            max-height: 200px;  /* Limit height on mobile */
+            object-fit: contain;  /* Maintain aspect ratio */
+        }
+    }
     </style>
 </head>
 <body>
