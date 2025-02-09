@@ -130,7 +130,7 @@
             <content:encoded>
                 Due to a lovely week of BS and mental health, I took the week off.
             </content:encoded>
-            <enclosure url="https://concertosofchaos.com" length="0" type="text/html" />
+            <enclosure url="" length="0" type="" />
             <itunes:summary>
                 Due to a lovely week of BS and mental health, I took the week off.
             </itunes:summary>
@@ -138,6 +138,7 @@
             <itunes:explicit>false</itunes:explicit>
             <itunes:block>No</itunes:block>
             <itunes:duration>00:00:00</itunes:duration>
+            <itunes:season>1</itunes:season>
             <itunes:episode>4</itunes:episode>
             <itunes:episodeType>full</itunes:episodeType>
             </item>
@@ -162,6 +163,7 @@
             <itunes:explicit>true</itunes:explicit>
             <itunes:block>No</itunes:block>
             <itunes:duration>01:00:12</itunes:duration>
+            <itunes:season>1</itunes:season>
             <itunes:episode>3</itunes:episode>
             <itunes:episodeType>full</itunes:episodeType>
         </item>
@@ -186,6 +188,7 @@
             <itunes:explicit>true</itunes:explicit>
             <itunes:block>No</itunes:block>
             <itunes:duration>01:00:12</itunes:duration>
+            <itunes:season>1</itunes:season>
             <itunes:episode>3</itunes:episode>
             <itunes:episodeType>full</itunes:episodeType>
         </item>
@@ -211,6 +214,7 @@
             <itunes:block>No</itunes:block>
             <itunes:duration>07:13</itunes:duration>
             <itunes:season>1</itunes:season>
+            <itunes:episode>2</itunes:episode>
             <itunes:episodeType>bonus</itunes:episodeType>
         </item>
         <!-- S01E02 Video -->
