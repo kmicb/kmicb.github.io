@@ -127,7 +127,7 @@
             margin-left: 1em;
         }
         .header-image {
-            width: 100%;
+            width: 35%;
             height: auto;
             display: block;
             margin: 1em auto 0;
@@ -182,14 +182,14 @@
                     episodeDiv.className = 'episode';
                     
                     const isVideo = fileType?.includes('video');
-                    const mediaType = isVideo ? 'Video' : 'Audio';
+                    const mediaType = fileType ? (isVideo ? 'Video' : 'Audio') : '';
                     
                     episodeDiv.innerHTML = `
-                        <img src="podcast_me.jpeg" alt="${title}" class="episode-image">
+                        <img src="${imageUrl}" alt="${title}" class="episode-image">
                         <div class="episode-content">
                             <h2>${title}</h2>
                             <div class="episode-meta">
-                                <span class="episode-type">${mediaType}</span>
+                                ${mediaType ? `<span class="episode-type">${mediaType}</span>` : ''}
                                 ${season ? `Season ${season}` : ''}
                                 ${episode ? `Episode ${episode}` : ''}
                                 <span class="episode-duration">${duration}</span>
@@ -200,11 +200,12 @@
                                 })}</div>
                             </div>
                             <div class="episode-description">${description}</div>
+                            ${downloadUrl ? `
                             <div class="download-links">
                                 <a href="${downloadUrl}" class="download-button">
                                     Play ${mediaType}
                                 </a>
-                            </div>
+                            </div>` : ''}
                         </div>
                     `;
                     
