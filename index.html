@@ -39,6 +39,10 @@
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);
         }
 
+        .download-button:disabled {
+          pointer-events: none;
+        }
+
         .podcast-title {
             font-size: 2.5em;
             color: var(--primary-color);
@@ -214,11 +218,13 @@
               });
     
               if (new Date() < releaseTime) {
+                downloadButton.removeAttribute('href');
                 startCountdown(releaseTime, null, downloadButton, item);
               } else {
                 console.log("Episode already unlocked, showing button immediately.");
                 downloadButton.innerText = 'Play Episode';
                 downloadButton.disabled = false;
+                downloadButton.href = item.getElementsByTagNameNS('*', 'enclosure')[0]?.getAttribute('url');
               }
     
               const episodeDiv = document.createElement('div');
