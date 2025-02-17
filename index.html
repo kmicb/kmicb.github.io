@@ -154,7 +154,7 @@
     <main id="episodes-container"></main>
 
     <script>
-        function startCountdown(targetTime, countdownElement, downloadButton) {
+        function startCountdown(targetTime, countdownElement, downloadButton, item) {
           function updateCountdown() {
             const now = new Date();
             const timeLeft = targetTime.getTime() - now.getTime();
@@ -163,6 +163,7 @@
               console.log("Countdown ended. Showing button.");
               downloadButton.innerText = 'Play Episode';
               downloadButton.disabled = false; // Make the button clickable
+              downloadButton.href = item.getElementByTagNameNS('*', 'enclosure')[0]?.getAttribute('url');
               clearInterval(timer);
             } else {
               const hours = Math.floor(timeLeft / (1000 * 60 * 60));
@@ -200,7 +201,8 @@
             //   releaseTime.setHours(12, 0, 0, 0);
     
               const downloadButton = document.createElement('a');
-              downloadButton.href = item.getElementsByTagNameNS('*', 'enclosure')[0]?.getAttribute('url');
+              downloadButton.href = 'javascript:void(0)';
+              // downloadButton.href = item.getElementsByTagNameNS('*', 'enclosure')[0]?.getAttribute('url');
               downloadButton.className = 'download-button';
               downloadButton.disabled = true;
 
@@ -212,8 +214,7 @@
               });
     
               if (new Date() < releaseTime) {
-                downloadButton.disabled = true;
-                startCountdown(releaseTime, null, downloadButton);
+                startCountdown(releaseTime, null, downloadButton, item);
               } else {
                 console.log("Episode already unlocked, showing button immediately.");
                 downloadButton.innerText = 'Play Episode';
