@@ -154,72 +154,93 @@
     <main id="episodes-container"></main>
 
     <script>
-        async function fetchAndDisplayPodcast() {
-            try {
-                const response = await fetch('rss.xml');
-                const text = await response.text();
-                const parser = new DOMParser();
-                const xmlDoc = parser.parseFromString(text, 'text/xml');
-                
-                const items = xmlDoc.getElementsByTagName('item');
-                const episodesContainer = document.getElementById('episodes-container');
-                
-                Array.from(items).forEach(item => {
-                    const title = item.getElementsByTagName('title')[0]?.textContent;
-                    const description = item.getElementsByTagName('description')[0]?.textContent.trim();
-                    const pubDate = new Date(item.getElementsByTagName('pubDate')[0]?.textContent);
-                    const duration = item.getElementsByTagName('itunes:duration')[0]?.textContent;
-                    const season = item.getElementsByTagName('itunes:season')[0]?.textContent;
-                    const episode = item.getElementsByTagName('itunes:episode')[0]?.textContent;
-                    const episodeType = item.getElementsByTagName('itunes:episodeType')[0]?.textContent;
-                    const enclosure = item.getElementsByTagName('enclosure')[0];
-                    const fileType = enclosure?.getAttribute('type');
-                    const downloadUrl = enclosure?.getAttribute('url');
-                    const imageUrl = item.getElementsByTagName('itunes:image')[0]?.getAttribute('href') || 
-                                    xmlDoc.getElementsByTagName('itunes:image')[0]?.getAttribute('href') ||
-                                    'podcast_me.jpeg';
-                    
-                    const episodeDiv = document.createElement('div');
-                    episodeDiv.className = 'episode';
-                    
-                    const isVideo = fileType?.includes('video');
-                    const mediaType = fileType ? (isVideo ? 'Video' : 'Audio') : '';
-                    
-                    episodeDiv.innerHTML = `
-                        <img src="${imageUrl}" alt="${title}" class="episode-image">
-                        <div class="episode-content">
-                            <h2>${title}</h2>
-                            <div class="episode-meta">
-                                ${mediaType ? `<span class="episode-type">${mediaType}</span>` : ''}
-                                ${season ? `Season ${season}` : ''}
-                                ${episode ? `Episode ${episode}` : ''}
-                                <span class="episode-duration">${duration}</span>
-                                <div>${pubDate.toLocaleDateString('en-US', { 
-                                    year: 'numeric', 
-                                    month: 'long', 
-                                    day: 'numeric' 
-                                })}</div>
-                            </div>
-                            <div class="episode-description">${description}</div>
-                            ${downloadUrl ? `
-                            <div class="download-links">
-                                <a href="${downloadUrl}" class="download-button">
-                                    Play ${mediaType}
-                                </a>
-                            </div>` : ''}
-                        </div>
-                    `;
-                    
-                    episodesContainer.appendChild(episodeDiv);
-                });
-            } catch (error) {
-                console.error('Error fetching podcast feed:', error);
-                document.getElementById('episodes-container').innerHTML = 
-                    '<p>Error loading podcast episodes. Please try again later.</p>';
+        function startCountdown(targetTime, countdownElement, downloadButton) {
+          function updateCountdown() {
+            const now = new Date();
+            const timeLeft = targetTime.getTime() - now.getTime();
+    
+            if (timeLeft <= 0) {
+              console.log("Countdown ended. Showing button.");
+              downloadButton.innerText = 'Play Episode';
+              downloadButton.disabled = false; // Make the button clickable
+              clearInterval(timer);
+            } else {
+              const hours = Math.floor(timeLeft / (1000 * 60 * 60));
+              const minutes = Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60));
+              const seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);
+    
+              downloadButton.innerText = `${hours}h ${minutes}m ${seconds}s`;
+              downloadButton.disabled = true; // Keep the button disabled until the countdown ends
             }
+          }
+    
+          updateCountdown(); // Initial call
+          const timer = setInterval(updateCountdown, 1000); // Update every second
         }
-
+    
+        async function fetchAndDisplayPodcast() {
+          try {
+            const response = await fetch('rss.xml');
+            const text = await response.text();
+            const parser = new DOMParser();
+            const xmlDoc = parser.parseFromString(text, 'text/xml');
+    
+            const items = xmlDoc.getElementsByTagName('item');
+            const episodesContainer = document.getElementById('episodes-container');
+    
+            Array.from(items).forEach(item => {
+              const itunesNS = 'http://www.itunes.com/dtds/podcast-1.0.dtd';
+              const title = item.getElementsByTagNameNS('*', 'title')[0]?.textContent;
+              const description = item.getElementsByTagNameNS('*', 'description')[0]?.textContent.trim();
+              const pubDateStr = item.getElementsByTagNameNS('*', 'pubDate')[0]?.textContent;
+              const releaseTime = new Date(pubDateStr);
+              const timezoneOffset = releaseTime.getTimezoneOffset() * 60 * 1000;
+              const adjustedReleaseTime = new Date(releaseTime.getTime() + timezoneOffset);
+            //   releaseTime.setDate(releaseTime.getDate() + 1);
+            //   releaseTime.setHours(12, 0, 0, 0);
+    
+              const downloadButton = document.createElement('a');
+              downloadButton.href = item.getElementsByTagNameNS('*', 'enclosure')[0]?.getAttribute('url');
+              downloadButton.className = 'download-button';
+              downloadButton.disabled = true;
+    
+              if (new Date() < releaseTime) {
+                downloadButton.disabled = true;
+                startCountdown(releaseTime, null, downloadButton);
+              } else {
+                console.log("Episode already unlocked, showing button immediately.");
+                downloadButton.innerText = 'Play Episode';
+                downloadButton.disabled = false;
+              }
+    
+              const episodeDiv = document.createElement('div');
+              episodeDiv.className = 'episode';
+    
+              episodeDiv.innerHTML = `
+                <img src="${item.getElementsByTagNameNS(itunesNS, 'image')[0]?.getAttribute('href') || xmlDoc.getElementsByTagNameNS(itunesNS, 'image')[0]?.getAttribute('href') || 'podcast_me.jpeg'}" alt="${title}" class="episode-image">
+                <div class="episode-content">
+                  <h2>${title}</h2>
+                  <div class="episode-meta">
+                    ${item.getElementsByTagNameNS(itunesNS, 'season')[0]?.textContent ? `Season ${item.getElementsByTagNameNS(itunesNS, 'season')[0]?.textContent}` : ''}
+                    ${item.getElementsByTagNameNS(itunesNS, 'episode')[0]?.textContent ? `Episode ${item.getElementsByTagNameNS(itunesNS, 'episode')[0]?.textContent}` : ''}
+                    <span class="episode-duration">${item.getElementsByTagNameNS('*', 'duration')[0]?.textContent}</span>
+                    <div>${new Date(pubDateStr).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</div>
+                  </div>
+                  <div class="episode-description">${description}</div>
+                </div>
+              `;
+    
+              episodeDiv.appendChild(downloadButton);
+              episodesContainer.appendChild(episodeDiv);
+            });
+          } catch (error) {
+            console.error('Error fetching podcast feed:', error);
+            document.getElementById('episodes-container').innerHTML = '<p>Error loading podcast episodes. Please try again later.</p>';
+          }
+        }
+    
         document.addEventListener('DOMContentLoaded', fetchAndDisplayPodcast);
-    </script>
+      </script>
+    
 </body>
 </html>
