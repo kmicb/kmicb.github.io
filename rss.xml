@@ -26,6 +26,28 @@
         <itunes:block>No</itunes:block>
         <itunes:explicit>true</itunes:explicit>
         <itunes:image href="https://concertosofchaos.com/podcast_me.jpeg"/>
+        <!-- S01E07 Audio -->
+        <item>
+            <title>S01E07 - "Sforzando Survival: When Your Amygdala Conducts the Show"</title>
+            <itunes:title></itunes:title>
+            <link>https://u.pcloud.link/publink/show?code=XZjEfL5ZIuatj3qAUzJseTAJaG8KV5Qk0XWV</link>
+            <pubDate>Tue, 18 Feb 2025 12:00:00 -0500</pubDate>
+            <guid>https://concertosofchaos.com/rss.xml#S01E07(Audio)Sforzando_Survival</guid>
+            <description>
+                Join me as we dicuss "insane" repetitiveness and reactivity!
+            </description>
+            <content:encoded>
+                Join me as we dicuss "insane" repetitiveness and reactivity!
+            </content:encoded>
+            <enclosure url="https://u.pcloud.link/publink/show?code=XZjEfL5ZIuatj3qAUzJseTAJaG8KV5Qk0XWV" length="17787614" type="audio/x-m4a" />
+            <itunes:author>Krystifer</itunes:author>
+            <itunes:explicit>true</itunes:explicit>
+            <itunes:block>No</itunes:block>
+            <itunes:duration>20:28</itunes:duration>
+            <itunes:season>1</itunes:season>
+            <itunes:episode>7</itunes:episode>
+            <itunes:episodeType>full</itunes:episodeType>
+        </item>
         <!-- S01E06 Video -->
         <item>
             <title>S01E06(Video) - "Involuntary Harmonies: Trauma, The Media, and the Soundtrack of Familiar Chaos"</title>
@@ -39,7 +61,7 @@
             <content:encoded>
                 Join me as we discuss THE MEDIA and how it can impact your mental health. (No video, but there are graphics!)
             </content:encoded>
-            <enclosure url="https://u.pcloud.link/publink/show?code=XZUGPJ5ZAWtmSaENuwbULXIXRWWy5yRUXgkV" length="21200048" type="video/quicktime" />
+            <enclosure url="https://u.pcloud.link/publink/show?code=XZUGPJ5ZAWtmSaENuwbULXIXRWWy5yRUXgkV" length="81272111" type="video/quicktime" />
             <itunes:author>Krystifer</itunes:author>
             <itunes:explicit>true</itunes:explicit>
             <itunes:block>No</itunes:block>
@@ -83,7 +105,7 @@
             <content:encoded>
                 I discuss prioritizing mental health over capitalistic bullshit.
             </content:encoded>
-            <enclosure url="https://u.pcloud.link/publink/show?code=XZMGPJ5ZpXU263iGXdJPBGW5S5kHISR6MMt7" length="94649300" type="video/quicktime" />
+            <enclosure url="https://u.pcloud.link/publink/show?code=XZMGPJ5ZpXU263iGXdJPBGW5S5kHISR6MMt7" length="2623794558" type="video/quicktime" />
             <itunes:author>Krystifer</itunes:author>
             <itunes:explicit>true</itunes:explicit>
             <itunes:block>No</itunes:block>
@@ -155,7 +177,7 @@
             <content:encoded>
                 Join Brandon and me on our journey breaking free from how life tells us how we should live our lives! This drive is all over the place! Hope you can follow, and enjoy!
             </content:encoded>
-            <enclosure url="https://u.pcloud.link/publink/show?code=XZDGPJ5ZycLWLMe95M8GY5gHnn58hfdQTYbk" length="2420785974" type="video/quicktime" />
+            <enclosure url="https://u.pcloud.link/publink/show?code=XZDGPJ5ZycLWLMe95M8GY5gHnn58hfdQTYbk" length="2426577675" type="video/quicktime" />
             <itunes:summary>
                 Join Brandon and me on our journey breaking free from how life tells us how we should live our lives! This drive is all over the place! Hope you can follow, and enjoy!
             </itunes:summary>
@@ -230,7 +252,7 @@
             <content:encoded>
                  Join me and my guest as we dive into toxic relationships! 
             </content:encoded>
-            <enclosure url="https://u.pcloud.link/publink/show?code=XZfGPJ5ZYHyeKQcuE3bkTJ9yiwXjBYg0b28k" length="39192218" type="video/quicktime" />
+            <enclosure url="https://u.pcloud.link/publink/show?code=XZfGPJ5ZYHyeKQcuE3bkTJ9yiwXjBYg0b28k" length="521586988" type="video/quicktime" />
             <itunes:summary>
                  Join me and my guest as we dive into toxic relationships! 
             </itunes:summary>
