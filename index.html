@@ -203,6 +203,12 @@
               downloadButton.href = item.getElementsByTagNameNS('*', 'enclosure')[0]?.getAttribute('url');
               downloadButton.className = 'download-button';
               downloadButton.disabled = true;
+
+              downloadButton.addEventListener('click', function(event) {
+                if (downloadButton.disabled) {
+                  event.preventDefault();
+                }
+              });
     
               if (new Date() < releaseTime) {
                 downloadButton.disabled = true;
