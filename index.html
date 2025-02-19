@@ -132,6 +132,7 @@
         .episode-duration {
             margin-left: 1em;
         }
+
         .header-image {
             width: 35%;
             height: auto;
@@ -139,13 +140,37 @@
             margin: 1em auto 0;
             border-radius: 8px;
         }
+
         .top-right-image {
-            position: absolute;
-            top: 1em;
-            right: 1em;
             width: 175px;
             height: auto;
             border-radius: 8px;
+            display: block;
+            margin: 1em auto 0;
+        }
+
+        .image-text-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 2em;
+        }
+
+        .image-text-container p {
+            margin: 0;
+            font-size: 1.2em;
+            color: var(--primary-color);
+            text-align: center;
+        }
+
+        .support-box {
+            background: white;
+            margin-bottom: 1.5em;
+            padding: 1.5em;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            text-align: center;
         }
         /* Responsive styling for mobile devices */
     @media screen and (max-width: 768px) {
@@ -154,12 +179,33 @@
             max-height: 200px;  /* Limit height on mobile */
             object-fit: contain;  /* Maintain aspect ratio */
         }
+
         .top-right-image {
             width: 90%;  /* Slightly narrower on mobile */
             max-height: 200px;  /* Limit height on mobile */
             object-fit: contain;  /* Maintain aspect ratio */
-            position: static;  /* Remove absolute positioning on mobile */
             margin: 1em auto 0;  /* Center the image on mobile */
+        }
+
+        .image-text-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 2em;
+        }
+
+        .image-text-container img {
+            margin-top: 1em;
+        }
+        
+        .support-box {
+          background: white;
+          margin-bottom: 1.5em;
+          padding: 1.5em;
+          border-radius: 8px;
+          box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+          text-align: center;
         }
     }
     </style>
@@ -167,11 +213,17 @@
 <body>
     <header>
         <img src="palestine.jpg" alt="Palestine Flag" class="header-image">
-        <img src="venmo.jpg" alt="Venmo QR" class="top-right-image">
         <h1 class="podcast-title">Concertos of Chaos</h1>
         <div class="podcast-description">A Deaf Pianist Orchestrates Raw Mental Health Conversations Uncensored, Unedited, Unapologetic</div>
     </header>
-    
+
+    <div class="support-box">
+      <div class="image-text-container">
+        <p>Support my podcast on Vemo! (if you want)</p>
+       <img src="venmo.jpg" alt="Venmo QR" class="top-right-image">
+      </div>
+    </div>
+
     <main id="episodes-container"></main>
 
     <script>
