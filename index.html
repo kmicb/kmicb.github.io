@@ -38,6 +38,7 @@
             border-radius: 8px;
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);
             position: relative;
+            border: 1px solid black;
         }
 
         .download-button:disabled {
@@ -62,7 +63,8 @@
             padding: 1.5em;
             border-radius: 8px;
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-            position: relative
+            position: relative;
+            border: 1px solid black;
         }
 
         .episode-content {
@@ -171,6 +173,7 @@
             border-radius: 8px;
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);
             text-align: center;
+            border: 1px solid black;
         }
         /* Responsive styling for mobile devices */
     @media screen and (max-width: 768px) {
@@ -212,16 +215,19 @@
 </head>
 <body>
     <header>
-        <img src="palestine.jpg" alt="Palestine Flag" class="header-image">
         <h1 class="podcast-title">Concertos of Chaos</h1>
         <div class="podcast-description">A Deaf Pianist Orchestrates Raw Mental Health Conversations Uncensored, Unedited, Unapologetic</div>
     </header>
 
     <div class="support-box">
       <div class="image-text-container">
-        <p>Support my podcast on Vemo! (if you want)</p>
+        <p>Like my podcast? You can support us! (if you want)</p>
        <img src="venmo.jpg" alt="Venmo QR" class="top-right-image">
       </div>
+    </div>
+
+    <div class="support-box">
+        <img src="palestine.jpg" alt="Palestine Flag" class="header-image">
     </div>
 
     <main id="episodes-container"></main>
