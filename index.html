@@ -201,12 +201,8 @@
               const releaseTime = new Date(pubDateStr);
               const timezoneOffset = releaseTime.getTimezoneOffset() * 60 * 1000;
               const adjustedReleaseTime = new Date(releaseTime.getTime() + timezoneOffset);
-            //   releaseTime.setDate(releaseTime.getDate() + 1);
-            //   releaseTime.setHours(12, 0, 0, 0);
-    
               const downloadButton = document.createElement('a');
               downloadButton.href = 'javascript:void(0)';
-              // downloadButton.href = item.getElementsByTagNameNS('*', 'enclosure')[0]?.getAttribute('url');
               downloadButton.className = 'download-button';
               downloadButton.disabled = true;
 
@@ -255,6 +251,8 @@
     
         document.addEventListener('DOMContentLoaded', fetchAndDisplayPodcast);
       </script>
-    
+  <footer style="text-align: center; padding: 1em 0; background-color: var(--background-color);">
+    &copy; 2025 Concertos of Chaos. All rights reserved.
+  </footer>    
 </body>
 </html>
