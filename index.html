@@ -178,7 +178,7 @@
               downloadButton.disabled = true; // Keep the button disabled until the countdown ends
             }
           }
-    
+          
           updateCountdown(); // Initial call
           const timer = setInterval(updateCountdown, 1000); // Update every second
         }
@@ -201,28 +201,8 @@
               const releaseTime = new Date(pubDateStr);
               const timezoneOffset = releaseTime.getTimezoneOffset() * 60 * 1000;
               const adjustedReleaseTime = new Date(releaseTime.getTime() + timezoneOffset);
-              const downloadButton = document.createElement('a');
-              downloadButton.href = 'javascript:void(0)';
-              downloadButton.className = 'download-button';
-              downloadButton.disabled = true;
+              const enclosureUrl = item.getElementsByTagNameNS('*', 'enclosure')[0]?.getAttribute('url');
 
-              downloadButton.addEventListener('click', function(event) {
-                if (downloadButton.disabled) {
-                  event.preventDefault();
-                  downloadButton.href = 'javascript:void(0)';
-                }
-              });
-    
-              if (new Date() < releaseTime) {
-                downloadButton.removeAttribute('href');
-                startCountdown(releaseTime, null, downloadButton, item);
-              } else {
-                console.log("Episode already unlocked, showing button immediately.");
-                downloadButton.innerText = 'Play Episode';
-                downloadButton.disabled = false;
-                downloadButton.href = item.getElementsByTagNameNS('*', 'enclosure')[0]?.getAttribute('url');
-              }
-    
               const episodeDiv = document.createElement('div');
               episodeDiv.className = 'episode';
     
@@ -240,7 +220,34 @@
                 </div>
               `;
     
-              episodeDiv.appendChild(downloadButton);
+              if (enclosureUrl) {
+                const downloadButton = document.createElement('a');
+                downloadButton.href = 'javascript:void(0)';
+                downloadButton.className = 'download-button';
+                downloadButton.disabled = true;
+    
+                downloadButton.addEventListener('click', function(event) {
+                  if (downloadButton.disabled) {
+                    event.preventDefault();
+                    downloadButton.href = 'javascript:void(0)';
+                  }
+                });
+    
+                if (new Date() < releaseTime) {
+                  downloadButton.removeAttribute('href');
+                  startCountdown(releaseTime, null, downloadButton, item);
+                } else {
+                  console.log("Episode already unlocked, showing button immediately.");
+                  downloadButton.innerText = 'Play Episode';
+                  downloadButton.disabled = false;
+                  downloadButton.href = enclosureUrl;
+                }
+    
+                episodeDiv.appendChild(downloadButton);
+              } else {
+                console.log(`No download button for episode "${title}" due to missing enclosure URL.`);
+              }
+    
               episodesContainer.appendChild(episodeDiv);
             });
           } catch (error) {
