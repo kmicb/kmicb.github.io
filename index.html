@@ -37,6 +37,7 @@
             background: white;
             border-radius: 8px;
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            position: relative;
         }
 
         .download-button:disabled {
@@ -138,6 +139,14 @@
             margin: 1em auto 0;
             border-radius: 8px;
         }
+        .top-right-image {
+            position: absolute;
+            top: 1em;
+            right: 1em;
+            width: 175px;
+            height: auto;
+            border-radius: 8px;
+        }
         /* Responsive styling for mobile devices */
     @media screen and (max-width: 768px) {
         .header-image {
@@ -145,12 +154,20 @@
             max-height: 200px;  /* Limit height on mobile */
             object-fit: contain;  /* Maintain aspect ratio */
         }
+        .top-right-image {
+            width: 90%;  /* Slightly narrower on mobile */
+            max-height: 200px;  /* Limit height on mobile */
+            object-fit: contain;  /* Maintain aspect ratio */
+            position: static;  /* Remove absolute positioning on mobile */
+            margin: 1em auto 0;  /* Center the image on mobile */
+        }
     }
     </style>
 </head>
 <body>
     <header>
         <img src="palestine.jpg" alt="Palestine Flag" class="header-image">
+        <img src="venmo.jpg" alt="Venmo QR" class="top-right-image">
         <h1 class="podcast-title">Concertos of Chaos</h1>
         <div class="podcast-description">A Deaf Pianist Orchestrates Raw Mental Health Conversations Uncensored, Unedited, Unapologetic</div>
     </header>
