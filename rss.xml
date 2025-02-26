@@ -26,13 +26,13 @@
         <itunes:block>No</itunes:block>
         <itunes:explicit>true</itunes:explicit>
         <itunes:image href="https://concertosofchaos.com/podcast_me.jpeg"/>
-        <!-- S01E07 Audio -->
+        <!-- S01E07 -->
         <item>
             <title>S01E07 - "Sforzando Survival: When Your Amygdala Conducts the Show"</title>
             <itunes:title></itunes:title>
             <link>https://u.pcloud.link/publink/show?code=XZjEfL5ZIuatj3qAUzJseTAJaG8KV5Qk0XWV</link>
             <pubDate>Tue, 18 Feb 2025 12:00:00 -0500</pubDate>
-            <guid>https://concertosofchaos.com/rss.xml#S01E07(Audio)Sforzando_Survival</guid>
+            <guid>https://concertosofchaos.com/rss.xml#S01E07Sforzando_Survival</guid>
             <description>
                 Join me as we dicuss "insane" repetitiveness and reactivity!
             </description>
@@ -48,19 +48,20 @@
             <itunes:episode>7</itunes:episode>
             <itunes:episodeType>full</itunes:episodeType>
         </item>
-        <!-- S01E06 Video -->
+        <!-- S01E06 -->
         <item>
-            <title>S01E06(Video) - "Involuntary Harmonies: Trauma, The Media, and the Soundtrack of Familiar Chaos"</title>
-            <itunes:title>S01E06(Video) - "Involuntary Harmonies: Trauma, The Media, and the Soundtrack of Familiar Chaos"</itunes:title>
+            <title>S01E06 - "Involuntary Harmonies: Trauma, The Media, and the Soundtrack of Familiar Chaos"</title>
+            <itunes:title>S01E06 - "Involuntary Harmonies: Trauma, The Media, and the Soundtrack of Familiar Chaos"</itunes:title>
             <link>https://u.pcloud.link/publink/show?code=XZUGPJ5ZAWtmSaENuwbULXIXRWWy5yRUXgkV</link>
             <pubDate>Tue, 17 Dec 2024 20:00:00 -0500</pubDate>
-            <guid>https://concertosofchaos.com/rss.xml#S01E06(Video)Involuntary_Harmonies</guid>
+            <guid>https://concertosofchaos.com/rss.xml#S01E06Involuntary_Harmonies</guid>
             <description>
                 Join me as we discuss THE MEDIA and how it can impact your mental health. (No video, but there are graphics!)
             </description>
             <content:encoded>
                 Join me as we discuss THE MEDIA and how it can impact your mental health. (No video, but there are graphics!)
             </content:encoded>
+            <enclosure url="https://u.pcloud.link/publink/show?code=XZ3GPJ5Z22ehxmprSSjkbf6tnCWySmYheLJk" length="21200048" type="audio/x-m4a" />
             <enclosure url="https://u.pcloud.link/publink/show?code=XZUGPJ5ZAWtmSaENuwbULXIXRWWy5yRUXgkV" length="81272111" type="video/quicktime" />
             <itunes:author>Krystifer</itunes:author>
             <itunes:explicit>true</itunes:explicit>
@@ -71,7 +72,7 @@
             <itunes:episodeType>full</itunes:episodeType>
         </item>
         <!-- S01E06 Audio -->
-        <item>
+        <!-- <item>
             <title>S01E06(Audio) - "Involuntary Harmonies: Trauma, The Media, and the Soundtrack of Familiar Chaos"</title>
             <itunes:title>S01E06(Audio) - "Involuntary Harmonies: Trauma, The Media, and the Soundtrack of Familiar Chaos"</itunes:title>
             <link>https://u.pcloud.link/publink/show?code=XZ3GPJ5Z22ehxmprSSjkbf6tnCWySmYheLJk</link>
@@ -91,20 +92,21 @@
             <itunes:season>1</itunes:season>
             <itunes:episode>6</itunes:episode>
             <itunes:episodeType>full</itunes:episodeType>
-        </item>
-        <!-- S01E05 Video -->
+        </item> -->
+        <!-- S01E05 -->
         <item>
-            <title>S01E05(Video) - "Appoggiaturas and Fermatas: When Holding On Phucks Your Harmony"</title>
-            <itunes:title>S01E05(Video) - "Appoggiaturas and Fermatas: When Holding On Phucks Your Harmony"</itunes:title>
+            <title>S01E05 - "Appoggiaturas and Fermatas: When Holding On Phucks Your Harmony"</title>
+            <itunes:title>S01E05 - "Appoggiaturas and Fermatas: When Holding On Phucks Your Harmony"</itunes:title>
             <link>https://u.pcloud.link/publink/show?code=XZMGPJ5ZpXU263iGXdJPBGW5S5kHISR6MMt7</link>
             <pubDate>Tue, 10 Dec 2024 20:22:00 -0500</pubDate>
-            <guid>https://concertosofchaos.com/rss.xml#S01E05(Video)Appogg_Fermatas</guid>
+            <guid>https://concertosofchaos.com/rss.xml#S01E05Appogg_Fermatas</guid>
             <description>
                 I discuss prioritizing mental health over capitalistic bullshit.
             </description>
             <content:encoded>
                 I discuss prioritizing mental health over capitalistic bullshit.
             </content:encoded>
+            <enclosure url="https://u.pcloud.link/publink/show?code=XZEGPJ5Z2UKOhbg2dkSILVpEYmCVW4df7lA7" length="94649300" type="audio/x-m4a" />
             <enclosure url="https://u.pcloud.link/publink/show?code=XZMGPJ5ZpXU263iGXdJPBGW5S5kHISR6MMt7" length="2623794558" type="video/quicktime" />
             <itunes:author>Krystifer</itunes:author>
             <itunes:explicit>true</itunes:explicit>
@@ -115,7 +117,7 @@
             <itunes:episodeType>full</itunes:episodeType>
         </item>
         <!-- S01E05 Audio -->
-        <item>
+        <!-- <item>
             <title>S01E05(Audio) - "Appoggiaturas and Fermatas: When Holding On Phucks Your Harmony"</title>
             <itunes:title>S01E05(Audio) - "Appoggiaturas and Fermatas: When Holding On Phucks Your Harmony"</itunes:title>
             <link>https://u.pcloud.link/publink/show?code=XZEGPJ5Z2UKOhbg2dkSILVpEYmCVW4df7lA7</link>
@@ -138,7 +140,7 @@
             <itunes:season>1</itunes:season>
             <itunes:episode>5</itunes:episode>
             <itunes:episodeType>full</itunes:episodeType>
-        </item>
+        </item> -->
         <!-- S01E04 N/A -->
         <item>
             <title>S01E04 - No episode due to mental health.</title>
@@ -164,19 +166,20 @@
             <itunes:episode>4</itunes:episode>
             <itunes:episodeType>full</itunes:episodeType>
             </item>
-        <!-- S01E03 Video -->
+        <!-- S01E03 -->
         <item>
-            <title>S01E03(Video) - Living in a New Key: Breaking Free from Life's Opus</title>
+            <title>S01E03 - Living in a New Key: Breaking Free from Life's Opus</title>
             <itunes:title>S01E03(Video) - Living in a New Key: Breaking Free from Life's Opus</itunes:title>
             <link>https://u.pcloud.link/publink/show?code=XZDGPJ5ZycLWLMe95M8GY5gHnn58hfdQTYbk</link>
             <pubDate>Tue, 26 Nov 2024 21:48:00 -0500</pubDate>
-            <guid>https://concertosofchaos.com/rss.xml#S01E03(Video)Living_New_Key</guid>
+            <guid>https://concertosofchaos.com/rss.xml#S01E03Living_New_Key</guid>
             <description>
                 Join Brandon and me on our journey breaking free from how life tells us how we should live our lives! This drive is all over the place! Hope you can follow, and enjoy!
             </description>
             <content:encoded>
                 Join Brandon and me on our journey breaking free from how life tells us how we should live our lives! This drive is all over the place! Hope you can follow, and enjoy!
             </content:encoded>
+            <enclosure url="https://u.pcloud.link/publink/show?code=XZ1GPJ5Z4KM7UB7gQSfha4lnwyIeq5lS2nyk" length="48528074" type="audio/x-m4a" />
             <enclosure url="https://u.pcloud.link/publink/show?code=XZDGPJ5ZycLWLMe95M8GY5gHnn58hfdQTYbk" length="2426577675" type="video/quicktime" />
             <itunes:summary>
                 Join Brandon and me on our journey breaking free from how life tells us how we should live our lives! This drive is all over the place! Hope you can follow, and enjoy!
@@ -190,7 +193,7 @@
             <itunes:episodeType>full</itunes:episodeType>
         </item>
         <!-- S01E03 Audio -->
-        <item>
+        <!-- <item>
             <title>S01E03(Audio) - Living in a New Key: Breaking Free from Life’s Opus</title>
             <itunes:title>S01E03(Audio) - Living in a New Key: Breaking Free from Life’s Opus</itunes:title>
             <link>https://u.pcloud.link/publink/show?code=XZ1GPJ5Z4KM7UB7gQSfha4lnwyIeq5lS2nyk</link>
@@ -213,14 +216,14 @@
             <itunes:season>1</itunes:season>
             <itunes:episode>3</itunes:episode>
             <itunes:episodeType>full</itunes:episodeType>
-        </item>
-        <!-- S01E02 Sustained Audio -->
+        </item> -->
+        <!-- S01E02 Sustained -->
         <item>
-            <title>S01E02(Audio) Sustained!</title>
-            <itunes:title>S01E02(Audio) Sustained!</itunes:title>
+            <title>S01E02 Sustained!</title>
+            <itunes:title>S01E02 Sustained!</itunes:title>
             <link>https://u.pcloud.link/publink/show?code=XZWGPJ5ZFhxo27bxASy3eVoaQkf4CuDCXdyX</link>
             <pubDate>Sat, 23 Nov 2024 19:45:00 -0500</pubDate>
-            <guid>https://concertosofchaos.com/rss.xml#S01E02(Audio)Sustained</guid>
+            <guid>https://concertosofchaos.com/rss.xml#S01E02Sustained</guid>
             <description>
                 Systemic oppression sneaks up through seemingly harmless words &amp; rules that fuck us. Just look at history: the worst started with acceptable hate that people in power gave a thumbs up to and continues to this day. When folks with influence cosign discrimination, it gives others permission to be dicks. We can't continue to let trash be normal. And yes, it absolutely fucks with your mental health! 
             </description>
@@ -239,19 +242,20 @@
             <itunes:episode>2</itunes:episode>
             <itunes:episodeType>bonus</itunes:episodeType>
         </item>
-        <!-- S01E02 Video -->
+        <!-- S01E02 -->
         <item>
-            <title>S01E02(Video) - Conducting Through Chaos: When Your Relationship Symphony Plays In A Toxic Key</title>
-            <itunes:title>S01E02(Video) - Conducting Through Chaos: When Your Relationship Symphony Plays In A Toxic Key</itunes:title>
+            <title>S01E02 - Conducting Through Chaos: When Your Relationship Symphony Plays In A Toxic Key</title>
+            <itunes:title>S01E02 - Conducting Through Chaos: When Your Relationship Symphony Plays In A Toxic Key</itunes:title>
             <link>https://u.pcloud.link/publink/show?code=XZfGPJ5ZYHyeKQcuE3bkTJ9yiwXjBYg0b28k</link>
             <pubDate>Tue, 19 Nov 2024 21:13:00 -0500</pubDate>
-            <guid>https://concertosofchaos.com/rss.xml#S01E02(Video)Conducting_Through_Chaos</guid>
+            <guid>https://concertosofchaos.com/rss.xml#S01E02Conducting_Through_Chaos</guid>
             <description>
                  Join me and my guest as we dive into toxic relationships! 
             </description>
             <content:encoded>
                  Join me and my guest as we dive into toxic relationships! 
             </content:encoded>
+            <enclosure url="https://u.pcloud.link/publink/show?code=XZ2GPJ5ZeWv70SqvhVXN67VHAYrOmbzuXYRk" length="39192218" type="audio/x-m4a" />
             <enclosure url="https://u.pcloud.link/publink/show?code=XZfGPJ5ZYHyeKQcuE3bkTJ9yiwXjBYg0b28k" length="521586988" type="video/quicktime" />
             <itunes:summary>
                  Join me and my guest as we dive into toxic relationships! 
@@ -265,7 +269,7 @@
             <itunes:episodeType>full</itunes:episodeType>
         </item>
         <!-- S01E02 Audio -->
-        <item>
+        <!-- <item>
             <title>S01E02(Audio) - Conducting Through Chaos: When Your Relationship Symphony Plays In A Toxic Key</title>
             <itunes:title>S01E02(Audio) - Conducting Through Chaos: When Your Relationship Symphony Plays In A Toxic Key</itunes:title>
             <link>https://u.pcloud.link/publink/show?code=XZ2GPJ5ZeWv70SqvhVXN67VHAYrOmbzuXYRk</link>
@@ -288,14 +292,14 @@
             <itunes:season>1</itunes:season>
             <itunes:episode>2</itunes:episode>
             <itunes:episodeType>full</itunes:episodeType>
-        </item>
-        <!-- S01E01 Audio -->
+        </item> -->
+        <!-- S01E01 -->
         <item>
-            <title>S01E01(Audio) - Pilot</title>
-            <itunes:title>S01E01(Audio) - Introductory Pilot Episode</itunes:title>
+            <title>S01E01 - Pilot</title>
+            <itunes:title>S01E01 - Introductory Pilot Episode</itunes:title>
             <link>https://u.pcloud.link/publink/show?code=XZpIPJ5ZDpxrgTwqz65uVTCqmK7HTbUVWi5X</link>
             <pubDate>Tue, 12 Nov 2024 20:21:21 -0500</pubDate>
-            <guid>https://concertosofchaos.com/rss.xml#S01E01(Audio)pilot_episode</guid>
+            <guid>https://concertosofchaos.com/rss.xml#S01E01pilot_episode</guid>
             <description>
                  This pilot episode is meant to give a feel of my show. Bear with me as this first episode has all the mistakes in it like popping, clicking, and smacking of my mouth. :-) Gotta learn to walk before we can run! I hope you enjoy this episode! 
             </description>

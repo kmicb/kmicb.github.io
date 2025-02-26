@@ -104,6 +104,7 @@
             display: flex;
             gap: 1em;
             margin-top: 1em;
+            justify-content: flex-start;
         }
 
         .download-button {
@@ -275,7 +276,6 @@
               const releaseTime = new Date(pubDateStr);
               const timezoneOffset = releaseTime.getTimezoneOffset() * 60 * 1000;
               const adjustedReleaseTime = new Date(releaseTime.getTime() + timezoneOffset);
-              const enclosureUrl = item.getElementsByTagNameNS('*', 'enclosure')[0]?.getAttribute('url');
 
               const episodeDiv = document.createElement('div');
               episodeDiv.className = 'episode';
@@ -294,33 +294,38 @@
                 </div>
               `;
     
-              if (enclosureUrl) {
-                const downloadButton = document.createElement('a');
-                downloadButton.href = 'javascript:void(0)';
-                downloadButton.className = 'download-button';
-                downloadButton.disabled = true;
+              const enclosures = item.getElementsByTagNameNS('*', 'enclosure');
+              const mediaButtons = document.createElement('div');
+              mediaButtons.className = 'download-links';
     
-                downloadButton.addEventListener('click', function(event) {
-                  if (downloadButton.disabled) {
-                    event.preventDefault();
-                    downloadButton.href = 'javascript:void(0)';
+              Array.from(enclosures).forEach(enclosure => {
+                  const type = enclosure.getAttribute('type');
+                  const url = enclosure.getAttribute('url');
+                  
+                  if (url) {
+                      const button = document.createElement('a');
+                      button.href = url;
+                      button.className = 'download-button';
+                      
+                      // Set button text based on media type
+                      if (type.includes('video')) {
+                          button.innerText = 'Play Video';
+                      } else if (type.includes('audio')) {
+                          button.innerText = 'Play Audio';
+                      }
+    
+                      if (new Date() < releaseTime) {
+                          button.removeAttribute('href');
+                          startCountdown(releaseTime, null, button, item);
+                      } else {
+                          button.disabled = false;
+                      }
+    
+                      mediaButtons.appendChild(button);
                   }
-                });
+              });
     
-                if (new Date() < releaseTime) {
-                  downloadButton.removeAttribute('href');
-                  startCountdown(releaseTime, null, downloadButton, item);
-                } else {
-                  console.log("Episode already unlocked, showing button immediately.");
-                  downloadButton.innerText = 'Play Episode';
-                  downloadButton.disabled = false;
-                  downloadButton.href = enclosureUrl;
-                }
-    
-                episodeDiv.appendChild(downloadButton);
-              } else {
-                console.log(`No download button for episode "${title}" due to missing enclosure URL.`);
-              }
+              episodeDiv.appendChild(mediaButtons);
     
               episodesContainer.appendChild(episodeDiv);
             });
