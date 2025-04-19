@@ -242,7 +242,7 @@
               console.log("Countdown ended. Showing button.");
               downloadButton.innerText = 'Play Episode';
               downloadButton.disabled = false; // Make the button clickable
-              downloadButton.href = item.getElementByTagNameNS('*', 'enclosure')[0]?.getAttribute('url');
+              downloadButton.href = item.getElementsByTagNameNS('*', 'enclosure')[0]?.getAttribute('url');
               clearInterval(timer);
             } else {
               const hours = Math.floor(timeLeft / (1000 * 60 * 60));
