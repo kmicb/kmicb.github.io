@@ -26,6 +26,28 @@
         <itunes:block>No</itunes:block>
         <itunes:explicit>true</itunes:explicit>
         <itunes:image href="https://concertosofchaos.com/podcast_me.jpeg"/>
+        <!-- S01E08 -->
+         <item>
+            <title>S01E08 - "Improvised Healing: Jazz Metaphors for Personal Transformation"</title>
+            <itunes:title>S01E08 - "Improvised Healing: Jazz Metaphors for Personal Transformation"</itunes:title>
+            <link></link>
+            <pubDate>Tue, 06 April 2025 20:00:00 -0500</pubDate>
+            <guid>https://concertosofchaos.com/rss.xml#S01E08Improvised_Healing</guid>
+            <description>
+                What's an unexpected 'musical note' in your healing journey? What happens when something unexpected pops up in your life's score? How do you handle it? How do you "improv" your way through it? Join me as we discuss unexpected notes (aka: BS) in our everyday lives and how we can improv our way through them!
+            </description>
+            <content:encoded>
+                What's an unexpected 'musical note' in your healing journey? What happens when something unexpected pops up in your life's score? How do you handle it? How do you "improv" your way through it? Join me as we discuss unexpected notes (aka: BS) in our everyday lives and how we can improv our way through them!
+            </content:encoded>
+            <enclosure url="https://concertosofchaos.com" length="0:00" type="video/quick-time" />
+            <itunes:author>Krystifer</itunes:author>
+            <itunes:explicit>true</itunes:explicit>
+            <itunes:block>No</itunes:block>
+            <itunes:duration>00:00</itunes:duration>
+            <itunes:season>1</itunes:season>
+            <itunes:episode>8</itunes:episode>
+            <itunes:episodeType>full</itunes:episodeType>
+         </item>
         <!-- S01E07 -->
         <item>
             <title>S01E07 - "Sforzando Survival: When Your Amygdala Conducts the Show"</title>
@@ -71,28 +93,6 @@
             <itunes:episode>6</itunes:episode>
             <itunes:episodeType>full</itunes:episodeType>
         </item>
-        <!-- S01E06 Audio -->
-        <!-- <item>
-            <title>S01E06(Audio) - "Involuntary Harmonies: Trauma, The Media, and the Soundtrack of Familiar Chaos"</title>
-            <itunes:title>S01E06(Audio) - "Involuntary Harmonies: Trauma, The Media, and the Soundtrack of Familiar Chaos"</itunes:title>
-            <link>https://u.pcloud.link/publink/show?code=XZ3GPJ5Z22ehxmprSSjkbf6tnCWySmYheLJk</link>
-            <pubDate>Tue, 17 Dec 2024 20:00:00 -0500</pubDate>
-            <guid>https://concertosofchaos.com/rss.xml#S01E06(Audio)Involuntary_Harmonies</guid>
-            <description>
-                Join me as we discuss THE MEDIA and how it can impact your mental health.
-            </description>
-            <content:encoded>
-                Join me as we discuss THE MEDIA and how it can impact your mental health.
-            </content:encoded>
-            <enclosure url="https://u.pcloud.link/publink/show?code=XZ3GPJ5Z22ehxmprSSjkbf6tnCWySmYheLJk" length="21200048" type="audio/x-m4a" />
-            <itunes:author>Krystifer</itunes:author>
-            <itunes:explicit>true</itunes:explicit>
-            <itunes:block>No</itunes:block>
-            <itunes:duration>11:16</itunes:duration>
-            <itunes:season>1</itunes:season>
-            <itunes:episode>6</itunes:episode>
-            <itunes:episodeType>full</itunes:episodeType>
-        </item> -->
         <!-- S01E05 -->
         <item>
             <title>S01E05 - "Appoggiaturas and Fermatas: When Holding On Phucks Your Harmony"</title>
@@ -116,31 +116,6 @@
             <itunes:episode>5</itunes:episode>
             <itunes:episodeType>full</itunes:episodeType>
         </item>
-        <!-- S01E05 Audio -->
-        <!-- <item>
-            <title>S01E05(Audio) - "Appoggiaturas and Fermatas: When Holding On Phucks Your Harmony"</title>
-            <itunes:title>S01E05(Audio) - "Appoggiaturas and Fermatas: When Holding On Phucks Your Harmony"</itunes:title>
-            <link>https://u.pcloud.link/publink/show?code=XZEGPJ5Z2UKOhbg2dkSILVpEYmCVW4df7lA7</link>
-            <pubDate>Tue, 10 Dec 2024 20:22:00 -0500</pubDate>
-            <guid>https://concertosofchaos.com/rss.xml#S01E05(Audio)Appogg_Fermatas</guid>
-            <description>
-                I discuss prioritizing mental health over capitalistic bullshit.
-            </description>
-            <content:encoded>
-                I discuss prioritizing mental health over capitalistic bullshit.
-            </content:encoded>
-            <enclosure url="https://u.pcloud.link/publink/show?code=XZEGPJ5Z2UKOhbg2dkSILVpEYmCVW4df7lA7" length="94649300" type="audio/x-m4a" />
-            <itunes:summary>
-                I discuss prioritizing mental health over capitalistic bullshit.
-            </itunes:summary>
-            <itunes:author>Krystifer</itunes:author>
-            <itunes:explicit>true</itunes:explicit>
-            <itunes:block>No</itunes:block>
-            <itunes:duration>51:05</itunes:duration>
-            <itunes:season>1</itunes:season>
-            <itunes:episode>5</itunes:episode>
-            <itunes:episodeType>full</itunes:episodeType>
-        </item> -->
         <!-- S01E04 N/A -->
         <item>
             <title>S01E04 - No episode due to mental health.</title>
@@ -192,31 +167,6 @@
             <itunes:episode>3</itunes:episode>
             <itunes:episodeType>full</itunes:episodeType>
         </item>
-        <!-- S01E03 Audio -->
-        <!-- <item>
-            <title>S01E03(Audio) - Living in a New Key: Breaking Free from Life’s Opus</title>
-            <itunes:title>S01E03(Audio) - Living in a New Key: Breaking Free from Life’s Opus</itunes:title>
-            <link>https://u.pcloud.link/publink/show?code=XZ1GPJ5Z4KM7UB7gQSfha4lnwyIeq5lS2nyk</link>
-            <pubDate>Tue, 26 Nov 2024 21:48:00 -0500</pubDate>
-            <guid>https://concertosofchaos.com/rss.xml#S01E03(Audio)_Living_New_Key</guid>
-            <description>
-                Join Brandon and me on our journey breaking free from how life tells us how we should live our lives! This drive is all over the place! Hope you can follow, and enjoy!
-            </description>
-            <content:encoded>
-                Join Brandon and me on our journey breaking free from how life tells us how we should live our lives! This drive is all over the place! Hope you can follow, and enjoy!
-            </content:encoded>
-            <enclosure url="https://u.pcloud.link/publink/show?code=XZ1GPJ5Z4KM7UB7gQSfha4lnwyIeq5lS2nyk" length="48528074" type="audio/x-m4a" />
-            <itunes:summary>
-                Join Brandon and me on our journey breaking free from how life tells us how we should live our lives! This drive is all over the place! Hope you can follow, and enjoy!
-            </itunes:summary>
-            <itunes:author>Krystifer</itunes:author>
-            <itunes:explicit>true</itunes:explicit>
-            <itunes:block>No</itunes:block>
-            <itunes:duration>01:00:12</itunes:duration>
-            <itunes:season>1</itunes:season>
-            <itunes:episode>3</itunes:episode>
-            <itunes:episodeType>full</itunes:episodeType>
-        </item> -->
         <!-- S01E02 Sustained -->
         <item>
             <title>S01E02 Sustained!</title>
@@ -268,31 +218,6 @@
             <itunes:episode>2</itunes:episode>
             <itunes:episodeType>full</itunes:episodeType>
         </item>
-        <!-- S01E02 Audio -->
-        <!-- <item>
-            <title>S01E02(Audio) - Conducting Through Chaos: When Your Relationship Symphony Plays In A Toxic Key</title>
-            <itunes:title>S01E02(Audio) - Conducting Through Chaos: When Your Relationship Symphony Plays In A Toxic Key</itunes:title>
-            <link>https://u.pcloud.link/publink/show?code=XZ2GPJ5ZeWv70SqvhVXN67VHAYrOmbzuXYRk</link>
-            <pubDate>Tue, 19 Nov 2024 21:13:00 -0500</pubDate>
-            <guid>https://concertosofchaos.com/rss.xml#S01E02(Audio)Conducting_Through_Chaos</guid>
-            <description>
-                 Join me and my guest as we dive into toxic relationships! 
-            </description>
-            <content:encoded>
-                 Join me and my guest as we dive into toxic relationships! 
-            </content:encoded>
-            <enclosure url="https://u.pcloud.link/publink/show?code=XZ2GPJ5ZeWv70SqvhVXN67VHAYrOmbzuXYRk" length="39192218" type="audio/x-m4a" />
-            <itunes:summary>
-                 Join me and my guest as we dive into toxic relationships! 
-            </itunes:summary>
-            <itunes:author>Krystifer</itunes:author>
-            <itunes:explicit>true</itunes:explicit>
-            <itunes:block>No</itunes:block>
-            <itunes:duration>20:59</itunes:duration>
-            <itunes:season>1</itunes:season>
-            <itunes:episode>2</itunes:episode>
-            <itunes:episodeType>full</itunes:episodeType>
-        </item> -->
         <!-- S01E01 -->
         <item>
             <title>S01E01 - Pilot</title>
