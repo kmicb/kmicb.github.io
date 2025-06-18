@@ -26,7 +26,7 @@
         }
         
         body {
-            background-image: url('');
+            /* background-image: url(''); */
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
             max-width: 1000px;
             margin: 0 auto;
@@ -218,7 +218,7 @@
 <body>
     <!-- Navigation bar -->
     <nav class="nav-tab">
-        <a href="index02.html" class="download-button nav-tab">Podcast</a>
+        <a href="new.html" class="download-button nav-tab">Podcast</a>
         <a href="music.html" class="download-button nav-tab">Compositions</a>
     </nav>
     <style>
@@ -328,7 +328,7 @@
               episodeDiv.style.borderColor = colors.border;
     
               episodeDiv.innerHTML = `
-                <img src="${item.getElementsByTagNameNS(itunesNS, 'image')[0]?.getAttribute('href') || xmlDoc.getElementsByTagNameNS(itunesNS, 'image')[0]?.getAttribute('href') || 'logo_color.png'}" alt="${title}" class="episode-image">
+                <img src="logo_color.png" alt="${title}" class="episode-image">
                 <div class="episode-content">
                   <h2>${title}</h2>
                   <div class="episode-meta">
