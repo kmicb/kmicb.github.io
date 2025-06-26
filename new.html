@@ -15,13 +15,13 @@
     <title>Concertos of Chaos</title>
     <style>
         :root {
-            /* changes episode title text color */
+            /* changes episode title and podcast title text color */
             --primary-color: #000000;
             /* changes all text except the "Like my podcast?" line */
             --secondary-color: #000000;
             /* changes nav buttons color */
             --accent-color: #000000;
-            /* changes entire page background color except the title box */
+            /* ##### changes entire page background color except episode boxes ##### */
             --background-color: #ffffff;
         }
         
@@ -53,7 +53,8 @@
         .podcast-title {
             font-size: 2.5em;
             color: var(--primary-color);
-            margin-bottom: 0.5em;
+            /* margin-bottom: 0.5em; */
+            width: 70%
         }
 
         .podcast-description {
@@ -218,8 +219,8 @@
 <body>
     <!-- Navigation bar -->
     <nav class="nav-tab">
-        <a href="new.html" class="download-button nav-tab">Podcast</a>
-        <a href="music.html" class="download-button nav-tab">Compositions</a>
+        <!-- <a href="new.html" class="download-button nav-tab">Podcast</a> -->
+        <!-- <a href="music.html" class="download-button nav-tab">Compositions</a> -->
     </nav>
     <style>
     .nav-tab {
@@ -243,8 +244,9 @@
     }
     </style>
     <header>
-        <h1 class="podcast-title">Concertos of Chaos</h1>
-        <div class="podcast-description">A Deaf Pianist Orchestrates Raw Mental Health Conversations Uncensored, Unedited, Unapologetic</div>
+        <!-- top box, title "Concertos of Chaos" -->
+        <img src="logo_data/horizontal_color.png" class="podcast-title">
+        <div class="podcast-description"><b>A Deaf Pianist Orchestrates Raw Mental Health Conversations Uncensored, Unedited, Unapologetic</b></div>
     </header>
 
     <main id="episodes-container"></main>
@@ -322,9 +324,10 @@
                 episodeDiv.style.backgroundPosition = 'center';
               }
               episodeDiv.style.borderColor = colors.border;
-    
+              
+              // ##### episode image url #####
+              // <img src="logo_color.png" alt="${title}" class="episode-image">
               episodeDiv.innerHTML = `
-                <img src="logo_color.png" alt="${title}" class="episode-image">
                 <div class="episode-content">
                   <h2>${title}</h2>
                   <div class="episode-meta">
