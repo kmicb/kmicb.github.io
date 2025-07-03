@@ -4,13 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-        :root {
-            --primary-color: #2d3748;
-            --secondary-color: #4a5568;
-            --accent-color: #667eea;
-            --background-color: #f7fafc;
-        }
-
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
             max-width: 1000px;
@@ -24,17 +17,16 @@
             text-align: center;
             margin-bottom: 2em;
             padding: 2em;
-            background: white;
+            background: rgb(255, 255, 255);
             border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            box-shadow: 0 1px 4px rgb(0, 0, 0);
             position: relative;
-            border: 1px solid black;
+            border: 1px solid rgb(0, 0, 0);
         }
 
-        .page-title {
-            font-size: 2.5em;
-            color: var(--primary-color);
-            margin-bottom: 0.5em;
+        .page-title span {
+            display: inline-block;
+            font-weight: bold;
         }
 
         .page-description {
@@ -48,85 +40,137 @@
             text-align: left;
         }
 
-        .nav-button {
-            display: inline-flex;
-            align-items: center;
-            padding: 0.5em 1em;
-            background-color: var(--accent-color);
-            color: white;
-            text-decoration: none;
-            border-radius: 4px;
-            font-size: 0.9em;
-            transition: background-color 0.2s;
-        }
-
         .links-box {
             background: white;
             margin-bottom: 1.5em;
             padding: 1.5em;
             border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-            text-align: center;
+            text-align: left;
             border: 1px solid black;
         }
 
         .links-box a {
             font-family: inherit;
             font-size: 1.1em;
-            color: var(--accent-color);
-            text-decoration: underline;
+            text-decoration: unset;
         }
 
-        .links-box p {
-            margin: 0.5em 0;
+        .links-box p { margin: 0.5em 0; }
+
+        .link-schubert { color: #1179e5; }
+        .link-fanfare { color: #5bc62e; }
+        .link-groove { color: #f7d61d; }
+        .link-love { color: #f45c27; }
+        .link-pavane { color: #cc1b6a; }
+
+        .page-title .m { color: #1179e5; }
+        .page-title .u { color: #5bc62e; }
+        .page-title .s { color: #f7d61d; }
+        .page-title .i { color: #f45c27; }
+        .page-title .c { color: #cc1b6a; }
+        .page-title .bash { color: #000000; }
+
+        .box-schubert { box-shadow: 0 1px 45px #1179e5; }
+        .box-fanfare { box-shadow: 0 1px 45px #5bc62e; }
+        .box-groove { box-shadow: 0 1px 45px #f7d61d; }
+        .box-love { box-shadow: 0 1px 45px #f45c27; }
+        .box-pavane { box-shadow: 0 1px 45px #cc1b6a; }
+
+        .rainbow-wrapper {
+            position: relative;
+            border-radius: 16px;
+            padding: 0.9em;
+            overflow: visible;
+            z-index: 1;
         }
 
-        .nav-tab {
-            min-width: 120px;
-            text-align: center;
-            justify-content: center;
-            display: flex;
-            align-items: center;
-            gap: 1em;
-            padding: 1em 0;
-            margin-bottom: 1em;
+        .rainbow-wrapper::before {
+            content: "";
+            position: absolute;
+            top: 12px; left: 12px; right: 12px; bottom: 45px;
+            border-radius: 28px;
+            background: linear-gradient(
+                90deg,
+                #1179e5 0%,
+                #5bc62e 10%,
+                #f7d61d 20%,
+                #f45c27 30%,
+                #cc1b6a 40%,
+                #1179e5 50%,
+                #5bc62e 60%,
+                #f7d61d 70%,
+                #f45c27 80%,
+                #cc1b6a 90%,
+                #1179e5 100%,
+                #5bc62e 110%,
+                #f7d61d 120%,
+                #f45c27 130%,
+                #cc1b6a 140%,
+                #1179e5 150%
+            );
+            background-size: 300% 100%;
+            animation: scroll-gradient 3s linear infinite;
+            filter: blur(18px);
+            opacity: 0.6;
+            pointer-events: none;
+            z-index: -1;
         }
-
-        @media (max-width: 600px) {
-            .nav-tab {
-                flex-direction: column;
+        @keyframes scroll-gradient {
+            from {
+                background-position: 0% 0;
             }
-
-            .nav-tab a {
-                margin-bottom: 0.5em;
+            to {
+                background-position: -100% 0;
             }
         }
     </style>
 </head>
 <body>
-    <!-- Navigation bar -->
-    <nav class="nav-tab">
-        <a href="new.html" class="nav-button nav-tab">Podcast</a>
-        <a href="music.html" class="nav-button nav-tab">Compositions</a>
-    </nav>
-
-    <header>
-        <h1 class="page-title">Compositions</h1>
-        <div class="page-description">A collection of songs that I have composed.</div>
-    </header>
-
-    <div class="links-box">
-        <div class="links-inner">
-            <p><a href="https://u.pcloud.link/publink/show?code=XZ6iRL5ZTtjLQiC8hxu4XMaelVtgW5XerMMy">Schubert's Dream 440AM</a></p>
-            <p><a href="https://u.pcloud.link/publink/show?code=XZEMs45ZX7ndOch8FWby4souHi03n83YPFO7">Symphony Fanfare</a></p>
-            <p><a href="https://u.pcloud.link/publink/show?code=XZOMs45ZzDcVLkmkJSjTNfdwp605ESXSmglX">Untitled Groove</a></p>
-            <p><a href="https://u.pcloud.link/publink/show?code=XZIMs45ZA8uq8DUktSbhzy38u2oLHJA7tGQX">Untitled Love</a></p>
-            <p><a href="https://u.pcloud.link/publink/show?code=XZAMs45ZRN4eWB3BbEzwlj8F1kKYAYwnleSV">Untitled Pavane</a></p>
-        </div>
+    <div class="rainbow-wrapper">
+        <header>
+            <h1 class="page-title">
+                <span class="bash">$:&nbsp;</span>
+                <span class="m">m</span>
+                <span class="u">u</span>
+                <span class="s">s</span>
+                <span class="i">i</span>
+                <span class="c">c</span>
+            </h1>
+            <div class="page-description">Shit I've composed!</div>
+        </header>
     </div>
-
-    <footer style="text-align: center; padding: 1em 0; background-color: var(--background-color);">
-        &copy; 2025 Concertos of Chaos. All rights reserved.
-    </footer>    
+        <div class="links-box box-schubert">
+            <div class="links-inner">
+                <a class="link-schubert" href="https://u.pcloud.link/publink/show?code=XZ6iRL5ZTtjLQiC8hxu4XMaelVtgW5XerMMy">Schubert's Dream 440AM</a>
+                <p>This is the first piece I composed. I learned Schubert's Ständchen when I was a kid and have always had a strong love for this piece. Every time I heard it I always heard this other melody in my head that went right along with it. Then I happened to hear it a few years ago and thought to myself, "now is the time buddy". So, I tried my hand at composing and arranging and this is what came of it.</p>
+            </div>
+        </div>
+        <div class="links-box box-fanfare">
+            <div class="links-inner">
+                <a class="link-fanfare" href="https://u.pcloud.link/publink/show?code=XZEMs45ZX7ndOch8FWby4souHi03n83YPFO7">Symphony Fanfare</a>
+                <p>Description here</p>
+            </div>
+        </div>
+        <div class="links-box box-groove">
+            <div class="links-inner">
+                <a class="link-groove" href="https://u.pcloud.link/publink/show?code=XZOMs45ZzDcVLkmkJSjTNfdwp605ESXSmglX">Groove</a>
+                <p>Description here</p>
+            </div>
+        </div>
+        <div class="links-box box-love">
+            <div class="links-inner">
+                <a class="link-love" href="https://u.pcloud.link/publink/show?code=XZIMs45ZA8uq8DUktSbhzy38u2oLHJA7tGQX">Love</a>
+                <p>Description here</p>
+            </div>
+        </div>
+        <div class="links-box box-pavane">
+            <div class="links-inner">
+                <a class="link-pavane" href="https://u.pcloud.link/publink/show?code=XZAMs45ZRN4eWB3BbEzwlj8F1kKYAYwnleSV">A Different Pavane</a>
+                <p>Description here</p>
+            </div>
+        </div>
+        <footer style="text-align: center; padding: 1em 0; background-color: var(--background-color);">
+            &copy; 2025 All rights reserved.
+        </footer>    
 </body>
 </html>
