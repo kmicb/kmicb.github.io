@@ -22,7 +22,6 @@
             /* changes nav buttons color */
             --accent-color: #000000;
             /* ##### changes entire page background color except boxes ##### */
-            /* --background-color: #ffffff; */
         }
         
         body {
@@ -30,8 +29,8 @@
             max-width: 1000px;
             margin: 0 auto;
             padding: 20px;
-            /* background-color: rgb(25, 166, 98); */
-            /* background-image: url('logo_color.png'); background image for entire page, minus boxes */
+            background: url('03_rainbow_galaxy.png') no-repeat center top fixed;
+            /* have background "zoom" when window size adjusted */
             line-height: 1.6;
         }
 
@@ -252,15 +251,15 @@
     <script>
         // color defs for individual episode
         const episodeColors = [
-            { background: '#ffffff', border: '#f7d61d', button: '#f7d61d' }, // Episode 8   Yellow
-            { background: '#ffffff', border: '#f45c27', button: '#f45c27' }, // Episode 7   Orange
-            { background: '#ffffff', border: '#cc1b6a', button: '#cc1b6a' }, // Episode 6   Red
-            { background: '#ffffff', border: '#6c44c8', button: '#6c44c8' }, // Episode 5   Violet
-            { background: '#ffffff', border: '#1179e5', button: '#1179e5' }, // Episode 4   Blue
-            { background: '#ffffff', border: '#5bc62e', button: '#5bc62e' }, // Episode 3   Green
-            { background: '#ffffff', border: '#f7d61d', button: '#f7d61d' }, // Episode 2b  Yellow
-            { background: '#ffffff', border: '#f45c27', button: '#f45c27' }, // Episode 2   Orange
-            { background: '#ffffff', border: '#cc1b6a', button: '#cc1b6a' }, // Episode 1   Red
+            { background: '#ffffff', border: '#000000', button: '#f7d61d' }, // Episode 8   Yellow
+            { background: '#ffffff', border: '#000000', button: '#f45c27' }, // Episode 7   Orange
+            { background: '#ffffff', border: '#000000', button: '#cc1b6a' }, // Episode 6   Red
+            { background: '#ffffff', border: '#000000', button: '#6c44c8' }, // Episode 5   Violet
+            { background: '#ffffff', border: '#000000', button: '#1179e5' }, // Episode 4   Blue
+            { background: '#ffffff', border: '#000000', button: '#5bc62e' }, // Episode 3   Green
+            { background: '#ffffff', border: '#000000', button: '#f7d61d' }, // Episode 2b  Yellow
+            { background: '#ffffff', border: '#000000', button: '#f45c27' }, // Episode 2   Orange
+            { background: '#ffffff', border: '#000000', button: '#cc1b6a' }, // Episode 1   Red
         ];
 
         function startCountdown(targetTime, countdownElement, downloadButton, item) {
@@ -396,8 +395,8 @@
       </div>
 <center><img src="palestine.jpg" alt="Palestine Flag" class="header-image"></center>
 
-  <footer style="text-align: center; padding: 1em 0; background-color: var(--background-color);">
-    &copy; 2025 Concertos of Chaos. All rights reserved.
+  <footer style="text-align: center; padding: 1em 0; background-color: var(--background-color); border-color: black;">
+    &copy; <b>2025 Concertos of Chaos. All rights reserved.</b>
   </footer>    
 </body>
 </html>
