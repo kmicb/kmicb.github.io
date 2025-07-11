@@ -33,7 +33,6 @@
             margin: 0 auto;
             padding: 20px;
             background: url('03_rainbow_galaxy.png') no-repeat center top fixed;
-            /* have background "zoom" when window size adjusted */
             line-height: 1.6;
         }
 
@@ -171,6 +170,127 @@
             text-align: center;
         }
 
+        .footer-shit {
+          text-align: center;
+          padding: 1em 0;
+          background-color: #000000;
+          border-color: black;
+        }
+
+        .flag-image {
+          display: block;
+          margin: 0 auto;
+          max-width: 35%;
+          height: auto;
+          border-radius: 4px;
+        }
+
+        .the-footer {
+          text-align: center;
+          padding: 1em 0;
+          background-color: #ffffff;
+          border-color: black;
+        }
+
+        .nav-bar {
+          display: flex;
+          justify-content: center;
+          gap: 1em;
+          margin-bottom: 1em;
+          /* flex-wrap: wrap; */
+          /* padding: 1em; */
+          /* background-color: ; */
+          /* border-radius: 8px; */
+          /* border: 1px solid black; */
+          /* box-shadow: 0 2px 4px rgba(0,0,0,0.1); */
+        }
+
+        .nav-button {
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+          padding: 0.5em 1em;
+          background-color: white;
+          color: black;
+          border: 1px solid black;
+          border-radius: 4px;
+          text-decoration: none;
+          font-size: 0.9em;
+          font-weight: bold;
+          transition: background-color 0.2s;
+        }
+
+        .not-clickable {
+          pointer-events: none;
+          opacity: 0.5;
+          cursor: default;
+        }
+
+        .nav-active {
+          border: 2px solid white !important;
+          box-shadow: 0 0 0 2px black, 0 0 8px rgba(255, 255, 255, 0.6);
+          font-weight: bold;
+          text-decoration: underline;
+          color: #fff !important; /* in case another class overrides this */
+        }
+
+        .nav-red {
+          background-color: #cc1b6a;
+          color: rgb(255, 255, 255);
+        }
+        .nav-red:hover {
+          background-color: #cc1b6a;
+          color: #ffffff;
+        }
+
+        .nav-orange {
+          background-color: #f45c27;
+          color: #ffffff;
+        }
+        .nav-orange:hover {
+          background-color: #f45c27;
+          color: #ffffff;
+        }
+
+        .nav-yellow {
+          background-color: #f7d61d;
+          color: #ffffff;
+        }
+        .nav-yellow:hover {
+          background-color: #f7d61d;
+          color: #ffffff;
+        }
+
+        .nav-green {
+          background-color: #5bc62e;
+          color: #ffffff;
+        }
+
+        .nav-green:hover {
+          background-color: #5bc62e;
+          color: #ffffff;
+        }
+
+        .nav-blue {
+          background-color: #1179e5;
+          color: #ffffff;
+        }
+
+        .nav-blue:hover {
+          background-color: #1179e5;
+          color: #ffffff;
+        }
+
+        .nav-purple {
+          background-color: #6c44c8;
+          color: #ffffff;
+        }
+
+        .nav-purple:hover {
+          background-color: #6c44c8;
+          color: #ffffff;
+        }
+
         /* Responsive styling for mobile devices */
     @media screen and (max-width: 768px) {
         .header-image {
@@ -206,11 +326,17 @@
         <img src="logo_data/horizontal_color.png" class="podcast-title">
         <div class="podcast-description"><b>A Deaf Pianist Orchestrates Raw Mental Health Conversations Uncensored, Unedited, Unapologetic</b></div>
     </header>
+    <!-- season nav bar -->
+    <nav class="nav-bar">
+      <a href="" class="nav-button nav-red" data-season="s1">Season 01</a>
+      <a href="" class="nav-button nav-orange not-clickable" data-season="s2">Season 02</a>
+    </nav>
 
     <main id="episodes-container"></main>
 
     <script>
         // color defs for individual episode
+        // background white, border black, buttons have individual palette colors (roygbi)
         const episodeColors = [
             { background: '#ffffff', border: '#000000', button: '#f7d61d' }, // Episode 8   Yellow
             { background: '#ffffff', border: '#000000', button: '#f45c27' }, // Episode 7   Orange
@@ -343,18 +469,39 @@
         }
     
         document.addEventListener('DOMContentLoaded', fetchAndDisplayPodcast);
+
+        document.querySelectorAll('.nav-button').forEach(button => {
+          button.addEventListener('click', function (e) {
+            e.preventDefault();
+            // Remove active class from all
+            document.querySelectorAll('.nav-button').forEach(btn => {
+              btn.classList.remove('nav-active');
+            });
+
+            // Add to clicked
+            this.classList.add('nav-active');
+      // (optional) Show relevant content if you're fading between sections
+      const season = this.dataset.season;
+      document.querySelectorAll('.season-container').forEach(container => {
+        container.classList.remove('active');
+      });
+      document.getElementById(`season-${season}`).classList.add('active');
+    });
+  });
       </script>
 
       <div class="standard-box">
         <div class="image-text-container">
-          Like my podcast? You can support me! (if you want)
+          <b>Like my podcast? You can support me!</b>
           <img src="venmo.jpeg" alt="Venmo QR" class="top-right-image">
         </div>
       </div>
-    <center><img src="palestine.jpg" alt="Palestine Flag" class="header-image"></center>
 
-  <footer class="footer" style="text-align: center; padding: 1em 0; background-color: var(--background-color); border-color: black;">
+  <img src="palestine.jpg" alt="Palestine Flag" class="flag-image">
+  <p></p>
+
+  <footer class="the-footer">
     &copy; <b>2025 Concertos of Chaos. All rights reserved.</b>
-  </footer>    
+  </footer>
 </body>
 </html>
