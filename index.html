@@ -14,15 +14,14 @@
     <meta name="twitter:image" content="https://concertosofchaos.com/sm_logo_color.png">
     <title>Concertos of Chaos</title>
     <style>
-        :root {
+        /* :root {
             /* changes episode title and podcast title text color */
-            --primary-color: #000000;
+            /* --primary-color: #000000; */
             /* changes all text except the "Like my podcast?" line */
-            --secondary-color: #000000;
+            /* --secondary-color: #000000; */
             /* changes nav buttons color */
-            --accent-color: #000000;
-            /* ##### changes entire page background color except boxes ##### */
-        }
+            /* --accent-color: #000000; */
+        /* } */
         
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
@@ -34,7 +33,7 @@
             line-height: 1.6;
         }
 
-        /* header box and support podcast box */
+        /* header box and 'support my podcast' box */
         .standard-box {
             text-align: center;
             margin-bottom: 1em;
@@ -53,13 +52,12 @@
 
         .podcast-title {
             font-size: 2.5em;
-            color: var(--primary-color);
-            /* margin-bottom: 0.5em; */
+            color: #000000;
             width: 70%
         }
 
         .podcast-description {
-            color: var(--secondary-color);
+            color: #000000;
             font-size: 1.2em;
             margin-bottom: 1em;
         }
@@ -85,19 +83,19 @@
         }
 
         .episode h2 {
-            color: var(--primary-color);
+            color: #000000;
             margin: 0 0 0.5em 0;
             font-size: 1.4em;
         }
 
         .episode-meta {
-            color: var(--secondary-color);
+            color: #000000;
             font-size: 0.9em;
             margin-bottom: 1em;
         }
 
         .episode-description {
-            color: var(--secondary-color);
+            color: #000000;
             margin-bottom: 1em;
         }
 
@@ -112,7 +110,7 @@
             display: inline-flex;
             align-items: center;
             padding: 0.5em 1em;
-            background-color: var(--accent-color);
+            background-color: #000000;
             color: white;
             text-decoration: none;
             border-radius: 4px;
@@ -164,25 +162,24 @@
         }
 
         .image-text-container p {
-            /* margin: 0; */
             font-size: 1.2em;
-            color: var(--primary-color);
+            color: #000000;
             text-align: center;
         }
 
         /* Responsive styling for mobile devices */
     @media screen and (max-width: 768px) {
         .header-image {
-            width: 90%;  /* Slightly narrower on mobile */
-            max-height: 200px;  /* Limit height on mobile */
-            object-fit: contain;  /* Maintain aspect ratio */
+            width: 90%;
+            max-height: 200px;
+            object-fit: contain;
         }
 
         .top-right-image {
-            width: 90%;  /* Slightly narrower on mobile */
-            max-height: 200px;  /* Limit height on mobile */
-            object-fit: contain;  /* Maintain aspect ratio */
-            margin: 1em auto 0;  /* Center the image on mobile */
+            width: 90%;
+            max-height: 200px;
+            object-fit: contain;
+            margin: 1em auto 0;
         }
 
         .image-text-container {
@@ -200,32 +197,8 @@
     </style>
 </head>
 <body>
-    <!-- Navigation bar -->
-    <nav class="nav-tab">
-    </nav>
-    <style>
-    .nav-tab {
-        min-width: 120px;
-        text-align: center;
-        justify-content: center;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 1em;
-        padding: 1em 0;
-        margin-bottom: 1em;
-    }
-    @media (max-width: 600px) {
-        .nav-tab {
-            flex-direction: column;
-        }
-        .nav-tab a {
-            margin-bottom: 0.5em;
-        }
-    }
-    </style>
     <header class="standard-box">
-        <!-- top box, title "Concertos of Chaos" -->
+        <!-- header box -->
         <img src="logo_data/horizontal_color.png" class="podcast-title">
         <div class="podcast-description"><b>A Deaf Pianist Orchestrates Raw Mental Health Conversations Uncensored, Unedited, Unapologetic</b></div>
     </header>
@@ -306,8 +279,6 @@
               }
               episodeDiv.style.borderColor = colors.border;
               
-              // ##### episode image url #####
-              // <img src="logo_color.png" alt="${title}" class="episode-image">
               episodeDiv.innerHTML = `
                 <div class="episode-content">
                   <h2>${title}</h2>
