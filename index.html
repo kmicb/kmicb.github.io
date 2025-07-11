@@ -40,6 +40,16 @@
             line-height: 1.6;
         }
 
+        .parallax-bg {
+          background: url('03_rainbow_galaxy.png') no-repeat center top;
+          background-size: cover;
+          background-attachment: fixed;
+          background-position: center 0;
+          position: relative;
+          width: 100%;
+          z-index: -1;
+        }
+
         /* header box and 'support my podcast' box */
         .standard-box {
             text-align: center;
@@ -194,6 +204,7 @@
           padding: 1em 0;
           background-color: #ffffff;
           border-color: black;
+          margin-bottom: 3rem;
         }
 
         .nav-bar {
@@ -324,7 +335,8 @@
     }
     </style>
 </head>
-<body>
+<body class="parallax-bg">
+  <div class="content">
     <header class="standard-box">
         <!-- header box -->
         <img src="logo_data/horizontal_color.png" class="podcast-title">
@@ -507,5 +519,8 @@
   <footer class="the-footer">
     &copy; <b>2025 Concertos of Chaos. All rights reserved.</b>
   </footer>
+  </div>
+  <!-- this simply raises the footer off the bottom of the page -->
+  <div style="height: 1em;"></div>
 </body>
 </html>
