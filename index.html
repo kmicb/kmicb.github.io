@@ -388,7 +388,7 @@
             if (timeLeft <= 0) {
               console.log("Countdown ended. Showing button.");
               downloadButton.innerText = 'Play Episode';
-              downloadButton.disabled = false; // Make the button clickable
+              downloadButton.disabled = false; // make button clickable
               downloadButton.href = item.getElementsByTagNameNS('*', 'enclosure')[0]?.getAttribute('url');
               clearInterval(timer);
             } else {
@@ -397,12 +397,12 @@
               const seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);
     
               downloadButton.innerText = `${hours}h ${minutes}m ${seconds}s`;
-              downloadButton.disabled = true; // Keep the button disabled until the countdown ends
+              downloadButton.disabled = true; // keep button disabled until countdown ends
             }
           }
           
-          updateCountdown(); // Initial call
-          const timer = setInterval(updateCountdown, 1000); // Update every second
+          updateCountdown(); // initial call
+          const timer = setInterval(updateCountdown, 1000); //update every second
         }
     
         async function fetchAndDisplayPodcast() {
@@ -427,11 +427,10 @@
               const episodeDiv = document.createElement('div');
               episodeDiv.className = 'episode';
               
-              // Apply colors for this episode (fallback to default if not enough colors defined)
+              // apply colors for this episode (fallback to default if ! enough colors defined)
               const colorIndex = index < episodeColors.length ? index : index % episodeColors.length;
               const colors = episodeColors[colorIndex];
               
-            //   episodeDiv.style.backgroundColor = colors.background;
               if (colors.background.startsWith('url')) {
                 episodeDiv.style.backgroundImage = colors.background;
                 episodeDiv.style.backgroundSize = 'cover';
@@ -466,12 +465,12 @@
                       button.href = url;
                       button.className = 'download-button';
                       
-                      // Apply the button color for this episode
+                      // apply button color for episode
                       button.style.backgroundColor = colors.button;
                       button.style.color = '#000000';
                       button.style.fontWeight = 'bold';
                       
-                      // Set button text based on media type
+                      // set button text based on media type
                       if (type.includes('video')) {
                           button.innerText = 'Play Video';
                       } else if (type.includes('audio')) {
@@ -504,14 +503,14 @@
         document.querySelectorAll('.nav-button').forEach(button => {
           button.addEventListener('click', function (e) {
             e.preventDefault();
-            // Remove active class from all
+            // rm active class from all
             document.querySelectorAll('.nav-button').forEach(btn => {
               btn.classList.remove('nav-active');
             });
 
-            // Add to clicked
+            // add to clicked
             this.classList.add('nav-active');
-      // (optional) Show relevant content if you're fading between sections
+      // (optional) show relevant content if fading between sections
       const season = this.dataset.season;
       document.querySelectorAll('.season-container').forEach(container => {
         container.classList.remove('active');
@@ -535,7 +534,7 @@
     &copy; <b>2025 Concertos of Chaos. All rights reserved.</b>
   </footer>
   </div>
-  <!-- this simply raises the footer off the bottom of the page -->
+  <!-- this raises footer off bottom of page -->
   <div style="height: 1em;"></div>
 </body>
 </html>
