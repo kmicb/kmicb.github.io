@@ -225,12 +225,6 @@
           justify-content: center;
           gap: 1em;
           margin-bottom: 1em;
-          /* flex-wrap: wrap; */
-          /* padding: 1em; */
-          /* background-color: ; */
-          /* border-radius: 8px; */
-          /* border: 1px solid black; */
-          /* box-shadow: 0 2px 4px rgba(0,0,0,0.1); */
         }
 
         .nav-button {
@@ -319,7 +313,7 @@
           color: #ffffff;
         }
 
-        /* Responsive styling for mobile devices */
+        /* responsive styling for mobile devices */
     @media screen and (max-width: 768px) {
         .header-image {
             width: 90%;
@@ -535,6 +529,13 @@
   </footer>
   </div>
   <!-- this raises footer off bottom of page -->
-  <div style="height: 1em;"></div>
+  <!-- <div style="height: 1em;"></div> -->
+
+  <!-- Calendly badge widget begin -->
+    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+    <script type="text/javascript">window.onload = function() { Calendly.initBadgeWidget({ url: 'https://calendly.com/booking-concertosofchaos?hide_gdpr_banner=1&primary_color=5bc62e', text: 'Be a guest on the show!', color: '#5bc62e', textColor: '#ffffff', branding: false }); }</script>
+    <!-- Calendly badge widget end -->
+
 </body>
 </html>
