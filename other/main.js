@@ -127,6 +127,8 @@ function startCountdown(targetTime, countdownElement, downloadButton, episode) {
       downloadButton.innerText = 'Play Episode';
       downloadButton.disabled = false;
       downloadButton.href = episode.audioUrl; // Use the audio URL from episode data
+      downloadButton.target = '_blank';
+      downloadButton.rel = 'noopener noreferrer';
       clearInterval(timer);
     } else {
       const hours = Math.floor(timeLeft / (1000 * 60 * 60));
@@ -186,6 +188,8 @@ function displayPodcastEpisodes() {
     if (episode.audioUrl) {
       const audioButton = document.createElement('a');
       audioButton.href = episode.audioUrl;
+      audioButton.target = '_blank';
+      audioButton.rel = 'noopener noreferrer';
       audioButton.className = 'download-button';
       audioButton.style.backgroundColor = colors.button;
       audioButton.style.color = '#000000';
@@ -206,6 +210,8 @@ function displayPodcastEpisodes() {
     if (episode.videoUrl) {
       const videoButton = document.createElement('a');
       videoButton.href = episode.videoUrl;
+      videoButton.target = '_blank';
+      videoButton.rel = 'noopener noreferrer';
       videoButton.className = 'download-button';
       videoButton.style.backgroundColor = colors.button;
       videoButton.style.color = '#000000';
