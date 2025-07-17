@@ -10,6 +10,8 @@ const episodeColors = [
   { background: '#ffffff', border: '#000000', button: '#f45c27' }, // Episode 2   Orange
   { background: '#ffffff', border: '#000000', button: '#cc1b6a' }, // Episode 1   Red
 ];
+// set to false to turn of individual episodes' images
+const showEpisodeImages = false;
 
 function startCountdown(targetTime, countdownElement, downloadButton, item) {
   function updateCountdown() {
@@ -67,12 +69,17 @@ async function fetchAndDisplayPodcast() {
       }
       episodeDiv.style.borderColor = colors.border;
 
+      let episodeNumber = item.getElementsByTagNameNS(itunesNS, 'episode')[0]?.textContent;
+      episodeNumber = episodeNumber?.toString().padStart(2, '0');
+      const episodeImgPath = episodeNumber ? `/images/S01E${episodeNumber}.jpeg` : null;
+
       episodeDiv.innerHTML = `
+        ${showEpisodeImages && episodeImgPath ? `<img src="${episodeImgPath}" alt="Episode ${episodeNumber} image" class="episode-image">` : ''}
         <div class="episode-content">
           <h2>${title}</h2>
           <div class="episode-meta">
             ${item.getElementsByTagNameNS(itunesNS, 'season')[0]?.textContent ? `Season ${item.getElementsByTagNameNS(itunesNS, 'season')[0]?.textContent}` : ''}
-            ${item.getElementsByTagNameNS(itunesNS, 'episode')[0]?.textContent ? `Episode ${item.getElementsByTagNameNS(itunesNS, 'episode')[0]?.textContent}` : ''}
+            ${episodeNumber ? `Episode ${episodeNumber}` : ''}
             <span class="episode-duration">${item.getElementsByTagNameNS('*', 'duration')[0]?.textContent}</span>
             <div>${new Date(pubDateStr).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</div>
           </div>
