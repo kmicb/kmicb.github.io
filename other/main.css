@@ -301,6 +301,7 @@ html {
       display: flex;
       flex-direction: column;
       justify-content: center;
+      align-items: center;
     }
     .header-image {
       width: 90%;
