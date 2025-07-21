@@ -297,28 +297,33 @@ html {
 
   /* responsive styling for mobile devices */
   @media screen and (max-width: 768px) {
-  .header-image {
-    width: 90%;
-    max-height: 200px;
-    object-fit: contain;
-  }
+    .standard-box {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .header-image {
+      width: 90%;
+      max-height: 200px;
+      object-fit: contain;
+    }
 
-  .top-right-image {
-    width: 90%;
-    max-height: 200px;
-    object-fit: contain;
-    margin: 1em auto 0;
-  }
+    .top-right-image {
+      width: 90%;
+      max-height: 200px;
+      object-fit: contain;
+      margin: 1em auto 0;
+    }
 
-  .image-text-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 2em;
-  }
+    .image-text-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 2em;
+    }
 
-  .image-text-container img {
-    margin-top: 1em;
-  }
+    .image-text-container img {
+      margin-top: 1em;
+    }
 }
