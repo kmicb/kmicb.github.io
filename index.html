@@ -43,24 +43,29 @@
         <img src="/images/noBgColor.png" class="podcast-title">
         <div class="podcast-description"><b>A Deaf Pianist Orchestrates Raw Mental Health Conversations Uncensored, Unedited, Unapologetic</b></div>
     </header>
-    <!-- season nav bar -->
+    <!-- nav bar -->
     <nav class="nav-bar">
-      <a href="" class="nav-button nav-red" data-season="s1">Season 01</a>
-      <a href="" class="nav-button nav-orange not-clickable" data-season="s2">Season 02</a>
+      <div class="nav-group-left">
+        <a href="" class="nav-button nav-black nav-active" data-season="s1">S01</a>
+        <a href="" class="nav-button nav-black" data-season="s2">S02</a>
+      </div>
+      <!-- <div class="nav-group-right">
+        <a href="#" class="nav-button nav-black not-clickable" data-season="about">About Me</a>
+      </div> -->
     </nav>
-
     <main>
-      <section id="episodes-container" aria-label="Podcast Episodes"></section>
+      <section id="about" class="season-container fade" data-section="about"></section>
+      <section id="season-s1" class="season-container fade active" data-section="s1"></section>
+      <section id="season-s2" class="season-container fade" data-section="s2"></section>
     </main>
-    
     <script src="/other/main.js" defer></script>
-      <aside class="standard-box" aria-label="Support the Podcast">
+      <aside id="support-box" class="standard-box" aria-label="Support the Podcast">
         <div class="image-text-container">
           <b>Like my podcast? You can support me!</b>
           <img src="/images/venmo.jpeg" alt="Venmo QR" class="top-right-image">
         </div>
       </aside>
-  <img src="/images/palestine.jpg" alt="Palestine Flag" class="flag-image"><p></p>
+  <img id="flag-image" src="/images/palestine.jpg" alt="Palestine Flag" class="flag-image"><p></p>
   <footer class="the-footer" role="contentinfo">
     &copy; <b>2025 Concertos of Chaos. All rights reserved.</b>
   </footer>

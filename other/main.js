@@ -117,6 +117,10 @@ const episodeData = [
 // set to false to turn off individual episodes' images
 const showEpisodeImages = false;
 
+let season2HasEpisodes = false;
+
+window.season2HasEpisodes = false;
+
 function startCountdown(targetTime, countdownElement, downloadButton, episode) {
   function updateCountdown() {
     const now = new Date();
@@ -144,12 +148,11 @@ function startCountdown(targetTime, countdownElement, downloadButton, episode) {
 }
 
 function displayPodcastEpisodes() {
-  const episodesContainer = document.getElementById('episodes-container');
-  
-  if (!episodesContainer) {
-    console.error('Episodes container not found');
-    return;
-  }
+  const season1Container = document.getElementById('season-s1');
+  const season2Container = document.getElementById('season-s2');
+  const supportBox = document.getElementById('support-box');
+
+  let season2EpisodeCount = 0;
 
   episodeData.forEach((episode, index) => {
     const episodeDiv = document.createElement('div');
@@ -199,8 +202,6 @@ function displayPodcastEpisodes() {
       if (new Date() < episode.releaseTime) {
         audioButton.removeAttribute('href');
         startCountdown(episode.releaseTime, null, audioButton, episode);
-      } else {
-        audioButton.disabled = false;
       }
 
       mediaButtons.appendChild(audioButton);
@@ -221,30 +222,65 @@ function displayPodcastEpisodes() {
       if (new Date() < episode.releaseTime) {
         videoButton.removeAttribute('href');
         startCountdown(episode.releaseTime, null, videoButton, episode);
-      } else {
-        videoButton.disabled = false;
       }
 
       mediaButtons.appendChild(videoButton);
     }
 
     episodeDiv.appendChild(mediaButtons);
-    episodesContainer.appendChild(episodeDiv);
+
+    if (episode.season === "1") {
+      season1Container.appendChild(episodeDiv);
+    } else if (episode.season === "2") {
+      season2Container.appendChild(episodeDiv);
+      season2HasEpisodes = true;
+    }
   });
+
+  if (!season2HasEpisodes) {
+    season2Container.innerHTML = '<div class="season-coming-soon"><h2>Season 2 coming soon!</h2></div>';
+  }
 }
 
-document.addEventListener('DOMContentLoaded', displayPodcastEpisodes);
+document.addEventListener('DOMContentLoaded', () => {
+  displayPodcastEpisodes();
 
-document.querySelectorAll('.nav-button').forEach(button => {
-  button.addEventListener('click', function (e) {
-    e.preventDefault();
-    document.querySelectorAll('.nav-button').forEach(btn => btn.classList.remove('nav-active'));
-    this.classList.add('nav-active');
+  const supportBox = document.getElementById('support-box');
+  const flagImage = document.getElementById('flag-image');
+  const season2Container = document.getElementById('season-s2');
 
-    const season = this.dataset.season;
-    document.querySelectorAll('.season-container').forEach(container => {
-      container.classList.remove('active');
+  // Determine whether S2 has real episodes
+  const s2HasRealEpisodes = [...season2Container.children].some(child => 
+    !child.classList.contains('season-coming-soon')
+  );
+
+  document.querySelectorAll('.nav-button').forEach(button => {
+    button.addEventListener('click', function (e) {
+      e.preventDefault();
+
+      // Update nav button style
+      document.querySelectorAll('.nav-button').forEach(btn =>
+        btn.classList.remove('nav-active')
+      );
+      this.classList.add('nav-active');
+
+      const sectionKey = this.dataset.season;
+      const targetSection = document.querySelector(`[data-section="${sectionKey}"]`);
+
+      // Hide all sections, then activate target
+      document.querySelectorAll('.season-container').forEach(container =>
+        container.classList.remove('active')
+      );
+      if (targetSection) targetSection.classList.add('active');
+
+      // Determine when to hide support + flag
+      const isSeason2ComingSoon = sectionKey === 's2' && !s2HasRealEpisodes;
+      const isAboutPage = sectionKey === 'about';
+
+      const shouldHideExtras = isSeason2ComingSoon || isAboutPage;
+
+      supportBox.style.display = shouldHideExtras ? 'none' : '';
+      flagImage.style.display = shouldHideExtras ? 'none' : '';
     });
-    document.getElementById(`season-${season}`).classList.add('active');
   });
 });
