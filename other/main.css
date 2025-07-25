@@ -1,3 +1,15 @@
+@font-face {
+  font-family: 'MyFont';
+  src: url('/fonts/MyFont.woff2');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'custom_roboto_font';
+  src: url('/fonts/CustomRobotoFont.woff2');
+  font-display: swap;
+}
+
 html {
   background-color: #000000;
   height: 100%;
