@@ -254,6 +254,14 @@ document.addEventListener('DOMContentLoaded', () => {
     !child.classList.contains('season-coming-soon')
   );
 
+  const season1Section = document.querySelector('[data-section="s1"]');
+  season1Section.style.disabled = 'block';
+  season1Section.style.opacity = '1';
+  season1Section.classList.add('active');
+
+  supportBox.style.display = 'block';
+  flagImage.style.display = 'block';
+
   document.querySelectorAll('.nav-button').forEach(button => {
     button.addEventListener('click', function (e) {
       e.preventDefault();
@@ -267,20 +275,38 @@ document.addEventListener('DOMContentLoaded', () => {
       const sectionKey = this.dataset.season;
       const targetSection = document.querySelector(`[data-section="${sectionKey}"]`);
 
-      // Hide all sections, then activate target
-      document.querySelectorAll('.season-container').forEach(container =>
-        container.classList.remove('active')
-      );
-      if (targetSection) targetSection.classList.add('active');
-
-      // Determine when to hide support + flag
       const isSeason2ComingSoon = sectionKey === 's2' && !s2HasRealEpisodes;
       const isAboutPage = sectionKey === 'about';
 
-      const shouldHideExtras = isSeason2ComingSoon || isAboutPage;
+      // Hide all sections, then activate target
+      document.querySelectorAll('.season-container').forEach(container => {
+        if (container !== targetSection) {
+          container.style.opacity = '0';
+          setTimeout(() => (container.style.display = 'none'), 500);
+        }
+      });
 
-      supportBox.style.display = shouldHideExtras ? 'none' : '';
-      flagImage.style.display = shouldHideExtras ? 'none' : '';
+      if (targetSection) {
+        targetSection.style.display = 'block';
+        setTimeout(() => {
+          targetSection.style.opacity = '1';
+          targetSection.classList.add('active');
+        }, 50);
+      }
+
+      setTimeout(() => {
+        if (sectionKey === 's1') {
+          supportBox.style.display = 'block';
+          flagImage.style.direction = 'block';
+        } else if (sectionKey === 's2' && !isSeason2ComingSoon) {
+          supportBox.style.display = 'block';
+          flagImage.style.display = 'block';
+        } else {
+          supportBox.style.display = 'none';
+          flagImage.style.display = 'none';
+        }
+      }, 300);
+      window.scrollTo({ top: 0, behavior: 'smooth' });
     });
   });
 });
