@@ -16,9 +16,9 @@ html {
   background: url('/images/03_rainbow_galaxy.png') no-repeat center top fixed;
   background-size: cover;
   overflow-y: scroll;
-  }
+}
 
-body::before{
+body::before {
   content: "";
   position: fixed;
   top: 0;
@@ -53,14 +53,106 @@ body {
   z-index: -1;
 }
 
-/* header box and 'support my podcast' box */
+.floating-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #5bc62e;
+  color: black;
+  border: none;
+  border-radius: 50px;
+  padding: 15px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+  transition: background-color 0.3s ease;
+}
+
+.floating-button:hover {
+  background-color: #cc1b6a;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 2000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  background-color: #fff;
+  margin: 10% auto;
+  padding: 20px;
+  border-radius: 8px;
+  width: 50%;
+  max-width: 600px;
+  position: relative;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  cursor: pointer;
+}
+
+#interested-modal h2 {
+  text-align: center;
+  font-size: 28px;
+  font-family: 'MyFont', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  margin-bottom: 20px;
+}
+
+#interested-modal a {
+  font-family: 'custom_roboto_font', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  display: block;
+  text-align: center;
+  font-size: 21px;
+  font-weight: bold;
+  color: #cc1b6a;
+}
+
+#interested-modal a:hover {
+  color: #cc1b6a;
+  text-decoration: underline;
+}
+
 .standard-box {
   text-align: center;
   margin-bottom: 1em;
-  /* padding: 1em; */
   background: white;
   border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: relative;
+  border: 1px solid black;
+  min-height: 275px;
+}
+
+.about-box {
+  font-family: 'MyFont', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  text-align: center;
+  background: #ffffff;
+  border-radius: 9px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.about-box-content {
+  font-family: 'custom_roboto_font', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-weight: bold;
+  text-align: left;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   position: relative;
   border: 1px solid black;
   min-height: 275px;
@@ -116,12 +208,14 @@ body {
   color: #000000;
   font-size: 0.9em;
   margin-bottom: 1em;
+  font-weight: bold;
 }
 
 .episode-description {
-  font-family: 'custom_roboto_font', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-family: 'custom_roboto_font', sans-serif;
   color: #000000;
   margin-bottom: 1em;
+  font-weight: bold;
 }
 
 .download-links {
@@ -155,10 +249,6 @@ body {
   margin-right: 0.5em;
   font-size: 0.8em;
 }
-
-/* .episode-duration {
-  margin-left: 1em;
-} */
 
 .header-image {
   width: 35%;
@@ -278,7 +368,8 @@ body {
   box-shadow: 0 0 0 2px black, 0 0 8px rgba(255, 255, 255, 0.6);
   font-weight: normal;
   text-decoration: none;
-  color: #fff !important; /* in case another class overrides this */
+  color: #fff !important;
+  /* in case another class overrides this */
 }
 
 .nav-black {
@@ -288,8 +379,9 @@ body {
 
 .nav-red {
   background-color: #cc1b6a;
-  color: rgb(255, 255, 255);
+  color: #ffffff;
 }
+
 .nav-red:hover {
   background-color: #cc1b6a;
   color: #ffffff;
@@ -299,6 +391,7 @@ body {
   background-color: #f45c27;
   color: #ffffff;
 }
+
 .nav-orange:hover {
   background-color: #f45c27;
   color: #ffffff;
@@ -308,6 +401,7 @@ body {
   background-color: #f7d61d;
   color: #ffffff;
 }
+
 .nav-yellow:hover {
   background-color: #f7d61d;
   color: #ffffff;
@@ -355,10 +449,7 @@ body {
 }
 
 .season-container.active {
-  /* display: block; */
   opacity: 1;
-  /* pointer-events: all; */
-  /* height: auto; */
 }
 
 .fade {
@@ -380,6 +471,7 @@ body {
     justify-content: center;
     align-items: center;
   }
+
   .header-image {
     width: 90%;
     max-height: 200px;

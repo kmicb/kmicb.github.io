@@ -262,6 +262,7 @@ document.addEventListener('DOMContentLoaded', () => {
   supportBox.style.display = 'block';
   flagImage.style.display = 'block';
 
+  // nav button handling
   document.querySelectorAll('.nav-button').forEach(button => {
     button.addEventListener('click', function (e) {
       e.preventDefault();
@@ -308,5 +309,22 @@ document.addEventListener('DOMContentLoaded', () => {
       }, 300);
       window.scrollTo({ top: 0, behavior: 'smooth' });
     });
+  });
+  const interestedButton = document.getElementById('interested-button');
+  const interestedModal = document.getElementById('interested-modal');
+  const closeButton = document.querySelector('.close-button');
+
+  interestedButton.addEventListener('click', () => {
+    interestedModal.style.display = 'block';
+  });
+
+  closeButton.addEventListener('click', () => {
+    interestedModal.style.display = 'none';
+  });
+
+  window.addEventListener('click', (e) => {
+    if (e.target === interestedModal) {
+      interestedModal.style.display = 'none';
+    }
   });
 });
