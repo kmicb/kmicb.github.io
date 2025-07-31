@@ -1,3 +1,39 @@
+/* styling for mobile devices */
+@media screen and (max-width: 768px) {
+  .standard-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .header-image {
+    width: 90%;
+    max-height: 200px;
+    object-fit: contain;
+  }
+
+  .top-right-image {
+    width: 90%;
+    max-height: 200px;
+    object-fit: contain;
+    margin: 1em auto 0;
+  }
+
+  .image-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2em;
+  }
+
+  .image-text-container img {
+    margin-top: 1em;
+  }
+}
+
+/* custom fonts */
 @font-face {
   font-family: 'MyFont';
   src: url('/fonts/MyFont.woff2');
@@ -33,7 +69,7 @@ body::before {
 }
 
 body {
-  font-family: 'MyFont', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-family: 'MyFont', sans-serif;
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
@@ -43,6 +79,7 @@ body {
   line-height: 1.6;
 }
 
+/* scroll effect for wallpaper */
 .parallax-bg {
   background: url('/images/03_rainbow_galaxy.png') no-repeat center top;
   background-size: cover;
@@ -51,79 +88,6 @@ body {
   position: relative;
   width: 100%;
   z-index: -1;
-}
-
-.floating-button {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  background-color: #5bc62e;
-  color: black;
-  border: none;
-  border-radius: 50px;
-  padding: 15px 20px;
-  font-size: 16px;
-  font-weight: bold;
-  cursor: pointer;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-  z-index: 1000;
-  transition: background-color 0.3s ease;
-}
-
-.floating-button:hover {
-  background-color: #cc1b6a;
-}
-
-.modal {
-  display: none;
-  position: fixed;
-  z-index: 2000;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-}
-
-.modal-content {
-  background-color: #fff;
-  margin: 10% auto;
-  padding: 20px;
-  border-radius: 8px;
-  width: 50%;
-  max-width: 600px;
-  position: relative;
-}
-
-.close-button {
-  position: absolute;
-  top: 10px;
-  right: 15px;
-  font-size: 24px;
-  font-weight: bold;
-  color: #333;
-  cursor: pointer;
-}
-
-#interested-modal h2 {
-  text-align: center;
-  font-size: 28px;
-  font-family: 'MyFont', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-  margin-bottom: 20px;
-}
-
-#interested-modal a {
-  font-family: 'custom_roboto_font', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  display: block;
-  text-align: center;
-  font-size: 21px;
-  font-weight: bold;
-  color: #cc1b6a;
-}
-
-#interested-modal a:hover {
-  color: #cc1b6a;
-  text-decoration: underline;
 }
 
 .standard-box {
@@ -137,47 +101,21 @@ body {
   min-height: 275px;
 }
 
-.about-box {
-  font-family: 'MyFont', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-  text-align: center;
-  background: #ffffff;
-  border-radius: 8px;
-  border: 1px solid black;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  position: relative;
-}
-
-.about-box-content {
-  font-family: 'custom_roboto_font', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  font-weight: bold;
-  text-align: left;
-  margin-bottom: 1.5em;
-  padding: 1.5em;
-  background-color: #ffffff;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  position: relative;
-  border: 1px solid black;
-}
-
-.download-button:disabled {
-  pointer-events: none;
-}
-
 .podcast-title {
-  font-family: 'MyFont', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-family: 'MyFont', sans-serif;
   font-size: 2.5em;
   color: #000000;
   width: 70%
 }
 
 .podcast-description {
-  font-family: 'custom_roboto_font', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-family: 'custom_roboto_font', sans-serif;
   color: #000000;
   font-size: 1.2em;
   margin-bottom: 1em;
 }
 
+/* episode section */
 .episode {
   margin-bottom: 1.5em;
   padding: 1.5em;
@@ -220,6 +158,15 @@ body {
   font-weight: bold;
 }
 
+.episode-type {
+  display: inline-block;
+  padding: 0.25em 0.5em;
+  background-color: #e2e8f0;
+  border-radius: 4px;
+  margin-right: 0.5em;
+  font-size: 0.8em;
+}
+
 .download-links {
   display: flex;
   gap: 1em;
@@ -243,33 +190,6 @@ body {
   background-color: #000000;
 }
 
-.episode-type {
-  display: inline-block;
-  padding: 0.25em 0.5em;
-  background-color: #e2e8f0;
-  border-radius: 4px;
-  margin-right: 0.5em;
-  font-size: 0.8em;
-}
-
-.header-image {
-  width: 35%;
-  height: auto;
-  display: block;
-  margin: 1em auto 0;
-  border-radius: 8px;
-}
-
-/* venmo image */
-.top-right-image {
-  width: 175px;
-  height: auto;
-  border-radius: 8px;
-  display: block;
-  margin: 1em auto 0;
-  padding-bottom: 0;
-}
-
 .image-text-container {
   display: flex;
   flex-direction: column;
@@ -284,41 +204,43 @@ body {
   text-align: center;
 }
 
-.footer-shit {
-  text-align: center;
-  padding: 1em 0;
-  background-color: #000000;
-  border-color: black;
-}
-
-.flag-image {
-  display: block;
-  margin: 0 auto;
-  max-width: 35%;
+.header-image {
+  width: 35%;
   height: auto;
-  border-radius: 4px;
+  display: block;
+  margin: 1em auto 0;
+  border-radius: 8px;
 }
 
-.the-footer {
-  text-align: center;
-  padding: 1em 0;
-  background-color: #ffffff;
-  border-color: black;
-  margin-bottom: 3rem;
+/* fade stuff */
+.fade {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.5s ease-in-out;
 }
 
-.season-coming-soon {
-  font-family: 'MyFont', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 200px;
-  font-size: 2.5em;
-  text-align: center;
-  padding: 1em;
-  color: #ffffff;
+.fade.active {
+  opacity: 1;
+  visibility: visible;
 }
 
+/* season stuff */
+.season-container {
+  display: none;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+#season-s1 {
+  display: block;
+  opacity: 1;
+}
+
+.season-container.active {
+  opacity: 1;
+}
+
+/* nav bar stuff */
 .nav-bar {
   display: flex;
   justify-content: space-between;
@@ -339,7 +261,7 @@ body {
   padding: 0.5em 1em;
   background-color: white;
   color: black;
-  font-family: 'custom_roboto_font', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-family: 'custom_roboto_font', sans-serif;
   border: 1px solid black;
   border-radius: 4px;
   text-decoration: none;
@@ -359,12 +281,14 @@ body {
   outline-offset: 2px;
 }
 
+/* makes a button/link not clickable */
 .not-clickable {
   pointer-events: none;
   opacity: 0.5;
   cursor: default;
 }
 
+/* nav bar seasons stuff */
 .nav-active {
   border: 2px solid #5bc62e !important;
   box-shadow: 0 0 0 2px black, 0 0 8px rgba(255, 255, 255, 0.6);
@@ -374,6 +298,7 @@ body {
   /* in case another class overrides this */
 }
 
+/* episode button colors and hover colors */
 .nav-black {
   background-color: #000000;
   color: #ffffff;
@@ -439,63 +364,151 @@ body {
   color: #ffffff;
 }
 
-.season-container {
-  display: none;
-  opacity: 0;
-  transition: opacity 0.5s ease-in-out;
+/* about box section */
+.about-box {
+  font-family: 'MyFont', sans-serif;
+  text-align: center;
+  background: #ffffff;
+  border-radius: 8px;
+  border: 1px solid black;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: relative;
 }
 
-#season-s1 {
+.about-box-content {
+  font-family: 'custom_roboto_font', sans-serif;
+  font-weight: bold;
+  text-align: left;
+  margin-bottom: 1.5em;
+  padding: 1.5em;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: relative;
+  border: 1px solid black;
+}
+
+/* foot section */
+.footer-shit {
+  text-align: center;
+  padding: 1em 0;
+  background-color: #000000;
+  border-color: black;
+}
+
+.the-footer {
+  text-align: center;
+  padding: 1em 0;
+  background-color: #ffffff;
+  border-color: black;
+  margin-bottom: 3rem;
+}
+
+/* venmo image */
+.top-right-image {
+  width: 175px;
+  height: auto;
+  border-radius: 8px;
   display: block;
-  opacity: 1;
+  margin: 1em auto 0;
+  padding-bottom: 0;
 }
 
-.season-container.active {
-  opacity: 1;
+/* palestinian flag */
+.flag-image {
+  display: block;
+  margin: 0 auto;
+  max-width: 35%;
+  height: auto;
+  border-radius: 4px;
 }
 
-.fade {
-  opacity: 0;
-  visibility: hidden;
-  transition: opacity 0.5s ease-in-out;
+/* guest interest button section */
+.floating-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #5bc62e;
+  color: black;
+  border: none;
+  border-radius: 50px;
+  padding: 15px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+  transition: background-color 0.3s ease;
 }
 
-.fade.active {
-  opacity: 1;
-  visibility: visible;
+.floating-button:hover {
+  background-color: #cc1b6a;
 }
 
-/* responsive styling for mobile devices */
-@media screen and (max-width: 768px) {
-  .standard-box {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 2000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
 
-  .header-image {
-    width: 90%;
-    max-height: 200px;
-    object-fit: contain;
-  }
+.modal-content {
+  background-color: #fff;
+  margin: 10% auto;
+  padding: 20px;
+  border-radius: 8px;
+  width: 50%;
+  max-width: 600px;
+  position: relative;
+}
 
-  .top-right-image {
-    width: 90%;
-    max-height: 200px;
-    object-fit: contain;
-    margin: 1em auto 0;
-  }
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  cursor: pointer;
+}
 
-  .image-text-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 2em;
-  }
+#interested-modal h2 {
+  text-align: center;
+  font-size: 28px;
+  font-family: 'MyFont', sans-serif;
+  margin-bottom: 20px;
+}
 
-  .image-text-container img {
-    margin-top: 1em;
-  }
+#interested-modal a {
+  font-family: 'custom_roboto_font', sans-serif;
+  display: block;
+  text-align: center;
+  font-size: 21px;
+  font-weight: bold;
+  color: #cc1b6a;
+}
+
+#interested-modal a:hover {
+  color: #cc1b6a;
+  text-decoration: underline;
+}
+
+.download-button:disabled {
+  pointer-events: none;
+}
+
+.season-coming-soon {
+  font-family: 'MyFont', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  font-size: 2.5em;
+  text-align: center;
+  padding: 1em;
+  color: #ffffff;
 }
