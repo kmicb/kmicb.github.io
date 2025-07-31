@@ -1,29 +1,29 @@
 /* styling for mobile devices */
 @media screen and (max-width: 768px) {
   .standard-box {
+    align-items: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
   }
 
   .header-image {
-    width: 90%;
     max-height: 200px;
     object-fit: contain;
+    width: 90%;
   }
 
   .top-right-image {
-    width: 90%;
+    margin: 1em auto 0;
     max-height: 200px;
     object-fit: contain;
-    margin: 1em auto 0;
+    width: 90%;
   }
 
   .image-text-container {
+    align-items: center;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
     margin-bottom: 2em;
   }
@@ -36,153 +36,150 @@
 /* custom fonts */
 @font-face {
   font-family: 'MyFont';
-  src: url('/fonts/MyFont.woff2');
-  font-display: swap;
+  src: url('/fonts/MyFont.woff2') format('woff');
 }
 
 @font-face {
   font-family: 'custom_roboto_font';
   src: url('/fonts/CustomRobotoFont.woff2');
-  font-display: swap;
 }
 
 html {
-  background-color: #000000;
-  height: 100%;
   background: url('/images/03_rainbow_galaxy.png') no-repeat center top fixed;
+  background-color: #000000;
   background-size: cover;
+  height: 100%;
   overflow-y: scroll;
 }
 
 body::before {
-  content: "";
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
   background: url('/images/03_rainbow_galaxy.png') no-repeat center top;
   background-size: cover;
-  z-index: -1;
+  content: "";
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
   transform: translateZ(0);
+  width: 100%;
   will-change: transform;
+  z-index: -1;
 }
 
 body {
+  background: none;
   font-family: 'MyFont', sans-serif;
-  max-width: 1200px;
+  line-height: 1.6;
   margin: 0 auto;
+  max-width: 1200px;
   padding: 20px;
   position: relative;
   z-index: 1;
-  background: none;
-  line-height: 1.6;
 }
 
 /* scroll effect for wallpaper */
 .parallax-bg {
   background: url('/images/03_rainbow_galaxy.png') no-repeat center top;
-  background-size: cover;
   background-attachment: fixed;
   background-position: center 0;
+  background-size: cover;
   position: relative;
   width: 100%;
   z-index: -1;
 }
 
 .standard-box {
-  text-align: center;
-  margin-bottom: 1em;
   background: white;
+  border: 1px solid black;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  position: relative;
-  border: 1px solid black;
+  margin-bottom: 1em;
   min-height: 275px;
+  position: relative;
+  text-align: center;
 }
 
 .podcast-title {
+  color: #000000;
   font-family: 'MyFont', sans-serif;
   font-size: 2.5em;
-  color: #000000;
   width: 70%
 }
 
 .podcast-description {
-  font-family: 'custom_roboto_font', sans-serif;
   color: #000000;
+  font-family: 'custom_roboto_font', sans-serif;
   font-size: 1.2em;
   margin-bottom: 1em;
 }
 
 /* episode section */
 .episode {
-  margin-bottom: 1.5em;
-  padding: 1.5em;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  position: relative;
   background-color: white;
   border: 2px solid #e2e8f0;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1.5em;
+  padding: 1.5em;
+  position: relative;
 }
 
 .episode-image {
-  float: right;
-  width: 150px;
-  height: auto;
-  object-fit: contain;
   border-radius: 4px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  float: right;
+  height: auto;
   margin-left: 1.5em;
+  object-fit: contain;
+  width: 150px;
 }
 
 .episode h2 {
-  font-family: 'MyFont', sans-serif;
   color: #000000;
-  margin: 0 0 0.5em 0;
+  font-family: 'MyFont', sans-serif;
   font-size: 1.4em;
+  margin: 0 0 0.5em 0;
 }
 
 .episode-meta {
-  font-family: 'custom_roboto_font', sans-serif;
   color: #000000;
+  font-family: 'custom_roboto_font', sans-serif;
   font-size: 0.9em;
-  margin-bottom: 1em;
   font-weight: bold;
+  margin-bottom: 1em;
 }
 
 .episode-description {
-  font-family: 'custom_roboto_font', sans-serif;
   color: #000000;
-  margin-bottom: 1em;
+  font-family: 'custom_roboto_font', sans-serif;
   font-weight: bold;
+  margin-bottom: 1em;
 }
 
 .episode-type {
-  display: inline-block;
-  padding: 0.25em 0.5em;
   background-color: #e2e8f0;
   border-radius: 4px;
-  margin-right: 0.5em;
+  display: inline-block;
   font-size: 0.8em;
+  margin-right: 0.5em;
+  padding: 0.25em 0.5em;
 }
 
 .download-links {
   display: flex;
-  gap: 1em;
-  margin-top: 1em;
   justify-content: flex-start;
+  margin-top: 1em;
 }
 
 .download-button {
-  display: inline-flex;
   align-items: center;
-  padding: 0.5em 1em;
   background-color: #000000;
-  color: white;
-  text-decoration: none;
   border-radius: 4px;
+  color: white;
+  display: inline-flex;
   font-size: 0.9em;
+  padding: 0.5em 1em;
+  text-decoration: none;
   transition: background-color 0.2s;
 }
 
@@ -191,32 +188,32 @@ body {
 }
 
 .image-text-container {
+  align-items: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
   margin-bottom: 0;
 }
 
 .image-text-container p {
-  font-size: 1.2em;
   color: #000000;
+  font-size: 1.2em;
   text-align: center;
 }
 
 .header-image {
-  width: 35%;
-  height: auto;
-  display: block;
-  margin: 1em auto 0;
   border-radius: 8px;
+  display: block;
+  height: auto;
+  margin: 1em auto 0;
+  width: 35%;
 }
 
 /* fade stuff */
 .fade {
   opacity: 0;
-  visibility: hidden;
   transition: opacity 0.5s ease-in-out;
+  visibility: hidden;
 }
 
 .fade.active {
@@ -242,31 +239,30 @@ body {
 
 /* nav bar stuff */
 .nav-bar {
+  align-items: center;
   display: flex;
   justify-content: space-between;
-  align-items: center;
   margin-bottom: 1em;
 }
 
 .nav-group-left,
 .nav-group-right {
   display: flex;
-  gap: 1em;
 }
 
 .nav-button {
-  display: inline-flex;
   align-items: center;
-  justify-content: center;
-  padding: 0.5em 1em;
   background-color: white;
-  color: black;
-  font-family: 'custom_roboto_font', sans-serif;
   border: 1px solid black;
   border-radius: 4px;
-  text-decoration: none;
+  color: black;
+  display: inline-flex;
+  font-family: 'custom_roboto_font', sans-serif;
   font-size: 0.9em;
   font-weight: normal;
+  justify-content: center;
+  padding: 0.5em 1em;
+  text-decoration: none;
   transition: background-color 0.2s;
 }
 
@@ -283,19 +279,18 @@ body {
 
 /* makes a button/link not clickable */
 .not-clickable {
-  pointer-events: none;
-  opacity: 0.5;
   cursor: default;
+  opacity: 0.5;
+  pointer-events: none;
 }
 
 /* nav bar seasons stuff */
 .nav-active {
   border: 2px solid #5bc62e !important;
   box-shadow: 0 0 0 2px black, 0 0 8px rgba(255, 255, 255, 0.6);
+  color: #fff !important; /* in case another class overrides this */
   font-weight: normal;
   text-decoration: none;
-  color: #fff !important;
-  /* in case another class overrides this */
 }
 
 /* episode button colors and hover colors */
@@ -366,79 +361,79 @@ body {
 
 /* about box section */
 .about-box {
-  font-family: 'MyFont', sans-serif;
-  text-align: center;
   background: #ffffff;
-  border-radius: 8px;
   border: 1px solid black;
+  border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-family: 'MyFont', sans-serif;
   position: relative;
+  text-align: center;
 }
 
 .about-box-content {
+  background-color: #ffffff;
+  border: 1px solid black;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)
   font-family: 'custom_roboto_font', sans-serif;
   font-weight: bold;
-  text-align: left;
   margin-bottom: 1.5em;
   padding: 1.5em;
-  background-color: #ffffff;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   position: relative;
-  border: 1px solid black;
+  text-align: left;
 }
 
 /* foot section */
 .footer-shit {
-  text-align: center;
-  padding: 1em 0;
   background-color: #000000;
   border-color: black;
+  padding: 1em 0;
+  text-align: center;
 }
 
 .the-footer {
-  text-align: center;
-  padding: 1em 0;
   background-color: #ffffff;
   border-color: black;
   margin-bottom: 3rem;
+  padding: 1em 0;
+  text-align: center;
 }
 
 /* venmo image */
 .top-right-image {
-  width: 175px;
-  height: auto;
   border-radius: 8px;
   display: block;
+  height: auto;
   margin: 1em auto 0;
   padding-bottom: 0;
+  width: 175px;
 }
 
 /* palestinian flag */
 .flag-image {
+  border-radius: 4px;
   display: block;
+  height: auto;
   margin: 0 auto;
   max-width: 35%;
-  height: auto;
-  border-radius: 4px;
 }
 
 /* guest interest button section */
 .floating-button {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
   background-color: #5bc62e;
-  color: black;
   border: none;
   border-radius: 50px;
-  padding: 15px 20px;
+  bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  color: black;
+  cursor: pointer;
   font-size: 16px;
   font-weight: bold;
-  cursor: pointer;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-  z-index: 1000;
+  padding: 15px 20px;
+  position: fixed;
+  right: 20px;
   transition: background-color 0.3s ease;
+  z-index: 1000;
 }
 
 .floating-button:hover {
@@ -446,50 +441,50 @@ body {
 }
 
 .modal {
+  background-color: rgba(0, 0, 0, 0.5);
   display: none;
-  position: fixed;
-  z-index: 2000;
+  height: 100%;
   left: 0;
+  position: fixed;
   top: 0;
   width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 2000;
 }
 
 .modal-content {
   background-color: #fff;
-  margin: 10% auto;
-  padding: 20px;
   border-radius: 8px;
-  width: 50%;
+  margin: 10% auto;
   max-width: 600px;
+  padding: 20px;
   position: relative;
+  width: 50%;
 }
 
 .close-button {
-  position: absolute;
-  top: 10px;
-  right: 15px;
-  font-size: 24px;
-  font-weight: bold;
   color: #333;
   cursor: pointer;
+  font-size: 24px;
+  font-weight: bold;
+  position: absolute;
+  right: 15px;
+  top: 10px;
 }
 
 #interested-modal h2 {
-  text-align: center;
-  font-size: 28px;
   font-family: 'MyFont', sans-serif;
+  font-size: 28px;
   margin-bottom: 20px;
+  text-align: center;
 }
 
 #interested-modal a {
-  font-family: 'custom_roboto_font', sans-serif;
+  color: #cc1b6a;
   display: block;
-  text-align: center;
+  font-family: 'custom_roboto_font', sans-serif;
   font-size: 21px;
   font-weight: bold;
-  color: #cc1b6a;
+  text-align: center;
 }
 
 #interested-modal a:hover {
@@ -502,13 +497,13 @@ body {
 }
 
 .season-coming-soon {
-  font-family: 'MyFont', sans-serif;
-  display: flex;
-  justify-content: center;
   align-items: center;
-  height: 200px;
-  font-size: 2.5em;
-  text-align: center;
-  padding: 1em;
   color: #ffffff;
+  display: flex;
+  font-family: 'MyFont', sans-serif;
+  font-size: 2.5em;
+  height: 200px;
+  justify-content: center;
+  padding: 1em;
+  text-align: center;
 }
