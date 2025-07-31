@@ -150,6 +150,8 @@ body {
   font-family: 'custom_roboto_font', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   font-weight: bold;
   text-align: left;
+  margin-bottom: 1.5em;
+  padding: 1.5em;
   background-color: #ffffff;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
