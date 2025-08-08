@@ -130,7 +130,7 @@ function startCountdown(targetTime, countdownElement, downloadButton, episode) {
       console.log("Countdown ended. Showing button.");
       downloadButton.innerText = 'Play Episode';
       downloadButton.disabled = false;
-      downloadButton.href = episode.audioUrl; // Use the audio URL from episode data
+      downloadButton.href = episode.audioUrl;
       downloadButton.target = '_blank';
       downloadButton.rel = 'noopener noreferrer';
       clearInterval(timer);
@@ -187,7 +187,7 @@ function displayPodcastEpisodes() {
     const mediaButtons = document.createElement('div');
     mediaButtons.className = 'download-links';
 
-    // Create audio button if audio URL exists
+    // create audio button if audio URL exists
     if (episode.audioUrl) {
       const audioButton = document.createElement('a');
       audioButton.href = episode.audioUrl;
@@ -207,7 +207,7 @@ function displayPodcastEpisodes() {
       mediaButtons.appendChild(audioButton);
     }
 
-    // Create video button if video URL exists
+    // create video button if video URL exists
     if (episode.videoUrl) {
       const videoButton = document.createElement('a');
       videoButton.href = episode.videoUrl;
@@ -243,88 +243,114 @@ function displayPodcastEpisodes() {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
+  // first, display episodes (this is async)
   displayPodcastEpisodes();
 
+  const interestedButton = document.getElementById('interested-button');
+  const interestedModal = document.getElementById('interested-modal');
+  const closeButton = document.querySelector('.close-button');
   const supportBox = document.getElementById('support-box');
   const flagImage = document.getElementById('flag-image');
   const season2Container = document.getElementById('season-s2');
 
-  // Determine whether S2 has real episodes
-  const s2HasRealEpisodes = [...season2Container.children].some(child => 
-    !child.classList.contains('season-coming-soon')
-  );
-
-  const season1Section = document.querySelector('[data-section="s1"]');
-  season1Section.style.disabled = 'block';
-  season1Section.style.opacity = '1';
-  season1Section.classList.add('active');
-
-  supportBox.style.display = 'block';
-  flagImage.style.display = 'block';
-
-  // nav button handling
-  document.querySelectorAll('.nav-button').forEach(button => {
-    button.addEventListener('click', function (e) {
-      e.preventDefault();
-
-      // Update nav button style
-      document.querySelectorAll('.nav-button').forEach(btn =>
-        btn.classList.remove('nav-active')
-      );
-      this.classList.add('nav-active');
-
-      const sectionKey = this.dataset.season;
-      const targetSection = document.querySelector(`[data-section="${sectionKey}"]`);
-
-      const isSeason2ComingSoon = sectionKey === 's2' && !s2HasRealEpisodes;
-      const isAboutPage = sectionKey === 'about';
-
-      // Hide all sections, then activate target
-      document.querySelectorAll('.season-container').forEach(container => {
-        if (container !== targetSection) {
-          container.style.opacity = '0';
-          setTimeout(() => (container.style.display = 'none'), 500);
-        }
-      });
-
-      if (targetSection) {
-        targetSection.style.display = 'block';
-        setTimeout(() => {
-          targetSection.style.opacity = '1';
-          targetSection.classList.add('active');
-        }, 50);
-      }
-
-      setTimeout(() => {
-        if (sectionKey === 's1') {
-          supportBox.style.display = 'block';
-          flagImage.style.direction = 'block';
-        } else if (sectionKey === 's2' && !isSeason2ComingSoon) {
-          supportBox.style.display = 'block';
-          flagImage.style.display = 'block';
-        } else {
-          supportBox.style.display = 'none';
-          flagImage.style.display = 'none';
-        }
-      }, 300);
-      window.scrollTo({ top: 0, behavior: 'smooth' });
-    });
-  });
-  const interestedButton = document.getElementById('interested-button');
-  const interestedModal = document.getElementById('interested-modal');
-  const closeButton = document.querySelector('.close-button');
-
+  // modal handlers (unchanged)
   interestedButton.addEventListener('click', () => {
     interestedModal.style.display = 'block';
   });
-
   closeButton.addEventListener('click', () => {
     interestedModal.style.display = 'none';
   });
-
   window.addEventListener('click', (e) => {
-    if (e.target === interestedModal) {
-      interestedModal.style.display = 'none';
+    if (e.target === interestedModal) interestedModal.style.display = 'none';
+  });
+
+  // function to handle navigation
+  function handleNavigation(sectionKey) {
+    // determine if S2 actually has episodes
+    const s2HasRealEpisodes = [...season2Container.children].some(child =>
+      !child.classList.contains('season-coming-soon')
+    );
+
+    // update nav active state
+    document.querySelectorAll('.nav-button').forEach(btn =>
+      btn.classList.remove('nav-active')
+    );
+    const activeButton = document.querySelector(`.nav-button[data-season="${sectionKey}"]`);
+    if (activeButton) activeButton.classList.add('nav-active');
+
+    const targetSection = document.querySelector(`[data-section="${sectionKey}"]`);
+    const isSeason2ComingSoon = sectionKey === 's2' && !s2HasRealEpisodes;
+
+    // hide all other sections smoothly
+    document.querySelectorAll('.season-container').forEach(container => {
+      if (container !== targetSection) {
+        container.style.opacity = '0';
+        setTimeout(() => (container.style.display = 'none'), 500);
+      }
+    });
+
+    if (targetSection) {
+      targetSection.style.display = 'block';
+      setTimeout(() => {
+        targetSection.style.opacity = '1';
+        targetSection.classList.add('active');
+      }, 50);
+    }
+
+    // show / hide support + flag after fade completes
+    setTimeout(() => {
+      if (sectionKey === 's1') {
+        supportBox.style.display = 'block';
+        flagImage.style.display = 'block';
+      } else if (sectionKey === 's2' && !isSeason2ComingSoon) {
+        supportBox.style.display = 'block';
+        flagImage.style.display = 'block';
+      } else {
+        supportBox.style.display = 'none';
+        flagImage.style.display = 'none';
+      }
+    }, 300);
+
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+
+  // initial state - check for hash or default to s1
+  function initializeView() {
+    const hash = window.location.hash.replace('#', '');
+    const initialSection = hash || 's1';
+    
+    // if no hash, set default state immediately
+    if (!hash) {
+      const season1Section = document.querySelector('[data-section="s1"]');
+      season1Section.style.display = 'block';
+      season1Section.style.opacity = '1';
+      season1Section.classList.add('active');
+      supportBox.style.display = 'block';
+      flagImage.style.display = 'block';
+    } else {
+      // if there's a hash, navigate to it
+      handleNavigation(initialSection);
+    }
+  }
+
+  // NAV BUTTON CLICK HANDLERS
+  document.querySelectorAll('.nav-button').forEach(button => {
+    button.addEventListener('click', function (e) {
+      e.preventDefault();
+      const sectionKey = this.dataset.season;
+      window.location.hash = sectionKey;
+      handleNavigation(sectionKey);
+    });
+  });
+
+  // handle browser back/forward buttons
+  window.addEventListener('hashchange', () => {
+    const hash = window.location.hash.replace('#', '');
+    if (hash) {
+      handleNavigation(hash);
     }
   });
+
+  // initialize view after a short delay to ensure episodes are loaded
+  setTimeout(initializeView, 200);
 });
