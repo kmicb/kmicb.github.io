@@ -1,0 +1,623 @@
+1
+00:00:00,000 --> 00:00:03,211
+Hey, humans, thanks for joining my podcast.
+
+2
+00:00:03,461 --> 00:00:09,050
+This podcast is a place to share unedited lived experiences regarding mental health.
+
+3
+00:00:09,092 --> 00:00:12,178
+We'll touch on how it shows up in our lives and provide
+
+4
+00:00:12,220 --> 00:00:16,474
+some tips that have worked for me and others on how to manage it.
+
+5
+00:00:20,478 --> 00:00:23,898
+There will be strong language, and definitely the
+
+6
+00:00:23,898 --> 00:00:26,943
+potential for disturbing and or triggering content.
+
+7
+00:00:27,318 --> 00:00:30,280
+Please be aware of this and mindful of
+
+8
+00:00:30,321 --> 00:00:32,407
+others who may be in earshot.
+
+9
+00:00:32,991 --> 00:00:36,036
+Most importantly, and as horribly fucking
+
+10
+00:00:36,036 --> 00:00:40,206
+cliche as this sounds, you really do not have to go through this alone.
+
+11
+00:00:40,582 --> 00:00:44,961
+And hopefully you'll see this and feel this more and more as you listen.
+
+12
+00:00:44,961 --> 00:00:49,132
+And hey, if this podcast isn't for you, that's fine.
+
+13
+00:00:49,174 --> 00:00:51,134
+There are lots of them out there.
+
+14
+00:00:51,134 --> 00:00:54,471
+Find one that speaks to you and helps you.
+
+15
+00:00:54,971 --> 00:00:57,432
+So, let's talk mental health.
+
+16
+00:01:21,998 --> 00:01:25,460
+And now the boiler plate and cover your ass claws
+
+17
+00:01:27,212 --> 00:01:31,090
+On this podcast, unless explicitly stated,
+
+18
+00:01:31,132 --> 00:01:34,511
+no one on this show is a medical professional in
+
+19
+00:01:34,552 --> 00:01:37,889
+any way, and as such, no content on
+
+20
+00:01:37,889 --> 00:01:41,893
+this show is intended to be, whether implied or otherwise,
+
+21
+00:01:41,935 --> 00:01:44,145
+to be taken as medical advice.
+
+22
+00:01:44,979 --> 00:01:48,858
+If you are in crisis, please call 988
+
+23
+00:01:48,858 --> 00:01:53,696
+or 911 or go to your nearest emergency room.
+
+24
+00:01:54,239 --> 00:01:57,617
+For my fellow LGBTQ plus community,
+
+25
+00:01:57,659 --> 00:02:02,497
+you can text start to 678678
+
+26
+00:02:03,248 --> 00:02:06,626
+to reach the amazing people over at the Trevor Project.
+
+27
+00:02:06,626 --> 00:02:13,216
+Or you can call them at 866-488-7386
+
+28
+00:02:13,258 --> 00:02:18,930
+or you can even live chat with them on their website at chat
+
+29
+00:02:19,347 --> 00:02:23,935
+t.org.
+
+30
+00:02:25,228 --> 00:02:28,815
+Concertos of Chaos is sponsored by self- magnitude,
+
+31
+00:02:28,857 --> 00:02:32,026
+an ethical microrousiness helping people show up as
+
+32
+00:02:32,026 --> 00:02:37,157
+their boldest, truest selves at work, at play, and everywhere in between.
+
+33
+00:02:37,490 --> 00:02:40,785
+Founded by Maggie Green, a queer, neurodivergent
+
+34
+00:02:40,785 --> 00:02:43,955
+brand and style strategist, self-magnitude
+
+35
+00:02:43,955 --> 00:02:49,502
+offers trauma-informed, affirming support for personal brand and style that reflects all of who you are.
+
+36
+00:02:49,544 --> 00:02:52,171
+Learn more at selfagnitude.com.
+
+37
+00:02:52,171 --> 00:02:56,968
+And while you're there, check out Maggie's Gay It Forward initiative to support Queer Folks in Need.
+
+38
+00:02:57,468 --> 00:03:01,097
+Hey, Humans, thanks for joining us last week,
+
+39
+00:03:01,139 --> 00:03:06,686
+Eis episode two, conducting through chaos when your relationship with symphony plays and a toxic key.
+
+40
+00:03:06,686 --> 00:03:08,646
+I had some thoughts on that.
+
+41
+00:03:08,646 --> 00:03:11,232
+So I went ahead and recorded some things and I'm going to play them right after this.
+
+42
+00:03:11,733 --> 00:03:14,944
+Um, I want to thank you for your support and tuning in
+
+43
+00:03:15,320 --> 00:03:18,364
+Join me and my guest, Brandon
+
+44
+00:03:18,406 --> 00:03:21,910
+again next week for living in a new
+
+45
+00:03:21,951 --> 00:03:25,455
+key breaking free from life's opus.
+
+46
+00:03:26,748 --> 00:03:31,127
+When someone tells me, he's
+
+47
+00:03:31,127 --> 00:03:34,422
+not doing anything to hurt you directly, I have to take a minute.
+
+48
+00:03:34,422 --> 00:03:36,382
+I have to.
+
+49
+00:03:36,716 --> 00:03:40,386
+and point out the privilege and how
+
+50
+00:03:40,428 --> 00:03:44,599
+it can blind us to the horribly subtle
+
+51
+00:03:44,599 --> 00:03:48,102
+ways hatred spreads throughout our world.
+
+52
+00:03:48,978 --> 00:03:51,940
+Now, I know I probably just lost so someone, if not more,
+
+53
+00:03:51,981 --> 00:03:55,944
+I don't see how they're still following me, when I use the word privilege.
+
+54
+00:03:56,277 --> 00:04:00,031
+Well, don't freak out, because the next word's white privilege.
+
+55
+00:04:00,031 --> 00:04:01,991
+Yeah, go ahead.
+
+56
+00:04:01,991 --> 00:04:05,620
+Run to your mom, pop that tit back in your mouth, because you can't think for yourself
+
+57
+00:04:06,037 --> 00:04:09,207
+So, throughout history, some of our
+
+58
+00:04:09,207 --> 00:04:13,753
+darkest chapters, it did not begin with, you know, outright violence.
+
+59
+00:04:13,795 --> 00:04:17,215
+They just began with tiny, tiny little words.
+
+60
+00:04:18,216 --> 00:04:21,302
+And then the gradual normalization of viewing
+
+61
+00:04:21,344 --> 00:04:23,721
+certain groups as, you know, other.
+
+62
+00:04:24,722 --> 00:04:28,017
+Before that Holocaust, it
+
+63
+00:04:28,059 --> 00:04:30,478
+started with little tiny changes.
+
+64
+00:04:30,770 --> 00:04:33,856
+Casual, anti- Semitic remarks becoming
+
+65
+00:04:33,898 --> 00:04:37,485
+acceptable in quote unquote poloite society
+
+66
+00:04:38,486 --> 00:04:41,614
+small discriminatory policies that seem
+
+67
+00:04:41,614 --> 00:04:46,286
+insignificant in isolation and the
+
+68
+00:04:46,286 --> 00:04:50,206
+quiet erosion of protections that people assumed would always be there.
+
+69
+00:04:51,499 --> 00:04:55,253
+Before the expansion of American slavery,
+
+70
+00:04:55,253 --> 00:04:58,172
+it wasn't just about the brutal practice itself.
+
+71
+00:04:58,172 --> 00:05:02,343
+It was about the rhetoric that dehumanized black people.
+
+72
+00:05:03,219 --> 00:05:06,806
+So for those of you who got pissed off at that white privilege,
+
+73
+00:05:06,806 --> 00:05:11,811
+rhetoric is a noun, and it means the art of
+
+74
+00:05:11,853 --> 00:05:15,732
+effective or persuasive speaking or writing, especially
+
+75
+00:05:15,773 --> 00:05:20,194
+the use of figures of speech and other compositional techniques.
+
+76
+00:05:20,194 --> 00:05:23,698
+Now, compositional is an adjective
+
+77
+00:05:24,657 --> 00:05:27,744
+and in this context, meaning what we're
+
+78
+00:05:27,744 --> 00:05:31,205
+talking about, compositional means composed
+
+79
+00:05:31,247 --> 00:05:35,251
+of various elements, meaning more than one thing,
+
+80
+00:05:35,251 --> 00:05:37,462
+unlike what your brain can handle.
+
+81
+00:05:38,254 --> 00:05:41,424
+The pseudoscience that justified
+
+82
+00:05:41,424 --> 00:05:45,136
+their treatment, I can have a whole podcast on that alone.
+
+83
+00:05:45,178 --> 00:05:47,138
+Fucking idiots.
+
+84
+00:05:47,138 --> 00:05:50,600
+The social acceptance of viewing them as less than human.
+
+85
+00:05:50,600 --> 00:05:53,895
+One more time, the social acceptance
+
+86
+00:05:54,729 --> 00:05:57,607
+of viewing them as less than human..
+
+87
+00:05:57,648 --> 00:06:01,486
+This system thrived,
+
+88
+00:06:01,486 --> 00:06:04,947
+not just through direct violence, but also through the silent
+
+89
+00:06:04,947 --> 00:06:08,284
+approval of everyone who looked away.
+
+90
+00:06:08,326 --> 00:06:10,286
+Everyone who turned their head.
+
+91
+00:06:10,286 --> 00:06:11,704
+It's not going to affect me.
+
+92
+00:06:11,704 --> 00:06:13,206
+Why do I give a shit?
+
+93
+00:06:13,206 --> 00:06:15,958
+Today, when I look at my life, a
+
+94
+00:06:17,001 --> 00:06:22,423
+gay man, I see echoes of this.
+
+95
+00:06:23,466 --> 00:06:26,594
+When people who are in charge use their dog
+
+96
+00:06:26,636 --> 00:06:29,847
+whistles and coded language, when they embolden
+
+97
+00:06:30,223 --> 00:06:33,226
+those who denyy humanity,
+
+98
+00:06:33,559 --> 00:06:38,189
+when they roll back protections for marginalized communities,
+
+99
+00:06:38,731 --> 00:06:41,067
+they don't need to target us directly.
+
+100
+00:06:42,235 --> 00:06:45,696
+They simply need to create an environment where
+
+101
+00:06:45,696 --> 00:06:49,450
+your nasty ass discrimination feels and is
+
+102
+00:06:49,492 --> 00:06:54,205
+acceptable, where your hatred feels justified,
+
+103
+00:06:54,205 --> 00:06:56,958
+where your bigotry feels normal
+
+104
+00:06:58,709 --> 00:07:01,754
+because you don't know who you are or how to think you
+
+105
+00:07:01,796 --> 00:07:06,467
+have to hurt other people, which goes to that saying, hurt people, hurt people.
+
+106
+00:07:08,719 --> 00:07:11,764
+Every time someone who holds power suggests
+
+107
+00:07:11,806 --> 00:07:15,101
+that my love is less valid than anyone
+
+108
+00:07:15,101 --> 00:07:20,690
+else's, or that my rights don't matter or that my rights are up for debate.
+
+109
+00:07:21,482 --> 00:07:23,442
+You're giving permission.
+
+110
+00:07:23,985 --> 00:07:27,196
+You're giving permission to hate, permission to discriminate, permission
+
+111
+00:07:27,238 --> 00:07:31,492
+to harm, permission to hurt, permission to kill.
+
+112
+00:07:32,994 --> 00:07:36,038
+Permission to act on your dark
+
+113
+00:07:36,038 --> 00:07:40,209
+impulses that civil rights progress we thought or
+
+114
+00:07:40,251 --> 00:07:44,422
+should have, I should say, pushed back into the shadows.
+
+115
+00:07:45,715 --> 00:07:47,675
+So, no.
+
+116
+00:07:47,675 --> 00:07:51,929
+Maybe, you know, maybe he's not doing anything to hurt me directly.
+
+117
+00:07:55,224 --> 00:07:58,436
+When you ask me, why are you butt hurt?
+
+118
+00:07:58,478 --> 00:08:00,438
+Why are you worried?
+
+119
+00:08:00,438 --> 00:08:03,483
+He's not doing anything to you directly.
+
+120
+00:08:05,485 --> 00:08:08,863
+But yet they're creating this world where they
+
+121
+00:08:08,863 --> 00:08:12,950
+feel empowered to do this discriminatory bullshit.
+
+122
+00:08:14,619 --> 00:08:17,705
+And that, right right there, that's how every
+
+123
+00:08:17,747 --> 00:08:21,709
+single systemic oppression in history began.
+
+124
+00:08:22,210 --> 00:08:26,047
+Not with a bang, not with a huge war, not,
+
+125
+00:08:26,088 --> 00:08:28,341
+not with not with a memo, okay?
+
+126
+00:08:28,341 --> 00:08:30,301
+Did you get the memo?
+
+127
+00:08:30,301 --> 00:08:31,093
+Have you seen my stapler?
+
+128
+00:08:31,093 --> 00:08:32,053
+No.
+
+129
+00:08:32,053 --> 00:08:36,557
+Just a whisper, just some words, just, oh, they're different than us.
+
+130
+00:08:36,599 --> 00:08:38,559
+What do you think about that?
+
+131
+00:08:38,559 --> 00:08:39,185
+Oh, maybe we should do this.
+
+132
+00:08:39,185 --> 00:08:40,269
+That's how it starts.
+
+133
+00:08:44,482 --> 00:08:49,445
+The question is not whether someone is actively attacking you or us or anybody.
+
+134
+00:08:49,487 --> 00:08:54,450
+The question is whether they're making it easier for others to do the same.
+
+135
+00:08:55,493 --> 00:08:59,080
+And if you wait until this shit becomes
+
+136
+00:08:59,080 --> 00:09:03,209
+direct and blindingly undeniable,
+
+137
+00:09:04,710 --> 00:09:07,171
+well, we've already waited too long then.
+
+138
+00:09:08,714 --> 00:09:12,176
+So when someone asks you why your butt hurt, why
+
+139
+00:09:12,218 --> 00:09:16,347
+are you worried, he's not doing anything to hurt you directly.
+
+140
+00:09:17,473 --> 00:09:20,726
+Well, if
+
+141
+00:09:20,726 --> 00:09:24,772
+it's a friend, a family member, a preacher,
+
+142
+00:09:24,814 --> 00:09:29,193
+a pastor, a teacher, a quote unquote person of God.
+
+143
+00:09:29,193 --> 00:09:32,071
+The next time someone tells you, why are you butthurt?
+
+144
+00:09:32,071 --> 00:09:34,031
+They're not doing anything to you directly.
+
+145
+00:09:34,490 --> 00:09:36,450
+Don't don't get upset.
+
+146
+00:09:36,450 --> 00:09:37,952
+Don't freak out.
+
+147
+00:09:37,952 --> 00:09:39,078
+Don't get anxious.
+
+148
+00:09:39,078 --> 00:09:40,204
+Try not to have an adrenaline dump.
+
+149
+00:09:40,496 --> 00:09:42,456
+The truth.
+
+150
+00:09:42,748 --> 00:09:44,709
+Just tell them the truth.
+
+151
+00:09:44,709 --> 00:09:46,168
+Turn around.
+
+152
+00:09:46,168 --> 00:09:48,671
+Tell them the truth. speak to them like an adult.
+
+153
+00:09:48,713 --> 00:09:50,673
+Just say, you know what?
+
+154
+00:09:50,673 --> 00:09:53,634
+I hear your words, and
+
+155
+00:09:53,676 --> 00:09:56,220
+you're a stupid cunt.
+
+156
+00:09:56,971 --> 00:09:58,931
+Bye-bye.

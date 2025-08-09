@@ -1,0 +1,171 @@
+<?xml version="1.0"?>
+<tt xmlns:vt="http://namespace.itunes.apple.com/itt/ttml-extension#vertical" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" xmlns:ittp="http://www.w3.org/ns/ttml/profile/imsc1#parameter" xmlns:tt_feature="http://www.w3.org/ns/ttml/feature/" xmlns:ebutts="urn:ebu:tt:style" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:tt_extension="http://www.w3.org/ns/ttml/extension/" xmlns:tt_profile="http://www.w3.org/ns/ttml/profile/" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:ry="http://namespace.itunes.apple.com/itt/ttml-extension#ruby" xmlns:itts="http://www.w3.org/ns/ttml/profile/imsc1#styling" xmlns="http://www.w3.org/ns/ttml" xml:lang="en-US" ttp:dropMode="nonDrop" ttp:frameRate="24" ttp:frameRateMultiplier="1000 1001" ttp:timeBase="smpte" xmlns:tt="http://www.w3.org/ns/ttml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <head>
+    <styling>
+      <style xml:id="normal" tts:color="white" tts:fontFamily="sansSerif" tts:fontSize="100%" tts:fontStyle="normal" tts:fontWeight="normal"/>
+    </styling>
+    <layout>
+      <region xml:id="bottom" tts:displayAlign="after" tts:extent="100% 15%" tts:origin="0% 85%" tts:writingMode="lrtb"/>
+    </layout>
+  </head>
+  <body tts:color="white" region="bottom" style="normal">
+    <div>
+      <p begin="00:00:00:00" end="00:00:03:05" region="bottom">Hey, humans, thanks for joining my podcast.</p>
+      <p begin="00:00:03:11" end="00:00:09:01" region="bottom">This podcast is a place to share unedited lived experiences regarding mental health.</p>
+      <p begin="00:00:09:02" end="00:00:12:04" region="bottom">We'll touch on how it shows up in our lives and provide</p>
+      <p begin="00:00:12:05" end="00:00:16:11" region="bottom">some tips that have worked for me and others on how to manage it.</p>
+      <p begin="00:00:20:11" end="00:00:23:21" region="bottom">There will be strong language, and definitely the</p>
+      <p begin="00:00:23:21" end="00:00:26:22" region="bottom">potential for disturbing and or triggering content.</p>
+      <p begin="00:00:27:07" end="00:00:30:06" region="bottom">Please be aware of this and mindful of</p>
+      <p begin="00:00:30:07" end="00:00:32:09" region="bottom">others who may be in earshot.</p>
+      <p begin="00:00:32:23" end="00:00:36:00" region="bottom">Most importantly, and as horribly fucking</p>
+      <p begin="00:00:36:00" end="00:00:40:04" region="bottom">cliche as this sounds, you really do not have to go through this alone.</p>
+      <p begin="00:00:40:13" end="00:00:44:22" region="bottom">And hopefully you'll see this and feel this more and more as you listen.</p>
+      <p begin="00:00:44:22" end="00:00:49:02" region="bottom">And hey, if this podcast isn't for you, that's fine.</p>
+      <p begin="00:00:49:03" end="00:00:51:02" region="bottom">There are lots of them out there.</p>
+      <p begin="00:00:51:02" end="00:00:54:10" region="bottom">Find one that speaks to you and helps you.</p>
+      <p begin="00:00:54:22" end="00:00:57:09" region="bottom">So, let's talk mental health.</p>
+      <p begin="00:01:21:22" end="00:01:25:09" region="bottom">And now the boiler plate and cover your ass claws</p>
+      <p begin="00:01:27:03" end="00:01:31:00" region="bottom">On this podcast, unless explicitly stated,</p>
+      <p begin="00:01:31:01" end="00:01:34:10" region="bottom">no one on this show is a medical professional in</p>
+      <p begin="00:01:34:11" end="00:01:37:19" region="bottom">any way, and as such, no content on</p>
+      <p begin="00:01:37:19" end="00:01:41:19" region="bottom">this show is intended to be, whether implied or otherwise,</p>
+      <p begin="00:01:41:20" end="00:01:44:01" region="bottom">to be taken as medical advice.</p>
+      <p begin="00:01:44:21" end="00:01:48:18" region="bottom">If you are in crisis, please call 988</p>
+      <p begin="00:01:48:18" end="00:01:53:14" region="bottom">or 911 or go to your nearest emergency room.</p>
+      <p begin="00:01:54:03" end="00:01:57:12" region="bottom">For my fellow LGBTQ plus community,</p>
+      <p begin="00:01:57:13" end="00:02:02:09" region="bottom">you can text start to 678678</p>
+      <p begin="00:02:03:03" end="00:02:06:12" region="bottom">to reach the amazing people over at the Trevor Project.</p>
+      <p begin="00:02:06:12" end="00:02:13:02" region="bottom">Or you can call them at 866-488-7386</p>
+      <p begin="00:02:13:03" end="00:02:18:19" region="bottom">or you can even live chat with them on their website at chat</p>
+      <p begin="00:02:19:05" end="00:02:23:19" region="bottom">t.org.</p>
+      <p begin="00:02:25:02" end="00:02:28:16" region="bottom">Concertos of Chaos is sponsored by self- magnitude,</p>
+      <p begin="00:02:28:17" end="00:02:31:21" region="bottom">an ethical microrousiness helping people show up as</p>
+      <p begin="00:02:31:21" end="00:02:37:00" region="bottom">their boldest, truest selves at work, at play, and everywhere in between.</p>
+      <p begin="00:02:37:08" end="00:02:40:15" region="bottom">Founded by Maggie Green, a queer, neurodivergent</p>
+      <p begin="00:02:40:15" end="00:02:43:19" region="bottom">brand and style strategist, self-magnitude</p>
+      <p begin="00:02:43:19" end="00:02:49:08" region="bottom">offers trauma-informed, affirming support for personal brand and style that reflects all of who you are.</p>
+      <p begin="00:02:49:09" end="00:02:52:00" region="bottom">Learn more at selfagnitude.com.</p>
+      <p begin="00:02:52:00" end="00:02:56:19" region="bottom">And while you're there, check out Maggie's Gay It Forward initiative to support Queer Folks in Need.</p>
+      <p begin="00:02:57:07" end="00:03:00:22" region="bottom">Hey, Humans, thanks for joining us last week,</p>
+      <p begin="00:03:00:23" end="00:03:06:12" region="bottom">Eis episode two, conducting through chaos when your relationship with symphony plays and a toxic key.</p>
+      <p begin="00:03:06:12" end="00:03:08:11" region="bottom">I had some thoughts on that.</p>
+      <p begin="00:03:08:11" end="00:03:11:01" region="bottom">So I went ahead and recorded some things and I'm going to play them right after this.</p>
+      <p begin="00:03:11:13" end="00:03:14:18" region="bottom">Um, I want to thank you for your support and tuning in</p>
+      <p begin="00:03:15:03" end="00:03:18:04" region="bottom">Join me and my guest, Brandon</p>
+      <p begin="00:03:18:05" end="00:03:21:17" region="bottom">again next week for living in a new</p>
+      <p begin="00:03:21:18" end="00:03:25:06" region="bottom">key breaking free from life's opus.</p>
+      <p begin="00:03:26:13" end="00:03:30:22" region="bottom">When someone tells me, he's</p>
+      <p begin="00:03:30:22" end="00:03:34:05" region="bottom">not doing anything to hurt you directly, I have to take a minute.</p>
+      <p begin="00:03:34:05" end="00:03:36:04" region="bottom">I have to.</p>
+      <p begin="00:03:36:12" end="00:03:40:04" region="bottom">and point out the privilege and how</p>
+      <p begin="00:03:40:05" end="00:03:44:09" region="bottom">it can blind us to the horribly subtle</p>
+      <p begin="00:03:44:09" end="00:03:47:21" region="bottom">ways hatred spreads throughout our world.</p>
+      <p begin="00:03:48:18" end="00:03:51:17" region="bottom">Now, I know I probably just lost so someone, if not more,</p>
+      <p begin="00:03:51:18" end="00:03:55:17" region="bottom">I don't see how they're still following me, when I use the word privilege.</p>
+      <p begin="00:03:56:01" end="00:03:59:19" region="bottom">Well, don't freak out, because the next word's white privilege.</p>
+      <p begin="00:03:59:19" end="00:04:01:18" region="bottom">Yeah, go ahead.</p>
+      <p begin="00:04:01:18" end="00:04:05:09" region="bottom">Run to your mom, pop that tit back in your mouth, because you can't think for yourself</p>
+      <p begin="00:04:05:19" end="00:04:08:23" region="bottom">So, throughout history, some of our</p>
+      <p begin="00:04:08:23" end="00:04:13:12" region="bottom">darkest chapters, it did not begin with, you know, outright violence.</p>
+      <p begin="00:04:13:13" end="00:04:16:23" region="bottom">They just began with tiny, tiny little words.</p>
+      <p begin="00:04:17:23" end="00:04:21:01" region="bottom">And then the gradual normalization of viewing</p>
+      <p begin="00:04:21:02" end="00:04:23:11" region="bottom">certain groups as, you know, other.</p>
+      <p begin="00:04:24:11" end="00:04:27:18" region="bottom">Before that Holocaust, it</p>
+      <p begin="00:04:27:19" end="00:04:30:05" region="bottom">started with little tiny changes.</p>
+      <p begin="00:04:30:12" end="00:04:33:14" region="bottom">Casual, anti- Semitic remarks becoming</p>
+      <p begin="00:04:33:15" end="00:04:37:05" region="bottom">acceptable in quote unquote poloite society</p>
+      <p begin="00:04:38:05" end="00:04:41:08" region="bottom">small discriminatory policies that seem</p>
+      <p begin="00:04:41:08" end="00:04:46:00" region="bottom">insignificant in isolation and the</p>
+      <p begin="00:04:46:00" end="00:04:49:22" region="bottom">quiet erosion of protections that people assumed would always be there.</p>
+      <p begin="00:04:51:05" end="00:04:54:23" region="bottom">Before the expansion of American slavery,</p>
+      <p begin="00:04:54:23" end="00:04:57:21" region="bottom">it wasn't just about the brutal practice itself.</p>
+      <p begin="00:04:57:21" end="00:05:02:01" region="bottom">It was about the rhetoric that dehumanized black people.</p>
+      <p begin="00:05:02:22" end="00:05:06:12" region="bottom">So for those of you who got pissed off at that white privilege,</p>
+      <p begin="00:05:06:12" end="00:05:11:12" region="bottom">rhetoric is a noun, and it means the art of</p>
+      <p begin="00:05:11:13" end="00:05:15:10" region="bottom">effective or persuasive speaking or writing, especially</p>
+      <p begin="00:05:15:11" end="00:05:19:21" region="bottom">the use of figures of speech and other compositional techniques.</p>
+      <p begin="00:05:19:21" end="00:05:23:09" region="bottom">Now, compositional is an adjective</p>
+      <p begin="00:05:24:08" end="00:05:27:10" region="bottom">and in this context, meaning what we're</p>
+      <p begin="00:05:27:10" end="00:05:30:21" region="bottom">talking about, compositional means composed</p>
+      <p begin="00:05:30:22" end="00:05:34:22" region="bottom">of various elements, meaning more than one thing,</p>
+      <p begin="00:05:34:22" end="00:05:37:03" region="bottom">unlike what your brain can handle.</p>
+      <p begin="00:05:37:22" end="00:05:41:02" region="bottom">The pseudoscience that justified</p>
+      <p begin="00:05:41:02" end="00:05:44:19" region="bottom">their treatment, I can have a whole podcast on that alone.</p>
+      <p begin="00:05:44:20" end="00:05:46:19" region="bottom">Fucking idiots.</p>
+      <p begin="00:05:46:19" end="00:05:50:06" region="bottom">The social acceptance of viewing them as less than human.</p>
+      <p begin="00:05:50:06" end="00:05:53:13" region="bottom">One more time, the social acceptance</p>
+      <p begin="00:05:54:09" end="00:05:57:06" region="bottom">of viewing them as less than human..</p>
+      <p begin="00:05:57:07" end="00:06:01:03" region="bottom">This system thrived,</p>
+      <p begin="00:06:01:03" end="00:06:04:14" region="bottom">not just through direct violence, but also through the silent</p>
+      <p begin="00:06:04:14" end="00:06:07:22" region="bottom">approval of everyone who looked away.</p>
+      <p begin="00:06:07:23" end="00:06:09:22" region="bottom">Everyone who turned their head.</p>
+      <p begin="00:06:09:22" end="00:06:11:08" region="bottom">It's not going to affect me.</p>
+      <p begin="00:06:11:08" end="00:06:12:20" region="bottom">Why do I give a shit?</p>
+      <p begin="00:06:12:20" end="00:06:15:14" region="bottom">Today, when I look at my life, a</p>
+      <p begin="00:06:16:15" end="00:06:22:01" region="bottom">gay man, I see echoes of this.</p>
+      <p begin="00:06:23:02" end="00:06:26:05" region="bottom">When people who are in charge use their dog</p>
+      <p begin="00:06:26:06" end="00:06:29:11" region="bottom">whistles and coded language, when they embolden</p>
+      <p begin="00:06:29:20" end="00:06:32:20" region="bottom">those who denyy humanity,</p>
+      <p begin="00:06:33:04" end="00:06:37:19" region="bottom">when they roll back protections for marginalized communities,</p>
+      <p begin="00:06:38:08" end="00:06:40:16" region="bottom">they don't need to target us directly.</p>
+      <p begin="00:06:41:20" end="00:06:45:07" region="bottom">They simply need to create an environment where</p>
+      <p begin="00:06:45:07" end="00:06:49:01" region="bottom">your nasty ass discrimination feels and is</p>
+      <p begin="00:06:49:02" end="00:06:53:19" region="bottom">acceptable, where your hatred feels justified,</p>
+      <p begin="00:06:53:19" end="00:06:56:13" region="bottom">where your bigotry feels normal</p>
+      <p begin="00:06:58:07" end="00:07:01:08" region="bottom">because you don't know who you are or how to think you</p>
+      <p begin="00:07:01:09" end="00:07:06:01" region="bottom">have to hurt other people, which goes to that saying, hurt people, hurt people.</p>
+      <p begin="00:07:08:07" end="00:07:11:08" region="bottom">Every time someone who holds power suggests</p>
+      <p begin="00:07:11:09" end="00:07:14:16" region="bottom">that my love is less valid than anyone</p>
+      <p begin="00:07:14:16" end="00:07:20:06" region="bottom">else's, or that my rights don't matter or that my rights are up for debate.</p>
+      <p begin="00:07:21:01" end="00:07:23:00" region="bottom">You're giving permission.</p>
+      <p begin="00:07:23:13" end="00:07:26:18" region="bottom">You're giving permission to hate, permission to discriminate, permission</p>
+      <p begin="00:07:26:19" end="00:07:31:01" region="bottom">to harm, permission to hurt, permission to kill.</p>
+      <p begin="00:07:32:13" end="00:07:35:14" region="bottom">Permission to act on your dark</p>
+      <p begin="00:07:35:14" end="00:07:39:18" region="bottom">impulses that civil rights progress we thought or</p>
+      <p begin="00:07:39:19" end="00:07:43:23" region="bottom">should have, I should say, pushed back into the shadows.</p>
+      <p begin="00:07:45:06" end="00:07:47:05" region="bottom">So, no.</p>
+      <p begin="00:07:47:05" end="00:07:51:11" region="bottom">Maybe, you know, maybe he's not doing anything to hurt me directly.</p>
+      <p begin="00:07:54:18" end="00:07:57:23" region="bottom">When you ask me, why are you butt hurt?</p>
+      <p begin="00:07:58:00" end="00:07:59:23" region="bottom">Why are you worried?</p>
+      <p begin="00:07:59:23" end="00:08:03:00" region="bottom">He's not doing anything to you directly.</p>
+      <p begin="00:08:05:00" end="00:08:08:09" region="bottom">But yet they're creating this world where they</p>
+      <p begin="00:08:08:09" end="00:08:12:11" region="bottom">feel empowered to do this discriminatory bullshit.</p>
+      <p begin="00:08:14:03" end="00:08:17:05" region="bottom">And that, right right there, that's how every</p>
+      <p begin="00:08:17:06" end="00:08:21:05" region="bottom">single systemic oppression in history began.</p>
+      <p begin="00:08:21:17" end="00:08:25:13" region="bottom">Not with a bang, not with a huge war, not,</p>
+      <p begin="00:08:25:14" end="00:08:27:20" region="bottom">not with not with a memo, okay?</p>
+      <p begin="00:08:27:20" end="00:08:29:19" region="bottom">Did you get the memo?</p>
+      <p begin="00:08:29:19" end="00:08:30:14" region="bottom">Have you seen my stapler?</p>
+      <p begin="00:08:30:14" end="00:08:31:13" region="bottom">No.</p>
+      <p begin="00:08:31:13" end="00:08:36:01" region="bottom">Just a whisper, just some words, just, oh, they're different than us.</p>
+      <p begin="00:08:36:02" end="00:08:38:01" region="bottom">What do you think about that?</p>
+      <p begin="00:08:38:01" end="00:08:38:16" region="bottom">Oh, maybe we should do this.</p>
+      <p begin="00:08:38:16" end="00:08:39:18" region="bottom">That's how it starts.</p>
+      <p begin="00:08:43:23" end="00:08:48:22" region="bottom">The question is not whether someone is actively attacking you or us or anybody.</p>
+      <p begin="00:08:48:23" end="00:08:53:22" region="bottom">The question is whether they're making it easier for others to do the same.</p>
+      <p begin="00:08:54:23" end="00:08:58:13" region="bottom">And if you wait until this shit becomes</p>
+      <p begin="00:08:58:13" end="00:09:02:16" region="bottom">direct and blindingly undeniable,</p>
+      <p begin="00:09:04:04" end="00:09:06:15" region="bottom">well, we've already waited too long then.</p>
+      <p begin="00:09:08:04" end="00:09:11:15" region="bottom">So when someone asks you why your butt hurt, why</p>
+      <p begin="00:09:11:16" end="00:09:15:19" region="bottom">are you worried, he's not doing anything to hurt you directly.</p>
+      <p begin="00:09:16:22" end="00:09:20:04" region="bottom">Well, if</p>
+      <p begin="00:09:20:04" end="00:09:24:05" region="bottom">it's a friend, a family member, a preacher,</p>
+      <p begin="00:09:24:06" end="00:09:28:15" region="bottom">a pastor, a teacher, a quote unquote person of God.</p>
+      <p begin="00:09:28:15" end="00:09:31:12" region="bottom">The next time someone tells you, why are you butthurt?</p>
+      <p begin="00:09:31:12" end="00:09:33:11" region="bottom">They're not doing anything to you directly.</p>
+      <p begin="00:09:33:22" end="00:09:35:21" region="bottom">Don't don't get upset.</p>
+      <p begin="00:09:35:21" end="00:09:37:09" region="bottom">Don't freak out.</p>
+      <p begin="00:09:37:09" end="00:09:38:12" region="bottom">Don't get anxious.</p>
+      <p begin="00:09:38:12" end="00:09:39:15" region="bottom">Try not to have an adrenaline dump.</p>
+      <p begin="00:09:39:22" end="00:09:41:21" region="bottom">The truth.</p>
+      <p begin="00:09:42:04" end="00:09:44:03" region="bottom">Just tell them the truth.</p>
+      <p begin="00:09:44:03" end="00:09:45:14" region="bottom">Turn around.</p>
+      <p begin="00:09:45:14" end="00:09:48:02" region="bottom">Tell them the truth. speak to them like an adult.</p>
+      <p begin="00:09:48:03" end="00:09:50:02" region="bottom">Just say, you know what?</p>
+      <p begin="00:09:50:02" end="00:09:53:01" region="bottom">I hear your words, and</p>
+      <p begin="00:09:53:02" end="00:09:55:15" region="bottom">you're a stupid cunt.</p>
+      <p begin="00:09:56:09" end="00:09:58:08" region="bottom">Bye-bye.</p>
+    </div>
+  </body>
+</tt>

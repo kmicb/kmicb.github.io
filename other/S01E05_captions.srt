@@ -1,0 +1,3631 @@
+1
+00:00:00,000 --> 00:00:03,211
+Hey, humans, thanks for joining my podcast.
+
+2
+00:00:03,461 --> 00:00:09,050
+This podcast is a place to share unedited lived experiences regarding mental health.
+
+3
+00:00:09,092 --> 00:00:12,178
+We'll touch on how it shows up in our lives and provide
+
+4
+00:00:12,220 --> 00:00:16,474
+some tips that have worked for me and others on how to manage it.
+
+5
+00:00:20,478 --> 00:00:23,898
+There will be strong language and definitely the
+
+6
+00:00:23,898 --> 00:00:26,943
+potential for disturbing and or triggering content.
+
+7
+00:00:27,318 --> 00:00:30,280
+Please be aware of this and mindful of
+
+8
+00:00:30,321 --> 00:00:32,449
+others who may be in earshot.
+
+9
+00:00:32,991 --> 00:00:36,036
+Most importantly, and as horribly fucking
+
+10
+00:00:36,036 --> 00:00:40,206
+cliche as this sounds, you really do not have to go through this alone.
+
+11
+00:00:40,582 --> 00:00:44,961
+And hopefully you'll see this and feel this more and more as you listen.
+
+12
+00:00:44,961 --> 00:00:48,923
+And hey, if this podcast isn't for you, that's fine.
+
+13
+00:00:49,215 --> 00:00:51,176
+There are lots of them out there.
+
+14
+00:00:51,176 --> 00:00:54,471
+Find one that speaks to you and helps you.
+
+15
+00:00:54,971 --> 00:00:57,432
+So, let's talk mental health.
+
+16
+00:01:21,998 --> 00:01:25,460
+And now the boiler plate and cover your ass claws
+
+17
+00:01:27,212 --> 00:01:31,090
+On this podcast, unless explicitly stated,
+
+18
+00:01:31,132 --> 00:01:34,511
+no one on this show is a medical professional in
+
+19
+00:01:34,552 --> 00:01:37,889
+any way, and as such, no content on
+
+20
+00:01:37,889 --> 00:01:41,893
+this show is intended to be, whether implied or otherwise,
+
+21
+00:01:41,935 --> 00:01:44,062
+to be taken as medical advice.
+
+22
+00:01:44,979 --> 00:01:48,858
+If you are in crisis, please call 988
+
+23
+00:01:48,858 --> 00:01:53,696
+or 911 or go to your nearest emergency room.
+
+24
+00:01:54,239 --> 00:01:59,077
+For my fellow LGBTQ Plus community, you can text start
+
+25
+00:01:59,577 --> 00:02:02,956
+to 678678 to
+
+26
+00:02:03,623 --> 00:02:06,584
+reach the amazing people over at the Trevor Project.
+
+27
+00:02:06,626 --> 00:02:13,216
+Or you can call them at 866-488-7386
+
+28
+00:02:13,842 --> 00:02:17,011
+or you can even live chat with them on
+
+29
+00:02:17,011 --> 00:02:23,935
+their website at chat..org.
+
+30
+00:02:25,228 --> 00:02:28,815
+Concertos of Chaos is sponsored by self- magnitude,
+
+31
+00:02:28,857 --> 00:02:32,026
+an ethical microrobusiness helping people show up as
+
+32
+00:02:32,026 --> 00:02:37,157
+their boldest, truest selves, at work, at play, and everywhere in between.
+
+33
+00:02:37,198 --> 00:02:40,785
+Founded by Maggie Green, a queer neurodivergent
+
+34
+00:02:40,785 --> 00:02:43,955
+brand and style strategist, self-magnitude
+
+35
+00:02:43,955 --> 00:02:49,169
+offers trauma-informed, affirming support for personal brand and style that reflects all of who you are
+
+36
+00:02:49,544 --> 00:02:52,171
+Learn more at selfagnitude.com.
+
+37
+00:02:52,171 --> 00:02:56,968
+And while you're there, check out Maggie's Gay It Forward initiative to support Queer Folks in Need.
+
+38
+00:02:57,260 --> 00:02:59,220
+Hello, everyone.
+
+39
+00:02:59,220 --> 00:03:00,138
+Thanks for joining me.
+
+40
+00:03:01,222 --> 00:03:04,642
+We didn't have an episode last week, so I wanted to talk
+
+41
+00:03:04,642 --> 00:03:08,479
+about that on this week's episode titled
+
+42
+00:03:08,479 --> 00:03:10,940
+A Pja Torres and Fermatas.
+
+43
+00:03:11,232 --> 00:03:13,943
+When holding onFs with Your Harmony.
+
+44
+00:03:14,986 --> 00:03:18,198
+Real quick, an Apatra is a musical
+
+45
+00:03:18,239 --> 00:03:21,993
+theory term. used to describe
+
+46
+00:03:21,993 --> 00:03:25,622
+a grace note ornamental, something
+
+47
+00:03:25,663 --> 00:03:29,834
+that's not typically part of the measure,
+
+48
+00:03:29,876 --> 00:03:33,212
+so to speak, can create tension resolution
+
+49
+00:03:33,922 --> 00:03:37,425
+It's not constrained to the timing of that measure.
+
+50
+00:03:38,217 --> 00:03:41,638
+And a firmata, also known as bird's
+
+51
+00:03:41,679 --> 00:03:46,935
+eyes, or the bird eye, means to hold that note or to hold that rest
+
+52
+00:03:47,727 --> 00:03:49,687
+for as long as you want.
+
+53
+00:03:50,730 --> 00:03:52,690
+So
+
+54
+00:03:53,608 --> 00:03:55,944
+Last week, I did not produce an episode.
+
+55
+00:03:56,486 --> 00:03:58,446
+A lot was going on.
+
+56
+00:03:58,988 --> 00:04:00,949
+There was still a lot going on.
+
+57
+00:04:00,949 --> 00:04:03,743
+And it kind of consumed me.
+
+58
+00:04:05,245 --> 00:04:10,124
+And I wanted to talk about the paradox of productivity.
+
+59
+00:04:10,124 --> 00:04:13,169
+And it's not lost on me the irony of not doing a mental
+
+60
+00:04:13,169 --> 00:04:16,214
+health podcast episode due to mental health.
+
+61
+00:04:16,255 --> 00:04:18,216
+That's not lost on me.
+
+62
+00:04:18,216 --> 00:04:21,678
+I want to talk about how taking breaks and
+
+63
+00:04:22,220 --> 00:04:26,182
+stepping back is actually a form of productivity.
+
+64
+00:04:26,724 --> 00:04:30,478
+A lot of people view rest
+
+65
+00:04:30,520 --> 00:04:33,856
+as laziness, like, we're lazy, we don't want
+
+66
+00:04:33,898 --> 00:04:36,109
+to do anything, but it's critical
+
+67
+00:04:36,651 --> 00:04:40,029
+for sustainable performance, right?
+
+68
+00:04:40,071 --> 00:04:43,283
+To be able to keep doing what I do or to keep doing what
+
+69
+00:04:43,283 --> 00:04:46,995
+you do, you have to be in the right mindset to do so.
+
+70
+00:04:47,036 --> 00:04:50,331
+And what happened with me is a perfect example.
+
+71
+00:04:50,331 --> 00:04:52,291
+I had to take time that I needed
+
+72
+00:04:52,959 --> 00:04:55,670
+to ensure I was at my best.
+
+73
+00:04:56,379 --> 00:05:00,633
+If I'm not at my best or damn
+
+74
+00:05:00,633 --> 00:05:02,844
+close to it, I can't give you my best.
+
+75
+00:05:02,844 --> 00:05:04,804
+I can't give anybody my best.
+
+76
+00:05:05,221 --> 00:05:08,641
+And I have to ensure my long term authenticity
+
+77
+00:05:08,683 --> 00:05:12,395
+of who I am, what I believe in,, this podcast's
+
+78
+00:05:12,395 --> 00:05:14,939
+core values, my core, which are my core values.
+
+79
+00:05:16,482 --> 00:05:19,861
+And this challenges that toxic
+
+80
+00:05:19,902 --> 00:05:25,116
+productivity narrives that society
+
+81
+00:05:25,116 --> 00:05:28,828
+pushes people to constantly produce
+
+82
+00:05:28,828 --> 00:05:31,039
+at the expense of our wellbeing.
+
+83
+00:05:31,039 --> 00:05:33,916
+True commitment is not about never missing a be
+
+84
+00:05:35,084 --> 00:05:38,838
+but more maintaining the integrity with
+
+85
+00:05:38,838 --> 00:05:42,008
+yourself and your audience, which is you all.
+
+86
+00:05:42,050 --> 00:05:45,011
+I'm being as transparent as I can about
+
+87
+00:05:45,053 --> 00:05:50,725
+mine, medical health or mental health and and my mental health needs, which I'm hoping is showing
+
+88
+00:05:51,350 --> 00:05:54,312
+well, I'm being vulnerable, which isn't something I like to do.
+
+89
+00:05:54,353 --> 00:05:58,066
+But it shows my vulnerability and
+
+90
+00:05:59,734 --> 00:06:01,694
+I guess authenticity.
+
+91
+00:06:04,781 --> 00:06:11,704
+I want to break down the myth that professionals, people who work
+
+92
+00:06:13,372 --> 00:06:18,711
+must always appear superhuman and invulnerable.
+
+93
+00:06:20,129 --> 00:06:24,717
+So I want to talk about today mental health
+
+94
+00:06:25,718 --> 00:06:30,431
+and when you need to take a break, and it's okay to take a break.
+
+95
+00:06:30,723 --> 00:06:35,812
+Taking breaks and and stepping back is actually a form of productivity.
+
+96
+00:06:35,853 --> 00:06:38,815
+A lot of people view rest as waziness, but
+
+97
+00:06:38,856 --> 00:06:41,776
+it's critical for sustainable performance
+
+98
+00:06:42,276 --> 00:06:45,738
+This podcast and last week's non-existent episode
+
+99
+00:06:45,738 --> 00:06:51,160
+is a perfect example of this by taking the time that I needed
+
+100
+00:06:52,411 --> 00:06:55,623
+to ensure my long-term
+
+101
+00:06:55,665 --> 00:07:02,463
+quality and authenticity of my podcast, my episodes.
+
+102
+00:07:02,922 --> 00:07:07,718
+And this challenges the toxic bullshit productivity narrative
+
+103
+00:07:08,219 --> 00:07:11,305
+that we've all been bred into us to believe
+
+104
+00:07:11,305 --> 00:07:17,687
+that tells us, I need to constantly produce at the expense of my health.
+
+105
+00:07:18,479 --> 00:07:20,439
+Grind, grind, grind.
+
+106
+00:07:20,982 --> 00:07:24,444
+I love you all, but you're not worth my inner harmony.
+
+107
+00:07:25,486 --> 00:07:28,990
+So we need to redefine commitment
+
+108
+00:07:29,031 --> 00:07:31,451
+and professionalism.
+
+109
+00:07:32,785 --> 00:07:35,830
+True commitment isn't about never missing a beat.
+
+110
+00:07:35,872 --> 00:07:39,208
+It's about maintaining your integrity and the integrity
+
+111
+00:07:39,208 --> 00:07:42,295
+of what you're doing with yourself and your audience, by
+
+112
+00:07:42,336 --> 00:07:45,798
+being transparent about your mental health needs, your
+
+113
+00:07:45,798 --> 00:07:48,342
+modeling, vulnerability, and
+
+114
+00:07:48,801 --> 00:07:50,761
+authenticity.
+
+115
+00:07:50,761 --> 00:07:53,890
+This approach completely destroys the
+
+116
+00:07:53,931 --> 00:07:57,810
+myth that professionals must always appear
+
+117
+00:07:57,810 --> 00:08:00,438
+invulnerable and superhuman.
+
+118
+00:08:00,980 --> 00:08:03,858
+So let's unpack that real quick.
+
+119
+00:08:03,858 --> 00:08:05,818
+Today's work culture
+
+120
+00:08:05,985 --> 00:08:08,946
+demands continuous output,
+
+121
+00:08:09,405 --> 00:08:13,451
+regardless, treating us like machines rather than the complex
+
+122
+00:08:13,492 --> 00:08:17,371
+beings that we are with the emotional and mental needs.
+
+123
+00:08:17,371 --> 00:08:20,291
+Choosing our needs over arbitrary
+
+124
+00:08:21,459 --> 00:08:24,795
+production metrics is a form of resistance
+
+125
+00:08:24,837 --> 00:08:27,465
+and a fuck you to capital.ism.
+
+126
+00:08:27,965 --> 00:08:32,345
+So is there a difference between, you know, self care
+
+127
+00:08:33,221 --> 00:08:35,181
+and avoidance?
+
+128
+00:08:36,724 --> 00:08:38,684
+Yes, there is.
+
+129
+00:08:38,684 --> 00:08:41,312
+And so we have the
+
+130
+00:08:41,312 --> 00:08:45,441
+start tiny, like microscopic tiny.
+
+131
+00:08:45,441 --> 00:08:49,695
+So is there a difference between strategic self care
+
+132
+00:08:50,488 --> 00:08:52,448
+and avoidance?
+
+133
+00:08:52,448 --> 00:08:57,745
+Yes, there is a difference between self care and avoidance.
+
+134
+00:08:57,745 --> 00:09:01,207
+Avoidance is a defense mechanism.
+
+135
+00:09:01,999 --> 00:09:05,336
+We attempt to escape or ignore the challenging
+
+136
+00:09:05,336 --> 00:09:09,382
+situations, and we suppress emotions or problems
+
+137
+00:09:10,007 --> 00:09:13,511
+instead of addressing them. tempporarily
+
+138
+00:09:13,552 --> 00:09:18,224
+alleviating discomfort without resolving underlying issues,
+
+139
+00:09:18,683 --> 00:09:23,104
+uh, creating short term relief at the potential cost of long term growth
+
+140
+00:09:23,938 --> 00:09:27,108
+using distractions or withdrawal
+
+141
+00:09:27,108 --> 00:09:29,485
+as a primary coping strategy.
+
+142
+00:09:30,236 --> 00:09:35,700
+Avoidance is like putting a Band-Aid on a broken leg.
+
+143
+00:09:36,742 --> 00:09:40,204
+Strategic self-care is getting some crutches,
+
+144
+00:09:40,997 --> 00:09:44,458
+seeing a doctor, and actually healing.
+
+145
+00:09:45,209 --> 00:09:48,379
+It's about facing your shit, but not in the brual way.
+
+146
+00:09:48,379 --> 00:09:51,841
+More like,kay, this sucks, but,
+
+147
+00:09:51,882 --> 00:09:54,468
+you know, I got I've got this, I can do it."
+
+148
+00:09:54,969 --> 00:09:56,929
+Instead of, this sucks
+
+149
+00:09:57,221 --> 00:09:59,181
+I'm gonna hide forever.
+
+150
+00:09:59,181 --> 00:10:00,516
+I'm gonna retreat.
+
+151
+00:10:00,641 --> 00:10:02,601
+This always happens.
+
+152
+00:10:02,601 --> 00:10:04,186
+The bottom always seems to fall out.
+
+153
+00:10:04,478 --> 00:10:06,439
+The key difference
+
+154
+00:10:07,481 --> 00:10:11,694
+difference is, I should say, lie in the intentionality and the long term impact.
+
+155
+00:10:12,486 --> 00:10:16,449
+Selfcare empowers you and helps you become more resilient.
+
+156
+00:10:16,782 --> 00:10:20,411
+And avoidance ultimately increases
+
+157
+00:10:20,453 --> 00:10:23,456
+stress and prevents personal development.
+
+158
+00:10:24,248 --> 00:10:28,461
+Some examples. repeatedly calling
+
+159
+00:10:28,461 --> 00:10:33,924
+in sick to escape work stress without addressing the root cause.
+
+160
+00:10:34,300 --> 00:10:36,260
+That's avoidance.
+
+161
+00:10:36,719 --> 00:10:39,722
+Self care, taking a mental health day
+
+162
+00:10:39,764 --> 00:10:43,100
+to rest, reflect, and recharge.
+
+163
+00:10:43,100 --> 00:10:46,062
+Refusing to look at bank statements,
+
+164
+00:10:46,103 --> 00:10:51,192
+ignoring bills, spending impulsively to feel better, I've been there.
+
+165
+00:10:52,234 --> 00:10:55,279
+Strategic selfcare, counteract that, creating a
+
+166
+00:10:55,279 --> 00:10:58,908
+budget, setting financial goals, learning about personal
+
+167
+00:10:58,949 --> 00:11:03,371
+finances, seeking financial counseling, if able, and
+
+168
+00:11:03,412 --> 00:11:06,999
+if needed, developing a debt repayment plan.
+
+169
+00:11:06,999 --> 00:11:09,001
+If that's, you know, a situation situation you're in
+
+170
+00:11:09,418 --> 00:11:12,380
+Consistently declining invitations,
+
+171
+00:11:12,380 --> 00:11:17,426
+isolating completely to prevent potential social discomfort, that's avoidance.
+
+172
+00:11:18,469 --> 00:11:21,972
+Gradually exposing yourself to social situations,
+
+173
+00:11:22,014 --> 00:11:25,768
+practicing social skills, seeking therapy, if needed,
+
+174
+00:11:25,768 --> 00:11:28,813
+using anxiety management techniques like deep breathing
+
+175
+00:11:29,397 --> 00:11:31,732
+that strategic self care..
+
+176
+00:11:32,233 --> 00:11:35,945
+Ignoring persistent health problems,
+
+177
+00:11:35,986 --> 00:11:41,701
+ignoring our bodies, avoiding medical checkups, simply out of fear.
+
+178
+00:11:41,992 --> 00:11:43,953
+Yes, mental health, I get it.
+
+179
+00:11:44,495 --> 00:11:46,455
+but that's still avoidance.
+
+180
+00:11:47,248 --> 00:11:51,085
+Strategic self care is kind of
+
+181
+00:11:51,085 --> 00:11:55,548
+forcing yourself to do regular medical checkups, tuning
+
+182
+00:11:55,589 --> 00:12:00,803
+in and listening to your body when it tells you something, addressing health concerns proactively
+
+183
+00:12:01,429 --> 00:12:04,765
+developing healthy lifestyle habits, Suppressing
+
+184
+00:12:04,765 --> 00:12:08,936
+emotions, using substances to numb our feelings,
+
+185
+00:12:09,395 --> 00:12:11,939
+and refusing to acknowledge emotional pain.
+
+186
+00:12:13,232 --> 00:12:15,192
+Yes, avoidance.
+
+187
+00:12:15,735 --> 00:12:17,695
+Self-care.
+
+188
+00:12:17,736 --> 00:12:20,865
+Journaling, talking with
+
+189
+00:12:20,865 --> 00:12:24,452
+trusted friends, again, seeking therapy if needed,
+
+190
+00:12:25,244 --> 00:12:30,583
+practicing emotional regulation techniques, and we will will get into some of those.
+
+191
+00:12:32,209 --> 00:12:35,296
+So, just a quick little bullet point here of some
+
+192
+00:12:35,337 --> 00:12:39,216
+indicators of strategic self care, things that are good.
+
+193
+00:12:39,467 --> 00:12:42,678
+Proactive approach, long term perspective,
+
+194
+00:12:43,304 --> 00:12:46,932
+personal growth orientation, healthy boundary setting
+
+195
+00:12:47,558 --> 00:12:52,688
+emotional intelligence, and problem solving focus.
+
+196
+00:12:53,022 --> 00:12:57,193
+The opposite, avoidance, is a reactive approach.
+
+197
+00:12:57,860 --> 00:13:01,363
+It's a short term relief, temporary escape
+
+198
+00:13:02,198 --> 00:13:05,367
+and it increases anxietyiety over time.
+
+199
+00:13:05,367 --> 00:13:09,830
+You have emotional suppression, and problem
+
+200
+00:13:11,248 --> 00:13:13,209
+perpetuating behavior.
+
+201
+00:13:13,209 --> 00:13:16,212
+It's a cycle that we need to
+
+202
+00:13:18,297 --> 00:13:20,257
+break.
+
+203
+00:13:20,257 --> 00:13:23,093
+So we need to redefine what commitment
+
+204
+00:13:23,135 --> 00:13:25,221
+is and what professionalism is.
+
+205
+00:13:25,221 --> 00:13:28,182
+So true commitment is not about never missing a beat.
+
+206
+00:13:29,558 --> 00:13:31,519
+We're human.
+
+207
+00:13:31,519 --> 00:13:32,228
+We can't do that.
+
+208
+00:13:32,228 --> 00:13:34,230
+It's about maintaining your integrity with yourself and
+
+209
+00:13:35,272 --> 00:13:39,151
+your audience, whoever that may be, whether it be a podcast,
+
+210
+00:13:39,151 --> 00:13:43,447
+audience, radio, audience, TV, audience, or friends, family, whatever.
+
+211
+00:13:43,739 --> 00:13:47,368
+By being transparent about your mental health needs
+
+212
+00:13:48,410 --> 00:13:51,705
+you' modeling vulnerability and authenticity.
+
+213
+00:13:52,248 --> 00:13:55,960
+And that approach completely destroys
+
+214
+00:13:55,960 --> 00:14:00,631
+the myth that we must always appear invulnerable
+
+215
+00:14:01,340 --> 00:14:03,300
+and superhuman.
+
+216
+00:14:03,467 --> 00:14:05,427
+So let's unpack this real quick.
+
+217
+00:14:05,427 --> 00:14:08,806
+Today's work culture demands, pretty
+
+218
+00:14:08,847 --> 00:14:11,684
+much all demands, continuous output.
+
+219
+00:14:12,810 --> 00:14:14,770
+regardless of the expense.
+
+220
+00:14:14,770 --> 00:14:17,398
+Treating us like machines rather than complex beings with
+
+221
+00:14:17,439 --> 00:14:19,692
+emotional and mental needs.
+
+222
+00:14:20,067 --> 00:14:23,445
+Choosing our needs over arbitrary productivity
+
+223
+00:14:23,487 --> 00:14:28,701
+metrics is a form of resistance and a fuck you to capitalism.
+
+224
+00:14:29,743 --> 00:14:34,206
+So if you're feeling overwhelmed, just take three deep breaths.
+
+225
+00:14:34,748 --> 00:14:37,960
+If you can't face that whole messy room,
+
+226
+00:14:37,960 --> 00:14:41,714
+just clean one surface, one table, one little nightstand,
+
+227
+00:14:42,089 --> 00:14:44,633
+show some progress to yourself.
+
+228
+00:14:45,467 --> 00:14:47,428
+Stressed out about work.
+
+229
+00:14:47,428 --> 00:14:50,055
+Send that one email that you have been avoiding and get it
+
+230
+00:14:50,097 --> 00:14:52,224
+off your plate, if you can.
+
+231
+00:14:53,976 --> 00:14:55,936
+Practice saying no.
+
+232
+00:14:55,936 --> 00:15:00,190
+I know we've discussed this before because no is a full sentence.
+
+233
+00:15:01,233 --> 00:15:05,446
+So a friend wants to hang out when you're exhausted.
+
+234
+00:15:06,572 --> 00:15:08,532
+Sorry, can't today.
+
+235
+00:15:08,532 --> 00:15:11,452
+You get extra work dumped on you at work.
+
+236
+00:15:12,244 --> 00:15:14,204
+I can't take that on right now.
+
+237
+00:15:14,496 --> 00:15:16,457
+Family drama invitation.
+
+238
+00:15:16,999 --> 00:15:18,959
+Not today, Satan.
+
+239
+00:15:20,711 --> 00:15:23,422
+But not this.
+
+240
+00:15:23,964 --> 00:15:26,342
+Hey, there's a fire in the kitchen.
+
+241
+00:15:26,383 --> 00:15:28,344
+Hand me that extinguisher.
+
+242
+00:15:28,344 --> 00:15:30,679
+No, I don't do red things."
+
+243
+00:15:32,473 --> 00:15:34,433
+Wayne, but avoidance.
+
+244
+00:15:37,478 --> 00:15:40,439
+When you can do emotional triage,
+
+245
+00:15:40,898 --> 00:15:44,193
+you will better understand what's happening in your brain.
+
+246
+00:15:44,485 --> 00:15:48,697
+So think of your mental health like a first aid kit.
+
+247
+00:15:49,782 --> 00:15:52,743
+If you're feeling low, ask yourself,
+
+248
+00:15:52,785 --> 00:15:58,207
+what's the smallest thing that might help me feel even 1% better?
+
+249
+00:15:59,249 --> 00:16:02,252
+Could be drinking some water, stepping outside, petting a
+
+250
+00:16:02,252 --> 00:16:05,214
+dog, listening to one good song?
+
+251
+00:16:06,465 --> 00:16:08,425
+That's all it takes.
+
+252
+00:16:09,218 --> 00:16:11,178
+And then boundaries.
+
+253
+00:16:12,971 --> 00:16:15,182
+Boundaries, they're not walls.
+
+254
+00:16:15,724 --> 00:16:17,685
+They're guardrails.
+
+255
+00:16:18,227 --> 00:16:20,354
+Work is trying to own your wife, right?
+
+256
+00:16:20,396 --> 00:16:22,648
+No, set an end of work alarm.
+
+257
+00:16:22,648 --> 00:16:26,485
+I used to do this, and an office maid of mine used to do this.
+
+258
+00:16:26,485 --> 00:16:29,363
+We would set our alarms on our phones for about
+
+259
+00:16:30,239 --> 00:16:33,575
+five to 10 minutes before work was over so
+
+260
+00:16:33,575 --> 00:16:37,496
+that we could start wrapping things up and firing off
+
+261
+00:16:37,538 --> 00:16:42,710
+emails that need to be finished, you know, shutting down some equipment,
+
+262
+00:16:43,711 --> 00:16:45,671
+things like that.
+
+263
+00:16:45,963 --> 00:16:49,133
+Instead of waiting to the last minute, when 5 o'clock
+
+264
+00:16:49,174 --> 00:16:53,345
+hits, and then you have to do all this stuff that you're
+
+265
+00:16:53,387 --> 00:16:55,931
+not being paid to do past five o'clock.
+
+266
+00:16:56,974 --> 00:16:59,768
+You've got a toxic friend always dumping on you.
+
+267
+00:16:59,810 --> 00:17:03,188
+Well, you limit the call times, but maybe
+
+268
+00:17:03,230 --> 00:17:07,276
+also look inwards as to why you still have a toxic friend.
+
+269
+00:17:07,317 --> 00:17:09,278
+That could be a problem.
+
+270
+00:17:09,737 --> 00:17:12,906
+Family pushing your buttons, and you have to
+
+271
+00:17:12,948 --> 00:17:16,827
+go to this event, well, have a preplanned exit strategy.
+
+272
+00:17:16,827 --> 00:17:19,955
+Have someone call you 15 minutes in as
+
+273
+00:17:20,914 --> 00:17:24,293
+a kind of test the waters to see how things are and how you're feeling
+
+274
+00:17:25,461 --> 00:17:28,672
+And if you already know, it's going to be a shit show,
+
+275
+00:17:28,714 --> 00:17:32,176
+then tell your friend to call you back in whatever time span you need,
+
+276
+00:17:32,217 --> 00:17:35,471
+five minutes, 30 minutes an hour, and leave.
+
+277
+00:17:36,722 --> 00:17:38,682
+Nothing wrong with that.
+
+278
+00:17:38,682 --> 00:17:41,226
+Remember, know always a full sentenceence, and you owe
+
+279
+00:17:41,268 --> 00:17:45,689
+no one an excuse as to why you cannot do something.
+
+280
+00:17:45,689 --> 00:17:48,984
+Now, we've been raised
+
+281
+00:17:48,984 --> 00:17:53,947
+that we require an excuse on when you ask someone, "Hey, can you do this?
+
+282
+00:17:53,989 --> 00:17:55,949
+Can you meet me?
+
+283
+00:17:55,949 --> 00:17:56,617
+Can you.
+
+284
+00:17:56,617 --> 00:17:57,076
+No, I can't."
+
+285
+00:17:57,076 --> 00:17:58,202
+Oh, how come
+
+286
+00:17:58,202 --> 00:18:00,078
+you don't need to know how come.
+
+287
+00:18:00,078 --> 00:18:02,039
+I just cannot do it.
+
+288
+00:18:02,039 --> 00:18:05,959
+It's powerful when you accept that, that you just say no, and that's that.
+
+289
+00:18:05,959 --> 00:18:09,421
+You, at least I did, get a little uncomfortable when
+
+290
+00:18:10,964 --> 00:18:15,177
+I would get pushed back on that, and I don't get uncomfortable anymore.
+
+291
+00:18:15,219 --> 00:18:17,179
+I mean, Noah's no.
+
+292
+00:18:17,221 --> 00:18:20,933
+You don't you don't need to know what's going on in my life, know is no.
+
+293
+00:18:22,726 --> 00:18:25,813
+And then you want to create what I call
+
+294
+00:18:25,854 --> 00:18:28,232
+the fuck it bucket list.
+
+295
+00:18:28,607 --> 00:18:31,568
+Create a list of
+
+296
+00:18:32,778 --> 00:18:36,698
+no pressure activities that might make you feel good.
+
+297
+00:18:37,241 --> 00:18:39,201
+A 10 minute walk.
+
+298
+00:18:39,201 --> 00:18:42,871
+Doodling, arts, crafts, paintings, slowly tearing sheets of paper.
+
+299
+00:18:42,871 --> 00:18:46,166
+Fuck, what a relaxing sensation it
+
+300
+00:18:46,166 --> 00:18:48,919
+is to tear sheets of paper.
+
+301
+00:18:49,711 --> 00:18:51,672
+I don't waste paper, though.
+
+302
+00:18:51,672 --> 00:18:54,675
+I use the already wasted resources of the 5 billion
+
+303
+00:18:54,716 --> 00:18:58,720
+unsolicited paper shit I get in my mailbox daily.
+
+304
+00:18:59,471 --> 00:19:04,393
+Maybe we should start boxing that up and shipping it back to the post office.
+
+305
+00:19:04,434 --> 00:19:06,728
+I wonder if we all did that, if it would stop.
+
+306
+00:19:07,980 --> 00:19:10,440
+Call a friend who actually gets you.
+
+307
+00:19:10,983 --> 00:19:12,943
+Dance in your kitchen..
+
+308
+00:19:12,985 --> 00:19:16,989
+Watch a lame ass comedy movie, all things that can pull you out
+
+309
+00:19:18,240 --> 00:19:20,367
+if you're feeling crappy.
+
+310
+00:19:20,367 --> 00:19:23,453
+Another good thing is
+
+311
+00:19:23,495 --> 00:19:26,039
+is to catch the negative thought pattern.
+
+312
+00:19:26,081 --> 00:19:29,960
+So when your brain is starting to doom spiral,
+
+313
+00:19:30,210 --> 00:19:33,589
+if you can recognize that spiral and then
+
+314
+00:19:34,047 --> 00:19:37,676
+change what you tell yourself about the spiral.
+
+315
+00:19:38,218 --> 00:19:40,179
+Not, fuck, I'm spiraling.
+
+316
+00:19:40,470 --> 00:19:42,431
+Here we go.
+
+317
+00:19:42,431 --> 00:19:43,682
+It's done, the day has ruined..
+
+318
+00:19:43,974 --> 00:19:46,935
+I'm struggling right now, and that's okay.
+
+319
+00:19:47,853 --> 00:19:50,939
+I will use the tools in my resource box and
+
+320
+00:19:50,981 --> 00:19:56,194
+maybe call a friend or two who gets me and can talk me down and help me through this.
+
+321
+00:19:57,988 --> 00:20:00,949
+You need to think of your energy like a
+
+322
+00:20:02,201 --> 00:20:05,454
+currency, sadly, in a bank.
+
+323
+00:20:06,246 --> 00:20:08,916
+Some things we do or done to us
+
+324
+00:20:09,750 --> 00:20:13,211
+deposit energy into our bank.
+
+325
+00:20:15,213 --> 00:20:18,300
+And then some things that we do and that are done
+
+326
+00:20:18,342 --> 00:20:23,221
+to us withdraw money. from that bank.
+
+327
+00:20:23,722 --> 00:20:25,682
+Toxic people
+
+328
+00:20:25,682 --> 00:20:29,311
+doom scrolling, overworking,
+
+329
+00:20:29,311 --> 00:20:31,688
+excessively putting needs before
+
+330
+00:20:33,523 --> 00:20:36,568
+your own at the expense of your
+
+331
+00:20:36,568 --> 00:20:40,614
+health, push, push, push, push, grind, grind, grind, side hustle, going,
+
+332
+00:20:40,656 --> 00:20:42,950
+going, going, until you enter burnout.
+
+333
+00:20:43,241 --> 00:20:45,202
+Burnout's not fun.
+
+334
+00:20:46,244 --> 00:20:49,539
+Make a list, try to track the things that
+
+335
+00:20:49,539 --> 00:20:53,210
+fill you up versus drain you.
+
+336
+00:20:53,752 --> 00:20:56,964
+You cannot pour from an empty cup.
+
+337
+00:20:59,466 --> 00:21:01,426
+It's not about being perfect.
+
+338
+00:21:02,219 --> 00:21:04,930
+It's about being slightly less shitty to yourself.
+
+339
+00:21:06,723 --> 00:21:08,684
+We need to be nicer to ourselves.
+
+340
+00:21:08,976 --> 00:21:14,398
+Some days, strategic self care might just mean you survived the fucking day.
+
+341
+00:21:14,439 --> 00:21:16,400
+And you know what?
+
+342
+00:21:16,400 --> 00:21:17,359
+That counts.
+
+343
+00:21:17,359 --> 00:21:18,860
+That's a Gold Star sticker on the board.
+
+344
+00:21:19,987 --> 00:21:24,199
+I think we negate that for
+
+345
+00:21:24,199 --> 00:21:27,703
+some people just surviving the day,
+
+346
+00:21:28,662 --> 00:21:31,206
+took up every resource they had.
+
+347
+00:21:33,458 --> 00:21:36,795
+So, how do people,
+
+348
+00:21:36,837 --> 00:21:40,132
+whether content creators, whatever we are, balance
+
+349
+00:21:40,132 --> 00:21:43,969
+consistency with our personal wellbeing.
+
+350
+00:21:45,220 --> 00:21:48,390
+What things or responsibilities do we owe
+
+351
+00:21:48,390 --> 00:21:55,439
+to our audiences or whomever versus what we owe to ourselves?
+
+352
+00:21:56,732 --> 00:21:59,443
+I owe you me.
+
+353
+00:22:00,235 --> 00:22:02,195
+That's it.
+
+354
+00:22:02,237 --> 00:22:04,448
+I owe you my authentic self.
+
+355
+00:22:04,990 --> 00:22:09,453
+And I cannot be anything other than me.
+
+356
+00:22:10,370 --> 00:22:13,332
+And when I'm not at my best, I cannot provide
+
+357
+00:22:13,373 --> 00:22:17,961
+you or anyone, me, or my best.
+
+358
+00:22:19,713 --> 00:22:21,840
+Is Wes than best okay?
+
+359
+00:22:21,882 --> 00:22:26,345
+Fuck, yes, it is.Cause we can't always be our best 247 365.
+
+360
+00:22:26,386 --> 00:22:28,472
+We're human, it's not possible.
+
+361
+00:22:28,972 --> 00:22:30,932
+You will get burnt out.
+
+362
+00:22:31,224 --> 00:22:33,185
+Physical fatigue
+
+363
+00:22:33,185 --> 00:22:36,938
+or mental blurs, which are painful.
+
+364
+00:22:37,230 --> 00:22:39,191
+We simply can't do it.
+
+365
+00:22:41,151 --> 00:22:45,739
+What if taking care of yourself is your most important work?
+
+366
+00:22:48,742 --> 00:22:52,371
+And how can we create environment that normalize
+
+367
+00:22:52,371 --> 00:22:54,456
+mental health breaks?
+
+368
+00:22:55,749 --> 00:22:58,710
+You are more than the sum of your output.
+
+369
+00:22:59,211 --> 00:23:01,171
+We all are.
+
+370
+00:23:01,713 --> 00:23:04,800
+One way way to kind
+
+371
+00:23:04,841 --> 00:23:08,470
+of tackle this is to
+
+372
+00:23:08,512 --> 00:23:12,099
+recognize the symbol or symbols, recognize the signals
+
+373
+00:23:13,725 --> 00:23:16,686
+in your body with five simple questions.
+
+374
+00:23:17,479 --> 00:23:20,482
+I hate the phrase to be present,
+
+375
+00:23:20,482 --> 00:23:24,945
+but being present in your body kind of is what we need to
+
+376
+00:23:25,821 --> 00:23:27,781
+combat mental health.
+
+377
+00:23:27,781 --> 00:23:31,952
+You can keep a log or a journal if you need to, or an app.
+
+378
+00:23:31,952 --> 00:23:35,163
+Everything's an app now, and kind of track your
+
+379
+00:23:36,456 --> 00:23:39,417
+not triggers, but yellow flags
+
+380
+00:23:39,459 --> 00:23:44,005
+on the field, if you will, kind of an early alerting system to
+
+381
+00:23:45,507 --> 00:23:49,928
+help keep track and point out when you might need to take a pause
+
+382
+00:23:52,180 --> 00:23:54,224
+by doing a self-check in.
+
+383
+00:23:54,724 --> 00:23:58,812
+If you're feeling away and or
+
+384
+00:23:58,854 --> 00:24:04,234
+are unsure why you're feeling that way, or maybe you don't even know what you're feeling
+
+385
+00:24:05,193 --> 00:24:07,946
+I've been there, it's kind of a bitch.
+
+386
+00:24:08,238 --> 00:24:10,198
+But try this.
+
+387
+00:24:10,198 --> 00:24:11,408
+Try it.
+
+388
+00:24:11,408 --> 00:24:12,075
+You never know.
+
+389
+00:24:12,075 --> 00:24:12,742
+It works for me.
+
+390
+00:24:12,742 --> 00:24:13,285
+Try it.
+
+391
+00:24:13,285 --> 00:24:14,703
+Five questions.
+
+392
+00:24:14,703 --> 00:24:16,454
+Have I eaten?
+
+393
+00:24:16,454 --> 00:24:19,166
+Have I had any water in the past two to three hours?
+
+394
+00:24:19,708 --> 00:24:22,961
+Do I have to use the bathroom when I've been holding it all this time?
+
+395
+00:24:23,211 --> 00:24:25,172
+Am I tired?
+
+396
+00:24:25,213 --> 00:24:27,174
+Does my body hurt?
+
+397
+00:24:28,300 --> 00:24:30,260
+Five simple questions, right?
+
+398
+00:24:30,260 --> 00:24:32,179
+Okay, let's dive in.
+
+399
+00:24:32,179 --> 00:24:34,097
+So, have I eaten?
+
+400
+00:24:34,097 --> 00:24:35,974
+Everyone heard hangry?
+
+401
+00:24:35,974 --> 00:24:38,185
+Oh, this person's hangry because they haven't eaten.
+
+402
+00:24:38,185 --> 00:24:40,145
+Well, let's talk about why.
+
+403
+00:24:40,979 --> 00:24:44,316
+Your brain consumes about 20
+
+404
+00:24:44,316 --> 00:24:49,696
+to 25, maybe percent of your body's energy.
+
+405
+00:24:49,988 --> 00:24:54,034
+So you need to constantly fuel it, provide your brain fuel.
+
+406
+00:24:54,034 --> 00:24:55,994
+Your blood sugar
+
+407
+00:24:55,994 --> 00:24:58,705
+affects your cognitive functioning.
+
+408
+00:24:59,998 --> 00:25:03,168
+Low blood sugar can trigger the stress hom
+
+409
+00:25:03,168 --> 00:25:07,714
+the stress hormone, our good old friend cortisol,
+
+410
+00:25:08,089 --> 00:25:11,801
+which can cause reduced attention span, increased irritability
+
+411
+00:25:12,594 --> 00:25:14,721
+and decreased self-control.
+
+412
+00:25:15,472 --> 00:25:18,183
+So your attention span shit.
+
+413
+00:25:18,767 --> 00:25:24,731
+You are heightened, irritable, and you have less self control.
+
+414
+00:25:25,232 --> 00:25:27,192
+What do you think is going to happen?
+
+415
+00:25:29,486 --> 00:25:34,199
+Number two, have I had any water without the past two to three hours?
+
+416
+00:25:34,741 --> 00:25:37,911
+Now, as I told Sarah in the last episode, you know,
+
+417
+00:25:37,911 --> 00:25:40,330
+your bodies are 50,000% water, so
+
+418
+00:25:41,748 --> 00:25:43,708
+what do we need to do here?
+
+419
+00:25:44,960 --> 00:25:50,799
+2% dehydration, just 2% dehydration
+
+420
+00:25:52,467 --> 00:25:56,513
+causes. 10
+
+421
+00:25:56,555 --> 00:26:00,684
+to 15% cognitive performance decline.
+
+422
+00:26:01,977 --> 00:26:05,647
+Your short- term memory kind of becomes shit
+
+423
+00:26:07,232 --> 00:26:10,944
+More cortisol, baby, is squirted into the body.
+
+424
+00:26:11,486 --> 00:26:16,366
+Your neural processing slows, you know, that thing that we really need to function.
+
+425
+00:26:16,366 --> 00:26:18,952
+And your concentration is reduced.
+
+426
+00:26:19,995 --> 00:26:22,956
+The brain, about 73% water,
+
+427
+00:26:24,249 --> 00:26:28,670
+dehydration increases neural energy expenditure.
+
+428
+00:26:28,670 --> 00:26:32,507
+That means your brain is doing more with West than it needs to.
+
+429
+00:26:35,218 --> 00:26:38,471
+A lack of water reduces your brain's ability to
+
+430
+00:26:38,513 --> 00:26:42,225
+sustain optimal electrical firing.
+
+431
+00:26:43,977 --> 00:26:46,438
+Food and water are important.
+
+432
+00:26:48,231 --> 00:26:51,192
+The third one, do I have to use the bathroom?
+
+433
+00:26:51,484 --> 00:26:53,445
+Mm.
+
+434
+00:26:53,445 --> 00:26:54,195
+Okay.
+
+435
+00:26:54,195 --> 00:26:57,324
+So physical discomfort increases your cognitive load.
+
+436
+00:26:57,324 --> 00:26:59,284
+More shits on your plate now.
+
+437
+00:26:59,784 --> 00:27:03,538
+Bladder tension activates a stress response.
+
+438
+00:27:03,580 --> 00:27:05,540
+And what does that do?
+
+439
+00:27:05,540 --> 00:27:07,083
+Cortesol!
+
+440
+00:27:07,083 --> 00:27:09,711
+It reduces your working memory capacity
+
+441
+00:27:09,711 --> 00:27:12,213
+and increases distraction and anxiety.
+
+442
+00:27:12,714 --> 00:27:17,344
+It can trigger a quite popular response that I work learned not too recently
+
+443
+00:27:18,595 --> 00:27:21,681
+or not too long ago, all courtesy
+
+444
+00:27:21,681 --> 00:27:25,935
+of our sympathetic nervous system, fight or flight.
+
+445
+00:27:27,228 --> 00:27:30,315
+Stress and anxiety, you know, the two main requirements for the
+
+446
+00:27:30,357 --> 00:27:35,487
+brain to make the cocktail of doom that I call it, and activate fight or flight.
+
+447
+00:27:35,987 --> 00:27:37,947
+What's that do?
+
+448
+00:27:37,947 --> 00:27:40,033
+It increases your heart rate, it increases your brain breathing rate, it increases
+
+449
+00:27:40,075 --> 00:27:42,494
+your blood pressure, it narrows your blood vessels.
+
+450
+00:27:42,535 --> 00:27:45,622
+It improves your eyesight and slows digestion.
+
+451
+00:27:45,622 --> 00:27:48,833
+I assume those are for the either fighting or flighting.
+
+452
+00:27:48,875 --> 00:27:50,835
+I guess it'd be either.
+
+453
+00:27:50,835 --> 00:27:51,628
+I'm not sure.
+
+454
+00:27:51,628 --> 00:27:54,214
+And it's activated when you're stressed in danger, or just physically active
+
+455
+00:27:55,215 --> 00:27:57,550
+It's now for some nerd.
+
+456
+00:27:57,592 --> 00:28:00,804
+It originates in your thoracic and oneumbar
+
+457
+00:28:00,804 --> 00:28:04,432
+regions of your spinal c cord, and it uses nor epinephrine
+
+458
+00:28:04,474 --> 00:28:08,186
+to act on the targeted issues, or targeted tissues, sorry.
+
+459
+00:28:08,978 --> 00:28:12,190
+It's one of two divisions of the autonomic
+
+460
+00:28:12,232 --> 00:28:16,778
+nervous system, along with the parasympathetic nervous system.
+
+461
+00:28:16,778 --> 00:28:20,198
+B. This system, the sympathetic,
+
+462
+00:28:21,032 --> 00:28:23,827
+responds to changes in caloric intake.
+
+463
+00:28:23,868 --> 00:28:25,829
+Okay?
+
+464
+00:28:25,829 --> 00:28:26,162
+So you've not eaten.
+
+465
+00:28:26,162 --> 00:28:27,330
+So, example
+
+466
+00:28:27,330 --> 00:28:29,916
+you have a caloric restriction that decreases
+
+467
+00:28:29,916 --> 00:28:34,712
+the sympathetic nervous system activity, while carbs increases it.
+
+468
+00:28:35,213 --> 00:28:38,466
+And for all of you fellasellow coffee lovers, caffeine
+
+469
+00:28:38,508 --> 00:28:42,429
+can also stimulate the sympathetic nervous system.
+
+470
+00:28:44,722 --> 00:28:46,683
+Four am I tired?
+
+471
+00:28:48,476 --> 00:28:53,440
+Sweep deprivation, mimics alcohol impairment.
+
+472
+00:28:53,857 --> 00:28:57,026
+Many studies here, 17 to 19
+
+473
+00:28:57,026 --> 00:28:59,362
+hours consistently being awake
+
+474
+00:28:59,988 --> 00:29:03,450
+is the equivalent of 0.05%
+
+475
+00:29:03,450 --> 00:29:06,453
+blood alcohol content, BAC.
+
+476
+00:29:07,495 --> 00:29:09,456
+And what's that do?
+
+477
+00:29:09,456 --> 00:29:11,791
+Well, it reduces emotional regulation, which then
+
+478
+00:29:11,791 --> 00:29:14,169
+increases emotional reactivity.
+
+479
+00:29:14,961 --> 00:29:18,173
+It reduces your complex problem solving,
+
+480
+00:29:18,631 --> 00:29:22,218
+your reaction time, your decision making accuracy,
+
+481
+00:29:22,594 --> 00:29:25,472
+and it increases impulsive behavior.
+
+482
+00:29:26,723 --> 00:29:29,851
+So one, two, three, and four are all kind of playing along with
+
+483
+00:29:29,851 --> 00:29:32,687
+each other here, really, really, really fucking you.
+
+484
+00:29:33,730 --> 00:29:36,941
+Then we come down to number five, does my body hurt?
+
+485
+00:29:38,985 --> 00:29:42,322
+You should track the patterns in your energy,
+
+486
+00:29:42,322 --> 00:29:45,450
+your mood, and your give a fucks bucket capacity.
+
+487
+00:29:46,826 --> 00:29:50,163
+Create a personal dashboard of your mental health indicators
+
+488
+00:29:50,205 --> 00:29:52,832
+in your mind if possible, or you can make a physical one.
+
+489
+00:29:52,832 --> 00:29:54,792
+We can talk about that later.
+
+490
+00:29:54,792 --> 00:29:56,169
+Chronic pain
+
+491
+00:29:56,461 --> 00:29:59,923
+Activates your brain's threat detection system.
+
+492
+00:30:00,465 --> 00:30:03,551
+It knows there's a problem, which now increases your
+
+493
+00:30:03,593 --> 00:30:06,638
+cognitive load again due to your brain focusing on
+
+494
+00:30:07,722 --> 00:30:11,184
+trying to determineermine the source, the cause?
+
+495
+00:30:11,184 --> 00:30:13,144
+Is it bad?
+
+496
+00:30:13,144 --> 00:30:13,895
+Is it temporary?
+
+497
+00:30:13,895 --> 00:30:14,896
+Do I need to stop what I'm doing?
+
+498
+00:30:14,896 --> 00:30:16,981
+Do I need to go to the hospital, et cetera.
+
+499
+00:30:17,732 --> 00:30:21,903
+It reduces your prefrontal cortex functionality,
+
+500
+00:30:21,945 --> 00:30:25,406
+and that controls executive functioning, working memory
+
+501
+00:30:26,449 --> 00:30:29,536
+regulating, and changing behavior,
+
+502
+00:30:29,577 --> 00:30:33,081
+decision making, balancing rewards, and goals,
+
+503
+00:30:33,081 --> 00:30:36,709
+meaning a instant gratification versus a long-term
+
+504
+00:30:36,751 --> 00:30:41,589
+goal, predicting consequences and focusing attention.
+
+505
+00:30:41,631 --> 00:30:43,591
+It also triggers
+
+506
+00:30:43,591 --> 00:30:48,680
+our longtime friend again, cortisol, that awesome stress hormone.
+
+507
+00:30:49,973 --> 00:30:51,933
+And what does that affect?
+
+508
+00:30:51,933 --> 00:30:54,727
+Attention, working memory, and emotional processing.
+
+509
+00:30:55,645 --> 00:30:58,856
+So those five things that seem kind
+
+510
+00:30:58,898 --> 00:31:03,194
+of small can truly affect your mood.
+
+511
+00:31:03,570 --> 00:31:05,530
+Have I eaten?
+
+512
+00:31:05,530 --> 00:31:07,323
+Have I had any water in the past two to three hours?
+
+513
+00:31:07,365 --> 00:31:10,451
+Do I have to use the bathroom and been holding it?
+
+514
+00:31:11,119 --> 00:31:13,079
+Am I tired?
+
+515
+00:31:13,246 --> 00:31:15,206
+And does my body hurt?
+
+516
+00:31:15,206 --> 00:31:17,458
+So what do we do with this?
+
+517
+00:31:18,459 --> 00:31:21,462
+Well, I did something that I
+
+518
+00:31:21,504 --> 00:31:24,173
+learned in therapy
+
+519
+00:31:25,008 --> 00:31:28,720
+and it's to build a toolk kit.
+
+520
+00:31:29,304 --> 00:31:31,639
+And it's not, it doesn't have to be tangible.
+
+521
+00:31:31,639 --> 00:31:34,017
+It doesn't have to be something physical you carry around.
+
+522
+00:31:34,058 --> 00:31:36,227
+It does help, but it doesn't have to be.
+
+523
+00:31:37,312 --> 00:31:43,693
+And you just need to develop three to five minute little things.
+
+524
+00:31:45,737 --> 00:31:47,697
+Five of them at least.
+
+525
+00:31:47,697 --> 00:31:49,157
+That way it's a 15 minute type of deal.
+
+526
+00:31:49,198 --> 00:31:52,911
+To kind of help you reboot, reset, reign
+
+527
+00:31:52,911 --> 00:31:56,456
+with yourself, realign with what you know is true to you.
+
+528
+00:31:57,749 --> 00:32:02,462
+One of them, I'm sure you've heard is a sensory grounding techniques.
+
+529
+00:32:03,046 --> 00:32:08,051
+People use different things, things in their pocket.
+
+530
+00:32:08,092 --> 00:32:11,387
+For me, I have a necklace
+
+531
+00:32:11,387 --> 00:32:13,765
+that you can't see around my neck that I use
+
+532
+00:32:14,390 --> 00:32:16,934
+It's a, well, here, I'll just pull it out.
+
+533
+00:32:16,976 --> 00:32:18,936
+You may not be able to see it.
+
+534
+00:32:18,936 --> 00:32:20,939
+It's a little green heart
+
+535
+00:32:22,607 --> 00:32:25,818
+locket type of deal. and it's got some
+
+536
+00:32:25,818 --> 00:32:27,945
+of my grand grandma's ashes in it.
+
+537
+00:32:29,238 --> 00:32:32,408
+So wherever you are, if possible, look
+
+538
+00:32:32,450 --> 00:32:36,079
+around, find some things you can focus on for a minute or two, like a
+
+539
+00:32:36,079 --> 00:32:41,084
+lamp, a stain on the wall, a pencil, that's under your a table, a parked car, a dog shitting on your walln.
+
+540
+00:32:41,125 --> 00:32:43,086
+It doesn't matter what it is
+
+541
+00:32:43,836 --> 00:32:46,881
+Just focus on it and then describe
+
+542
+00:32:46,881 --> 00:32:48,925
+it out loud.
+
+543
+00:32:49,968 --> 00:32:53,096
+Describe some features of it,
+
+544
+00:32:53,137 --> 00:32:55,348
+and if you can, touch it.
+
+545
+00:32:55,348 --> 00:32:57,767
+But not the dog example.
+
+546
+00:32:57,809 --> 00:32:59,769
+Don't touch that.
+
+547
+00:32:59,769 --> 00:33:00,561
+Don't touch that.
+
+548
+00:33:00,561 --> 00:33:03,481
+Concrete tangible things, something you can physically
+
+549
+00:33:03,523 --> 00:33:07,944
+connect with, seems to work much, much, much better than non tangible things.
+
+550
+00:33:09,487 --> 00:33:13,282
+and words have power, especially when counteracting
+
+551
+00:33:13,282 --> 00:33:15,702
+mental health and talking to yourself.
+
+552
+00:33:16,494 --> 00:33:19,580
+I'm not sure why saying stuff out loud
+
+553
+00:33:19,580 --> 00:33:23,459
+sticks more than if I just try to remember it
+
+554
+00:33:24,043 --> 00:33:27,714
+or write it down somewhere and then never going back and looking at it again.
+
+555
+00:33:29,716 --> 00:33:32,885
+Meditation with scheduled
+
+556
+00:33:32,927 --> 00:33:37,724
+mini breaks is another amazing thing to have in your toolbox.
+
+557
+00:33:38,016 --> 00:33:41,769
+You don't have to meditate for 15, 20, 30 minutes a day.
+
+558
+00:33:41,811 --> 00:33:45,732
+You don't have to own and do you don't have to do that
+
+559
+00:33:46,315 --> 00:33:49,360
+It can be anything that
+
+560
+00:33:49,360 --> 00:33:53,114
+clears your mind and has no
+
+561
+00:33:53,156 --> 00:33:56,117
+distractions to allow you to just
+
+562
+00:33:57,243 --> 00:34:03,374
+E. Just B. It could be in a room with some music.
+
+563
+00:34:03,416 --> 00:34:06,794
+It could be in a room with no music, some incense,
+
+564
+00:34:06,836 --> 00:34:11,966
+a favorite blanket, a favorite food, a flower, a lamp, whatever you need to center
+
+565
+00:34:12,717 --> 00:34:14,677
+do it.
+
+566
+00:34:14,677 --> 00:34:16,721
+And then two more really important ones
+
+567
+00:34:16,721 --> 00:34:21,726
+for this toolk kit is get the fuck up and move brakes.
+
+568
+00:34:21,768 --> 00:34:23,728
+You need to get up and move.
+
+569
+00:34:23,728 --> 00:34:25,938
+I don't, and I need to do this more.
+
+570
+00:34:26,230 --> 00:34:28,191
+You need to get up and move.
+
+571
+00:34:28,483 --> 00:34:31,778
+When you sit or away
+
+572
+00:34:31,778 --> 00:34:34,447
+all the time, all the time.
+
+573
+00:34:35,490 --> 00:34:37,533
+Your body hates you.
+
+574
+00:34:37,533 --> 00:34:39,952
+Your circulatory system hates you.
+
+575
+00:34:41,037 --> 00:34:46,209
+You're not at the prime circulation that you really should be having.
+
+576
+00:34:46,709 --> 00:34:49,629
+We need to walk and move and stretch
+
+577
+00:34:51,714 --> 00:34:56,677
+minimum, 10, 15 minutes a day, I'd say, three times a day.
+
+578
+00:34:57,470 --> 00:35:00,598
+And it doesn't have to be some sweat your ass
+
+579
+00:35:00,640 --> 00:35:04,769
+off exertion, you know, heat stroke type of deal.
+
+580
+00:35:04,769 --> 00:35:06,729
+Just
+
+581
+00:35:06,729 --> 00:35:07,939
+walk the perimeter of the inside of your apartment.
+
+582
+00:35:07,939 --> 00:35:09,899
+I've done that.
+
+583
+00:35:09,899 --> 00:35:12,276
+Walk back and forth and pace.
+
+584
+00:35:12,276 --> 00:35:14,237
+I've done that.
+
+585
+00:35:14,779 --> 00:35:18,699
+Go outside and walk around your house or your apartment or whatever.
+
+586
+00:35:18,741 --> 00:35:20,952
+Just get up and move.
+
+587
+00:35:21,494 --> 00:35:23,454
+Or
+
+588
+00:35:23,621 --> 00:35:26,207
+sit on the floor and do some stretching.
+
+589
+00:35:27,708 --> 00:35:32,672
+All of that releases the endorphins that help make you feel better or can help make you feel better.
+
+590
+00:35:34,048 --> 00:35:36,217
+And the last one is the boundary setting scripts.
+
+591
+00:35:36,467 --> 00:35:39,804
+People have can have some issues
+
+592
+00:35:39,804 --> 00:35:43,182
+setting boundaries, but more importantly,
+
+593
+00:35:43,224 --> 00:35:46,435
+they have a lot of issues coming up with what the boundary should
+
+594
+00:35:46,477 --> 00:35:51,816
+be, not so much setting it and enacting it or enforcing it, I should say.
+
+595
+00:35:51,816 --> 00:35:55,862
+So it'd be good to come up with a few short little things
+
+596
+00:35:57,280 --> 00:36:00,241
+remind you that you have
+
+597
+00:36:00,283 --> 00:36:02,368
+boundaries yourself.
+
+598
+00:36:02,368 --> 00:36:04,787
+You have boundaries with yourself.
+
+599
+00:36:04,829 --> 00:36:08,124
+So have some of those little boundaries in
+
+600
+00:36:08,124 --> 00:36:11,627
+your little toolk kit and remind yourself, hey,
+
+601
+00:36:11,669 --> 00:36:14,088
+Christopher, you set up this boundary.
+
+602
+00:36:14,130 --> 00:36:17,216
+Yeah, I know, but no, you set this up.
+
+603
+00:36:17,258 --> 00:36:20,469
+because you don't want this to happen again
+
+604
+00:36:21,971 --> 00:36:23,931
+Oh, yeah, yeah, yeah, you're right.
+
+605
+00:36:23,931 --> 00:36:25,725
+Okay, I need to do that.
+
+606
+00:36:25,975 --> 00:36:30,146
+So they're not necessarily scripts for setting boundariesaries with other people.
+
+607
+00:36:30,146 --> 00:36:32,148
+They're the ones that you have set with yourself
+
+608
+00:36:33,482 --> 00:36:36,694
+to help stay aligned with who you are.
+
+609
+00:36:37,486 --> 00:36:39,697
+Just reminders, we're human.
+
+610
+00:36:39,697 --> 00:36:43,826
+We're gonna fall, we're gonna fail, or a happy mistake.
+
+611
+00:36:43,826 --> 00:36:46,913
+Sorry, it's not a fail or a happy accident.
+
+612
+00:36:46,954 --> 00:36:48,915
+Because it can always be
+
+613
+00:36:48,915 --> 00:36:50,666
+spun a different way.
+
+614
+00:36:50,666 --> 00:36:55,296
+Well, spun a different way, meaning not how the media does.
+
+615
+00:36:55,296 --> 00:37:00,134
+Whatever else you need to add to your toolk kit, you can.
+
+616
+00:37:00,176 --> 00:37:02,136
+Absolutely.
+
+617
+00:37:02,720 --> 00:37:06,015
+And something else that will really, really
+
+618
+00:37:06,057 --> 00:37:09,477
+help is to reframe what productivity is.
+
+619
+00:37:11,479 --> 00:37:14,523
+No matter what you do, what your task is, you
+
+620
+00:37:14,565 --> 00:37:18,194
+don't want to put everything on
+
+621
+00:37:18,235 --> 00:37:21,739
+the quantitative, right?
+
+622
+00:37:21,739 --> 00:37:23,699
+Quantity.
+
+623
+00:37:23,699 --> 00:37:24,325
+How much did I do?
+
+624
+00:37:24,325 --> 00:37:25,368
+How much did I put out this day?
+
+625
+00:37:25,409 --> 00:37:27,370
+How
+
+626
+00:37:27,370 --> 00:37:28,454
+Don't.
+
+627
+00:37:28,454 --> 00:37:30,206
+That's not a measure of how good you are.
+
+628
+00:37:30,206 --> 00:37:32,291
+It's not the quantity.
+
+629
+00:37:32,333 --> 00:37:35,461
+It's the qualitative, the quality.
+
+630
+00:37:35,962 --> 00:37:39,924
+Did you put out a whole bunch bunch great, but it's all shit?
+
+631
+00:37:40,466 --> 00:37:43,010
+Or were you able to put out one thing
+
+632
+00:37:43,761 --> 00:37:45,721
+and it's great?
+
+633
+00:37:45,721 --> 00:37:47,473
+Where's the balance?
+
+634
+00:37:48,474 --> 00:37:51,811
+It's. best if you
+
+635
+00:37:51,811 --> 00:37:55,398
+can do one thing that's good versus
+
+636
+00:37:55,439 --> 00:37:59,235
+10 to 15 things that are counterproductive and not good.
+
+637
+00:38:00,236 --> 00:38:03,280
+So if you can reframe it in your
+
+638
+00:38:03,280 --> 00:38:06,617
+mind to, it's not about how much I do, it's
+
+639
+00:38:06,659 --> 00:38:09,495
+about how well I'm doing.
+
+640
+00:38:11,247 --> 00:38:16,711
+And that helps you challenge the internalized capitalistic bullshit myths that have been bred into us.
+
+641
+00:38:18,212 --> 00:38:22,550
+And recognizing rest as active recovery
+
+642
+00:38:23,509 --> 00:38:25,469
+not a weakness.
+
+643
+00:38:25,469 --> 00:38:27,972
+Rest is not a weakness.
+
+644
+00:38:28,723 --> 00:38:30,683
+Create an accountability
+
+645
+00:38:31,976 --> 00:38:34,103
+with a comparison, so to speak.
+
+646
+00:38:34,103 --> 00:38:37,273
+So find one to two people or three,
+
+647
+00:38:37,315 --> 00:38:42,945
+whoever, who really understand your mental health, the journey you're on, and how
+
+648
+00:38:43,946 --> 00:38:47,283
+people should treat and respond to you so so
+
+649
+00:38:47,324 --> 00:38:50,202
+that you can give them your best.
+
+650
+00:38:50,995 --> 00:38:54,040
+And we actually talked about this an episode or
+
+651
+00:38:54,040 --> 00:38:56,709
+two ago with my guest, Brandon.
+
+652
+00:38:57,710 --> 00:39:00,421
+I think, or C season two, or maybe three, I'm not sure.
+
+653
+00:39:00,463 --> 00:39:03,674
+You need to build support systems that validate
+
+654
+00:39:03,716 --> 00:39:07,762
+you, that validate your needs, that validate who you are.
+
+655
+00:39:07,762 --> 00:39:09,722
+You need that.
+
+656
+00:39:10,473 --> 00:39:12,433
+If you don't have that,
+
+657
+00:39:13,476 --> 00:39:15,436
+you're not going to be happy.
+
+658
+00:39:16,979 --> 00:39:19,690
+You need people in your life who get you.
+
+659
+00:39:21,984 --> 00:39:25,196
+And they don't like Eor,
+
+660
+00:39:25,488 --> 00:39:29,450
+somewhat of an okay example, Eor and Winnie the Pooh, right?
+
+661
+00:39:29,992 --> 00:39:33,204
+Chronically depressed, chronically sad and down.
+
+662
+00:39:34,747 --> 00:39:38,376
+and all of his friends know this, but they're still his friends.
+
+663
+00:39:38,376 --> 00:39:40,336
+They don't judge him for it.
+
+664
+00:39:41,212 --> 00:39:43,672
+And they don't try to change him for it.
+
+665
+00:39:43,964 --> 00:39:45,925
+They.
+
+666
+00:39:45,925 --> 00:39:47,009
+They don't try to change Eor.
+
+667
+00:39:47,009 --> 00:39:50,721
+They don't try to make fun of Eor.
+
+668
+00:39:50,721 --> 00:39:52,681
+It's just
+
+669
+00:39:52,681 --> 00:39:53,933
+That's our friend Eor.
+
+670
+00:39:53,933 --> 00:39:58,687
+Mental health, he's sad, depressed, pretty much most of the time.
+
+671
+00:39:59,230 --> 00:40:01,190
+But we love them.
+
+672
+00:40:01,190 --> 00:40:04,402
+We love Eor, and we're gonna stick with Eor.
+
+673
+00:40:04,402 --> 00:40:06,362
+Those friends are key.
+
+674
+00:40:06,362 --> 00:40:08,072
+Finding people like that are key key
+
+675
+00:40:08,489 --> 00:40:10,449
+Very, very, very key.
+
+676
+00:40:13,244 --> 00:40:16,205
+So we have some adaptive strategies.
+
+677
+00:40:17,498 --> 00:40:20,709
+Lovely word, to kind of help fight
+
+678
+00:40:21,502 --> 00:40:25,923
+this grind, grind, grind, burnout culture.
+
+679
+00:40:26,966 --> 00:40:30,427
+Build a flexible
+
+680
+00:40:30,469 --> 00:40:33,472
+plan, contingency plan, if you will,
+
+681
+00:40:35,724 --> 00:40:38,936
+for your job, if you have a job,
+
+682
+00:40:38,978 --> 00:40:42,940
+your personal life, creative projects, whatever you're doing.
+
+683
+00:40:43,482 --> 00:40:45,443
+Allow yourself to mess up.
+
+684
+00:40:47,486 --> 00:40:49,447
+Allow yourself to make a mess.
+
+685
+00:40:52,741 --> 00:40:55,828
+Someone told me that. the other day when I
+
+686
+00:40:55,828 --> 00:40:59,206
+was in a not great place and dealing
+
+687
+00:41:00,166 --> 00:41:04,003
+with art, 'cause I'm trying to paint more,
+
+688
+00:41:04,003 --> 00:41:08,174
+and it just enages me because it's not what I see in my head on
+
+689
+00:41:08,966 --> 00:41:10,926
+the canvas.
+
+690
+00:41:10,926 --> 00:41:13,012
+And it enrages me.
+
+691
+00:41:13,053 --> 00:41:16,265
+And then I was told, allow yourself to make a mess.
+
+692
+00:41:16,307 --> 00:41:18,267
+You're still learning.
+
+693
+00:41:18,267 --> 00:41:20,144
+Allow yourself to mess it up.
+
+694
+00:41:20,186 --> 00:41:22,146
+You're still learning.
+
+695
+00:41:22,229 --> 00:41:24,190
+And I think
+
+696
+00:41:24,481 --> 00:41:27,485
+it enrages and bothers me so much is because
+
+697
+00:41:27,526 --> 00:41:29,653
+two things.
+
+698
+00:41:29,695 --> 00:41:33,741
+One, it's not really the artistic outlet.
+
+699
+00:41:33,741 --> 00:41:35,701
+That's me.
+
+700
+00:41:35,701 --> 00:41:36,452
+It's not my choice.
+
+701
+00:41:36,452 --> 00:41:39,079
+It's It's fun, but that's not my choice.
+
+702
+00:41:39,580 --> 00:41:43,209
+And that's one reason.
+
+703
+00:41:44,460 --> 00:41:46,503
+And the second reason is because
+
+704
+00:41:48,172 --> 00:41:53,469
+I'm not excelling at it as quickly as I did with piano.
+
+705
+00:41:54,970 --> 00:41:57,306
+And the two of those reasons combined
+
+706
+00:41:58,557 --> 00:42:00,726
+really cost them spiraling in my head.
+
+707
+00:42:01,227 --> 00:42:05,940
+Like, for instanceance, when I finished the one over here, I threw it on the floor.
+
+708
+00:42:05,981 --> 00:42:08,943
+I just didn't give a fuck, because it just doesn't
+
+709
+00:42:08,984 --> 00:42:11,195
+look like what I had in my head.
+
+710
+00:42:12,029 --> 00:42:15,115
+But as I sit here right now and I'm looking over at it, and different
+
+711
+00:42:15,157 --> 00:42:19,870
+lighting at a different angle, it doesn't look bad.
+
+712
+00:42:19,912 --> 00:42:22,206
+It really doesn't.
+
+713
+00:42:23,749 --> 00:42:25,709
+But it's not what I wanted.
+
+714
+00:42:26,210 --> 00:42:28,170
+But it's not bad.
+
+715
+00:42:28,462 --> 00:42:33,342
+So, I don't always get what we want, but it doesn't necessarily mean it's going to be bad
+
+716
+00:42:34,969 --> 00:42:36,929
+either.
+
+717
+00:42:36,929 --> 00:42:39,807
+So create some buffer zones, create breaks,
+
+718
+00:42:39,807 --> 00:42:42,893
+and whatever you do so that you can quickly regroup, set
+
+719
+00:42:42,935 --> 00:42:46,272
+an alarm on your phone for every so many, whatever, an hour, two hours
+
+720
+00:42:47,273 --> 00:42:49,233
+and do it.
+
+721
+00:42:49,233 --> 00:42:50,901
+Don't, oh, I don't feel like I need one right now.
+
+722
+00:42:50,901 --> 00:42:52,861
+Do it.
+
+723
+00:42:52,861 --> 00:42:54,321
+Every time you put, I don't feel like I need it.
+
+724
+00:42:54,321 --> 00:42:56,282
+I don't feel, oh, I can go a little longer.
+
+725
+00:42:56,282 --> 00:42:57,866
+I can go a little longer.
+
+726
+00:42:57,866 --> 00:42:58,742
+I can go a little longer.
+
+727
+00:42:58,742 --> 00:42:59,827
+You're gonna crash.
+
+728
+00:42:59,827 --> 00:43:01,036
+You're gonna burn out.
+
+729
+00:43:01,036 --> 00:43:02,079
+It happens.
+
+730
+00:43:02,079 --> 00:43:03,956
+Listen to your body.
+
+731
+00:43:05,499 --> 00:43:07,459
+It doesn't lie.
+
+732
+00:43:09,211 --> 00:43:13,215
+Practice communicating changes proactively
+
+733
+00:43:13,257 --> 00:43:16,719
+with people, even if
+
+734
+00:43:16,719 --> 00:43:19,763
+looking in the mirror and starting with yourself.
+
+735
+00:43:19,763 --> 00:43:22,641
+And I actually recommend you do start with yourself.
+
+736
+00:43:23,267 --> 00:43:27,104
+It was cheesy as hell when I tried it, I'm not going to lie.
+
+737
+00:43:27,104 --> 00:43:32,109
+And it did kind of make me think of that Bloody Mary thing looking in the mirror growing up.
+
+738
+00:43:32,151 --> 00:43:34,111
+But anyhow, I digress.
+
+739
+00:43:34,111 --> 00:43:35,779
+Start with your yourself.
+
+740
+00:43:36,697 --> 00:43:39,908
+If there are changes you want to make and say
+
+741
+00:43:39,950 --> 00:43:42,202
+you have a list, and it's kind of a daunting list,
+
+742
+00:43:44,246 --> 00:43:47,207
+pick one or two things, maybe
+
+743
+00:43:47,249 --> 00:43:52,212
+even just one, and tell yourself about it.
+
+744
+00:43:52,713 --> 00:43:54,673
+Have a conversation with yourself.
+
+745
+00:43:54,965 --> 00:43:56,925
+It's okay.
+
+746
+00:43:56,967 --> 00:44:02,348
+It's the one person you can talk to, that you kind of know how they're going to respond.
+
+747
+00:44:02,389 --> 00:44:04,475
+So it's okay.
+
+748
+00:44:04,475 --> 00:44:06,435
+Talk to yourself.
+
+749
+00:44:06,435 --> 00:44:08,354
+If you want to look in the mirror, do it, if you want to look into your phone, do it,
+
+750
+00:44:08,395 --> 00:44:11,732
+just have a conversation with yourself.
+
+751
+00:44:12,733 --> 00:44:15,611
+And I don't mean internally in your head.
+
+752
+00:44:15,652 --> 00:44:17,988
+I mean out loud.
+
+753
+00:44:19,907 --> 00:44:21,867
+Why?
+
+754
+00:44:21,867 --> 00:44:23,535
+There is something to talking out
+
+755
+00:44:23,577 --> 00:44:27,456
+loud that makes it stick.
+
+756
+00:44:29,083 --> 00:44:34,213
+Something like writing when we used to have to write things 50% ofajillion times, you remembered it.
+
+757
+00:44:34,254 --> 00:44:36,965
+I don't mean like writing sentences when you got in trouble, because.
+
+758
+00:44:38,675 --> 00:44:43,222
+Anyway, I just mean writing things down like in school, taking notes and stuff.
+
+759
+00:44:43,222 --> 00:44:46,266
+I did retain it longer if I wrote it down
+
+760
+00:44:46,308 --> 00:44:49,395
+versus putting it in my head, which is just a
+
+761
+00:44:50,479 --> 00:44:53,774
+shit mess trying to remember things and organize.
+
+762
+00:44:53,816 --> 00:44:55,776
+But writing it down made it stick.
+
+763
+00:44:55,776 --> 00:45:00,280
+Something else you can do is I don't have one.
+
+764
+00:45:00,280 --> 00:45:03,867
+I need to build it back up, an emergency mental health fund so
+
+765
+00:45:03,867 --> 00:45:07,871
+that you can treat yourself whenever you need.
+
+766
+00:45:08,455 --> 00:45:10,958
+I'm not saying retail therapy.
+
+767
+00:45:10,958 --> 00:45:13,919
+I'm just saying if you're having an exceptionally
+
+768
+00:45:13,961 --> 00:45:17,589
+bad time or something and you have some, you know,
+
+769
+00:45:17,631 --> 00:45:21,093
+mental health fundage,, get something,
+
+770
+00:45:21,093 --> 00:45:24,972
+whatever it is, get something that will help you
+
+771
+00:45:25,722 --> 00:45:28,767
+And I'm not here to tell you what you should
+
+772
+00:45:28,767 --> 00:45:31,437
+or should not get with your mental health fund.
+
+773
+00:45:32,813 --> 00:45:34,773
+That's up to you.
+
+774
+00:45:34,982 --> 00:45:37,109
+Only you know what's going to help you.
+
+775
+00:45:38,485 --> 00:45:42,364
+You also want to negotiate,
+
+776
+00:45:42,406 --> 00:45:46,660
+well, this shit's all over the place, negotiate flexible working arrangements,
+
+777
+00:45:46,660 --> 00:45:51,874
+and explore, you know, resources that are available to you
+
+778
+00:45:52,416 --> 00:45:55,961
+at your job if you are working.
+
+779
+00:45:56,712 --> 00:45:59,757
+Another big thing is changing how
+
+780
+00:45:59,798 --> 00:46:04,511
+you see yourself, changing how you think about mental health
+
+781
+00:46:05,721 --> 00:46:09,600
+the stigma, the stereotypes,
+
+782
+00:46:09,641 --> 00:46:13,353
+the words people use when talking about mental health.
+
+783
+00:46:16,231 --> 00:46:21,195
+your worth is not the sum of your output.
+
+784
+00:46:22,237 --> 00:46:25,199
+What you can do is not who you are.
+
+785
+00:46:25,741 --> 00:46:27,701
+What you can do
+
+786
+00:46:27,993 --> 00:46:32,664
+is not what makes you your give you value and your worth.
+
+787
+00:46:32,664 --> 00:46:34,625
+You're more than that.
+
+788
+00:46:36,210 --> 00:46:40,214
+Sustainability trumps intensity.
+
+789
+00:46:41,965 --> 00:46:44,927
+Vulnerability is a superpower.
+
+790
+00:46:44,968 --> 00:46:46,929
+It is not a weakness.
+
+791
+00:46:47,012 --> 00:46:50,182
+It's scary as thought to be vulnerable
+
+792
+00:46:51,225 --> 00:46:55,854
+Not going to lie, I will agree with everyone who just screamed yes on that.
+
+793
+00:46:55,896 --> 00:46:58,398
+But it's not a weakness.
+
+794
+00:46:58,398 --> 00:47:00,359
+It's not.
+
+795
+00:47:00,359 --> 00:47:01,527
+You can't really grow
+
+796
+00:47:02,486 --> 00:47:05,197
+if you're not vulnerable and take that chance.
+
+797
+00:47:05,739 --> 00:47:07,699
+You can't.
+
+798
+00:47:08,742 --> 00:47:11,453
+So all of this said.
+
+799
+00:47:14,248 --> 00:47:18,460
+Write down some sentences, maybe, or you can type them up.
+
+800
+00:47:18,460 --> 00:47:21,547
+That's fine if you wanted to type them up on your computer.
+
+801
+00:47:24,299 --> 00:47:29,221
+and you can start it with I am more, whatever.
+
+802
+00:47:29,972 --> 00:47:31,932
+I am more than
+
+803
+00:47:32,975 --> 00:47:34,935
+whatever.
+
+804
+00:47:34,935 --> 00:47:38,188
+And make sure it's things that have to do with your life.
+
+805
+00:47:38,730 --> 00:47:42,985
+You know, I am more than a pretty little butterfly.
+
+806
+00:47:42,985 --> 00:47:45,237
+It's cute, yes, we get it.
+
+807
+00:47:45,279 --> 00:47:47,239
+But
+
+808
+00:47:47,239 --> 00:47:48,532
+you're not physically a butterfly.
+
+809
+00:47:48,574 --> 00:47:51,952
+So try to make these something about you in
+
+810
+00:47:51,994 --> 00:47:55,163
+your life to help you reinforce, and you
+
+811
+00:47:55,163 --> 00:47:58,667
+want to say these out loud, to help you reinforce
+
+812
+00:48:00,460 --> 00:48:02,421
+you.
+
+813
+00:48:02,963 --> 00:48:07,384
+Help you reinforce you, your
+
+814
+00:48:07,426 --> 00:48:12,472
+strengths, who you are, who you want to be, where you want to go.
+
+815
+00:48:13,974 --> 00:48:18,937
+I went ahead and made a whist more than I thought, and you don't have to make this many.
+
+816
+00:48:21,481 --> 00:48:23,442
+But I did.
+
+817
+00:48:23,442 --> 00:48:24,443
+I did.
+
+818
+00:48:24,443 --> 00:48:25,193
+I'm going to share it with you.
+
+819
+00:48:28,363 --> 00:48:31,825
+But I'm actually going to change it from I am to
+
+820
+00:48:31,825 --> 00:48:39,082
+UR. for the ones that are kind of like a blanket statement that go to everybody.
+
+821
+00:48:39,082 --> 00:48:42,836
+And then I'll change them back to I am for the ones that specifically pertain to my life
+
+822
+00:48:43,462 --> 00:48:45,797
+which most are I am.
+
+823
+00:48:45,839 --> 00:48:48,216
+Okay, so here's some.
+
+824
+00:48:48,216 --> 00:48:50,177
+And remember, you want to say these out loud.
+
+825
+00:48:51,762 --> 00:48:55,974
+You are more than the stories that people have said about you.
+
+826
+00:48:56,975 --> 00:49:00,354
+You are more than the labels that people tried
+
+827
+00:49:00,395 --> 00:49:02,689
+to define and swap on you.
+
+828
+00:49:04,733 --> 00:49:08,695
+You are more than the skills that provided you income.
+
+829
+00:49:10,489 --> 00:49:13,200
+You are more than the challenges that made you.
+
+830
+00:49:14,660 --> 00:49:19,331
+100% of the shit that life throughout you, you survived.
+
+831
+00:49:19,373 --> 00:49:21,333
+You're still here.
+
+832
+00:49:22,459 --> 00:49:27,923
+I am more than the classical pianist who lost the majority of his hearing.
+
+833
+00:49:29,925 --> 00:49:32,969
+I am more than the person who had perfect pitch and
+
+834
+00:49:34,179 --> 00:49:38,642
+tuned your instrument when no other resources were available to do so.
+
+835
+00:49:41,228 --> 00:49:44,940
+I am more than an IT genius who
+
+836
+00:49:44,981 --> 00:49:47,442
+can make technology bend at my will.
+
+837
+00:49:49,486 --> 00:49:52,531
+I am more than the traumas that said,
+
+838
+00:49:52,531 --> 00:49:55,701
+you're not enough and you're not going to be enough enough.
+
+839
+00:49:57,494 --> 00:50:00,455
+I am the symphony of my own resilience.
+
+840
+00:50:01,039 --> 00:50:06,253
+I am the code that rewrites its own algorithm that refuses to be predictable and fit in.
+
+841
+00:50:06,294 --> 00:50:09,715
+I am am the glitch in your perfect fucked up system.
+
+842
+00:50:10,966 --> 00:50:15,345
+We are the static between your neat little categories.
+
+843
+00:50:15,387 --> 00:50:18,890
+We are the scream that you try to silence.
+
+844
+00:50:18,932 --> 00:50:22,185
+We are the noise that refuses to be silenced.
+
+845
+00:50:23,270 --> 00:50:27,733
+I am the trauma that gave me my goddamn voice.
+
+846
+00:50:30,235 --> 00:50:32,988
+We try, we fail.
+
+847
+00:50:33,989 --> 00:50:36,950
+We rupture, we break.
+
+848
+00:50:38,243 --> 00:50:40,203
+We try.
+
+849
+00:50:40,704 --> 00:50:42,664
+We fail..
+
+850
+00:50:42,748 --> 00:50:44,708
+We try.
+
+851
+00:50:45,208 --> 00:50:47,169
+We break through.
+
+852
+00:50:47,461 --> 00:50:49,421
+We rebuild.
+
+853
+00:50:50,213 --> 00:50:52,174
+We try.
+
+854
+00:50:54,468 --> 00:50:56,428
+I am human.
+
+855
+00:50:57,220 --> 00:50:59,181
+I am mental health.
+
+856
+00:50:59,473 --> 00:51:03,018
+We are human, and
+
+857
+00:51:03,059 --> 00:51:05,228
+we are mental health.
+
+858
+00:51:08,231 --> 00:51:12,736
+Pick whatever sentences that
+
+859
+00:51:12,778 --> 00:51:16,615
+resonate with you, things that people may have told you
+
+860
+00:51:17,741 --> 00:51:22,454
+opposite of what you know to be true, use those if you need to.
+
+861
+00:51:23,246 --> 00:51:26,958
+Make as many as you need and read them to yourself.
+
+862
+00:51:27,459 --> 00:51:30,420
+Out loud in front of a mirror,
+
+863
+00:51:31,254 --> 00:51:33,215
+if you can.
+
+864
+00:51:33,215 --> 00:51:36,885
+It can seem a little hokey at first, so maybe just start reading them out loud.
+
+865
+00:51:36,927 --> 00:51:38,887
+Or, you know what?
+
+866
+00:51:38,887 --> 00:51:40,472
+Hey, even just start reading them to yourself quietly.
+
+867
+00:51:40,764 --> 00:51:42,724
+Start there.
+
+868
+00:51:42,724 --> 00:51:45,268
+Eventually, you'll see you're going to start saying them out loud.
+
+869
+00:51:45,268 --> 00:51:48,438
+Like, something's going to happen during the day and you're going to be like, oh, wait, wait, wait, wait, wait.
+
+870
+00:51:48,980 --> 00:51:52,943
+I am the symphony of my own resilience, not you.
+
+871
+00:51:53,735 --> 00:51:56,863
+And then you'll start saying them and saying them, and then
+
+872
+00:51:56,863 --> 00:52:00,200
+they become second nature, and then you have weapons,
+
+873
+00:52:00,200 --> 00:52:02,702
+you have mental health weapons to combat
+
+874
+00:52:04,704 --> 00:52:07,707
+bullshit that I like to call wife.
+
+875
+00:52:09,459 --> 00:52:13,421
+So, that's really all I had today.
+
+876
+00:52:14,714 --> 00:52:17,717
+to let people know you do not have to
+
+877
+00:52:17,759 --> 00:52:22,472
+grind, you can take time for your mental health.
+
+878
+00:52:23,473 --> 00:52:26,601
+You cannot be your best if you're not at your best.
+
+879
+00:52:26,601 --> 00:52:29,771
+And even if you're not at your all best, you can still give
+
+880
+00:52:30,272 --> 00:52:32,440
+not your all best, and it still be enough.
+
+881
+00:52:33,233 --> 00:52:35,193
+That's okay.
+
+882
+00:52:36,778 --> 00:52:39,739
+Just take the time to do what
+
+883
+00:52:39,739 --> 00:52:43,326
+you need to do to be the better you
+
+884
+00:52:43,368 --> 00:52:46,705
+and fuck everybody else.
+
+885
+00:52:46,705 --> 00:52:48,665
+They're not you.
+
+886
+00:52:48,748 --> 00:52:50,709
+They're not living your life.
+
+887
+00:52:50,709 --> 00:52:52,460
+They're not walking in your shoes.
+
+888
+00:52:52,460 --> 00:52:54,379
+They're not putting up with your family.
+
+889
+00:52:54,379 --> 00:52:56,339
+They're not putting up with your friends
+
+890
+00:52:56,548 --> 00:52:58,758
+They're not putting up with your medical issues.
+
+891
+00:52:58,758 --> 00:53:03,179
+So why are we going to aot them some of our energy?
+
+892
+00:53:05,473 --> 00:53:08,935
+You, have the conversation with yourself.
+
+893
+00:53:10,478 --> 00:53:13,648
+And I think you're going to be pleasantly
+
+894
+00:53:13,648 --> 00:53:18,195
+surprised if you can follow through with it and do it.
+
+895
+00:53:19,738 --> 00:53:23,074
+So feel free to send questions,
+
+896
+00:53:23,074 --> 00:53:26,536
+comments about any of the topics that
+
+897
+00:53:26,578 --> 00:53:29,497
+I've discussed or we've discussed on the show.
+
+898
+00:53:29,915 --> 00:53:33,001
+And if they're appropriate for the podcast and
+
+899
+00:53:33,043 --> 00:53:36,713
+with your permission, we'll go ahead and discuss them.
+
+900
+00:53:36,963 --> 00:53:39,007
+And when I say appropriate
+
+901
+00:53:39,382 --> 00:53:43,762
+you know, there's always someone who's going to send in something that, no,
+
+902
+00:53:43,762 --> 00:53:47,098
+so I hate hate having to vet shit like
+
+903
+00:53:47,140 --> 00:53:49,684
+that, but, you know, this is the world we live in.
+
+904
+00:53:50,685 --> 00:53:52,729
+So thanks for joining me.
+
+905
+00:53:53,230 --> 00:53:55,690
+And we'll see you next week.
+
+906
+00:53:55,982 --> 00:53:57,943
+Hopefully.
+
+907
+00:53:57,943 --> 00:54:00,320
+On another awesome episode
+
+908
+00:54:00,320 --> 00:54:02,948
+of Concertos of Chaos

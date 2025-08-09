@@ -1,0 +1,364 @@
+<?xml version="1.0"?>
+<tt xmlns:vt="http://namespace.itunes.apple.com/itt/ttml-extension#vertical" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" xmlns:ittp="http://www.w3.org/ns/ttml/profile/imsc1#parameter" xmlns:tt_feature="http://www.w3.org/ns/ttml/feature/" xmlns:ebutts="urn:ebu:tt:style" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:tt_extension="http://www.w3.org/ns/ttml/extension/" xmlns:tt_profile="http://www.w3.org/ns/ttml/profile/" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:ry="http://namespace.itunes.apple.com/itt/ttml-extension#ruby" xmlns:itts="http://www.w3.org/ns/ttml/profile/imsc1#styling" xmlns="http://www.w3.org/ns/ttml" xml:lang="en-US" ttp:dropMode="nonDrop" ttp:frameRate="24" ttp:frameRateMultiplier="1000 1001" ttp:timeBase="smpte" xmlns:tt="http://www.w3.org/ns/ttml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <head>
+    <styling>
+      <style xml:id="normal" tts:color="white" tts:fontFamily="sansSerif" tts:fontSize="100%" tts:fontStyle="normal" tts:fontWeight="normal"/>
+    </styling>
+    <layout>
+      <region xml:id="bottom" tts:displayAlign="after" tts:extent="100% 15%" tts:origin="0% 85%" tts:writingMode="lrtb"/>
+    </layout>
+  </head>
+  <body tts:color="white" region="bottom" style="normal">
+    <div>
+      <p begin="00:00:00:00" end="00:00:03:05" region="bottom">Hey, humans, thanks for joining my podcast.</p>
+      <p begin="00:00:03:11" end="00:00:09:01" region="bottom">This podcast is a place to share unedited lived experiences regarding mental health.</p>
+      <p begin="00:00:09:02" end="00:00:12:04" region="bottom">We'll touch on how it shows up in our lives and provide</p>
+      <p begin="00:00:12:05" end="00:00:16:11" region="bottom">some tips that have worked for me and others on how to manage it.</p>
+      <p begin="00:00:20:11" end="00:00:23:21" region="bottom">There will be strong language, and definitely the</p>
+      <p begin="00:00:23:21" end="00:00:26:22" region="bottom">potential for disturbing and or triggering content.</p>
+      <p begin="00:00:27:07" end="00:00:30:06" region="bottom">Please be aware of this and mindful of</p>
+      <p begin="00:00:30:07" end="00:00:32:09" region="bottom">others who may be in earshot.</p>
+      <p begin="00:00:32:23" end="00:00:36:00" region="bottom">Most importantly, and as horribly fucking</p>
+      <p begin="00:00:36:00" end="00:00:40:04" region="bottom">cliche as this sounds, you really do not have to go through this alone.</p>
+      <p begin="00:00:40:13" end="00:00:44:22" region="bottom">And hopefully you'll see this and feel this more and more as you listen.</p>
+      <p begin="00:00:44:22" end="00:00:49:02" region="bottom">And hey, if this podcast isn't for you, that's fine.</p>
+      <p begin="00:00:49:03" end="00:00:51:02" region="bottom">There are lots of them out there.</p>
+      <p begin="00:00:51:02" end="00:00:54:10" region="bottom">Find one that speaks to you and helps you.</p>
+      <p begin="00:00:54:22" end="00:00:57:09" region="bottom">So, let's talk mental health.</p>
+      <p begin="00:01:21:22" end="00:01:25:09" region="bottom">And now the boiler plate and cover your ass claws</p>
+      <p begin="00:01:27:03" end="00:01:31:00" region="bottom">On this podcast, unless explicitly stated,</p>
+      <p begin="00:01:31:01" end="00:01:34:10" region="bottom">no one on this show is a medical professional in</p>
+      <p begin="00:01:34:11" end="00:01:37:19" region="bottom">any way, and as such, no content on</p>
+      <p begin="00:01:37:19" end="00:01:41:19" region="bottom">this show is intended to be, whether implied or otherwise,</p>
+      <p begin="00:01:41:20" end="00:01:44:01" region="bottom">to be taken as medical advice.</p>
+      <p begin="00:01:44:21" end="00:01:48:18" region="bottom">If you are in crisis, please call 988</p>
+      <p begin="00:01:48:18" end="00:01:53:14" region="bottom">or 911 or go to your nearest emergency room.</p>
+      <p begin="00:01:54:03" end="00:01:57:12" region="bottom">For my fellow LGBTQ plus community,</p>
+      <p begin="00:01:57:13" end="00:02:02:09" region="bottom">you can text start to 678678</p>
+      <p begin="00:02:03:03" end="00:02:06:12" region="bottom">to reach the amazing people over at the Trevor Project.</p>
+      <p begin="00:02:06:12" end="00:02:13:02" region="bottom">Or you can call them at 866-488-7386</p>
+      <p begin="00:02:13:03" end="00:02:18:19" region="bottom">or you can even live chat with them on their website at chat</p>
+      <p begin="00:02:19:05" end="00:02:23:19" region="bottom">t.org.</p>
+      <p begin="00:02:25:02" end="00:02:28:16" region="bottom">Concertos of Chaos is sponsored by self- magnitude,</p>
+      <p begin="00:02:28:17" end="00:02:31:21" region="bottom">an ethical microrousiness helping people show up as</p>
+      <p begin="00:02:31:21" end="00:02:37:00" region="bottom">their boldest, truest selves at work, at play, and everywhere in between.</p>
+      <p begin="00:02:37:08" end="00:02:40:15" region="bottom">Founded by Maggie Green, a queer, neurodivergent</p>
+      <p begin="00:02:40:15" end="00:02:43:19" region="bottom">brand and style strategist, self-magnitude</p>
+      <p begin="00:02:43:19" end="00:02:49:08" region="bottom">offers trauma-informed, affirming support for personal brand and style that reflects all of who you are.</p>
+      <p begin="00:02:49:09" end="00:02:52:00" region="bottom">Learn more at selfagnitude.com.</p>
+      <p begin="00:02:52:00" end="00:02:56:19" region="bottom">And while you're there, check out Maggie's Gay It Forward initiative to support Queer Folks in Need.</p>
+      <p begin="00:02:57:07" end="00:02:59:06" region="bottom">Today</p>
+      <p begin="00:02:59:06" end="00:03:03:07" region="bottom">I want to discuss a little bit on repetition and reactivity.</p>
+      <p begin="00:03:04:13" end="00:03:07:12" region="bottom">I'm sure you are familiar with the saying</p>
+      <p begin="00:03:08:09" end="00:03:12:10" region="bottom">insanity is doing the same thing over and over again</p>
+      <p begin="00:03:13:03" end="00:03:15:02" region="bottom">but expecting different results.</p>
+      <p begin="00:03:15:13" end="00:03:18:15" region="bottom">And this quote is often misattributed</p>
+      <p begin="00:03:18:15" end="00:03:22:11" region="bottom">to Einstein, there is zero evidence</p>
+      <p begin="00:03:24:01" end="00:03:26:00" region="bottom">that he has said this.</p>
+      <p begin="00:03:26:00" end="00:03:28:16" region="bottom">To point out, it is definitely not the quinical definition of</p>
+      <p begin="00:03:28:17" end="00:03:31:00" region="bottom">insanity in any way.</p>
+      <p begin="00:03:31:12" end="00:03:34:17" region="bottom">And whomever said this was not getting an accurate</p>
+      <p begin="00:03:34:18" end="00:03:40:06" region="bottom">observation to create said, quote, it's more of a legal</p>
+      <p begin="00:03:40:18" end="00:03:43:23" region="bottom">term than a clinical term.</p>
+      <p begin="00:03:45:00" end="00:03:49:17" region="bottom">So think of light bulbs, right?</p>
+      <p begin="00:03:51:00" end="00:03:54:02" region="bottom">We had that ass hat who likes</p>
+      <p begin="00:03:54:03" end="00:03:59:18" region="bottom">to steal other people's work and claim it as his own, Thomas Edison, making the light bulb.</p>
+      <p begin="00:03:59:18" end="00:04:04:05" region="bottom">And he is famous, we quoted, saying, &quot; I have not failed 10,000 times.</p>
+      <p begin="00:04:04:06" end="00:04:08:05" region="bottom">I have successfully found 10,000 ways that will not work.&quot;</p>
+      <p begin="00:04:09:12" end="00:04:12:12" region="bottom">Smartphones are any technology, really</p>
+      <p begin="00:04:12:12" end="00:04:14:22" region="bottom">started back in the day.</p>
+      <p begin="00:04:14:23" end="00:04:17:02" region="bottom">We had car phones that were bricks.</p>
+      <p begin="00:04:17:03" end="00:04:19:21" region="bottom">They were very heavy, they were very huge.</p>
+      <p begin="00:04:19:21" end="00:04:22:22" region="bottom">We had backpacks that had the batteries in them,</p>
+      <p begin="00:04:22:22" end="00:04:25:06" region="bottom">we had giant car phones and our cars</p>
+      <p begin="00:04:25:23" end="00:04:29:02" region="bottom">And now they're so small, they can fit in the palm</p>
+      <p begin="00:04:29:03" end="00:04:32:15" region="bottom">of your hand, be concealed in your pocket, a purse,</p>
+      <p begin="00:04:32:16" end="00:04:35:05" region="bottom">a bag, and even your bra.</p>
+      <p begin="00:04:35:11" end="00:04:37:10" region="bottom">I've seen that many times.</p>
+      <p begin="00:04:38:05" end="00:04:40:04" region="bottom">How about aviation?</p>
+      <p begin="00:04:40:04" end="00:04:42:03" region="bottom">There's a lot of repetitiveness as well.</p>
+      <p begin="00:04:42:04" end="00:04:45:05" region="bottom">Coffee brewing methods, you know, people who</p>
+      <p begin="00:04:45:06" end="00:04:50:03" region="bottom">have their own coffee beans grow them, or</p>
+      <p begin="00:04:50:04" end="00:04:54:00" region="bottom">don't grow them, people who just make coffee at home, we</p>
+      <p begin="00:04:54:00" end="00:04:59:05" region="bottom">repeatedly try different methods until we get the flavor and, you know,</p>
+      <p begin="00:04:59:19" end="00:05:01:18" region="bottom">taste the way we want.</p>
+      <p begin="00:05:02:04" end="00:05:04:03" region="bottom">Musical expertise.</p>
+      <p begin="00:05:04:23" end="00:05:06:22" region="bottom">Hello.</p>
+      <p begin="00:05:06:22" end="00:05:09:04" region="bottom">I've been studying and playing for 40 plus</p>
+      <p begin="00:05:09:05" end="00:05:12:19" region="bottom">years and I don't know everything there is to know about music</p>
+      <p begin="00:05:12:19" end="00:05:17:08" region="bottom">theory or piano or any of the other instruments I used to play</p>
+      <p begin="00:05:17:22" end="00:05:19:21" region="bottom">And no one ever will.</p>
+      <p begin="00:05:19:22" end="00:05:23:01" region="bottom">But we still repeat what we do over and over</p>
+      <p begin="00:05:23:01" end="00:05:25:09" region="bottom">and practice until we get it.</p>
+      <p begin="00:05:25:22" end="00:05:27:21" region="bottom">We're not insane.</p>
+      <p begin="00:05:28:11" end="00:05:30:20" region="bottom">Baby humans learning to walk.</p>
+      <p begin="00:05:30:20" end="00:05:32:19" region="bottom">They get up and they fall.</p>
+      <p begin="00:05:32:19" end="00:05:34:16" region="bottom">They get up, and they fall.</p>
+      <p begin="00:05:34:16" end="00:05:38:21" region="bottom">They get up, they fall, they scream, wash, rinse, repeat.</p>
+      <p begin="00:05:39:09" end="00:05:43:02" region="bottom">Those of us who are able, eventually, we learn to walk.</p>
+      <p begin="00:05:43:15" end="00:05:45:14" region="bottom">All by repetition</p>
+      <p begin="00:05:47:15" end="00:05:50:23" region="bottom">So I have these 12 sentences</p>
+      <p begin="00:05:51:00" end="00:05:54:09" region="bottom">that people use when they're under pressure.</p>
+      <p begin="00:05:54:10" end="00:05:58:06" region="bottom">A lot of these I learned in therapy, and some of them I found</p>
+      <p begin="00:05:59:15" end="00:06:01:14" region="bottom">online.</p>
+      <p begin="00:06:01:15" end="00:06:03:14" region="bottom">So real briefly.</p>
+      <p begin="00:06:03:14" end="00:06:06:08" region="bottom">Number one, I need a minute to think this through.</p>
+      <p begin="00:06:07:03" end="00:06:10:20" region="bottom">Number two, help me understand your perspective.</p>
+      <p begin="00:06:11:17" end="00:06:14:01" region="bottom">Number three, that's interesting.</p>
+      <p begin="00:06:14:02" end="00:06:16:01" region="bottom">Can you tell me more?</p>
+      <p begin="00:06:16:01" end="00:06:19:06" region="bottom">Number four, I notice I'm feeling reactive</p>
+      <p begin="00:06:19:07" end="00:06:21:20" region="bottom">right now. and we're going to come back to that one.</p>
+      <p begin="00:06:22:14" end="00:06:25:07" region="bottom">Number five, let's pause and come back to this.</p>
+      <p begin="00:06:26:14" end="00:06:30:13" region="bottom">Number six, what would a good outcome look like for you?</p>
+      <p begin="00:06:31:08" end="00:06:35:07" region="bottom">Number seven, I appreciate you bringing this to my attention.</p>
+      <p begin="00:06:35:20" end="00:06:40:19" region="bottom">Number eight, I see this differently, but I'm curious about your view.</p>
+      <p begin="00:06:41:20" end="00:06:45:07" region="bottom">Number nine, can we explore other options together?</p>
+      <p begin="00:06:46:08" end="00:06:48:07" region="bottom">Number 10.</p>
+      <p begin="00:06:48:07" end="00:06:49:04" region="bottom">I'm not ready to decide yet.</p>
+      <p begin="00:06:49:20" end="00:06:51:19" region="bottom">Number 11.</p>
+      <p begin="00:06:51:19" end="00:06:52:16" region="bottom">What am I missing here?</p>
+      <p begin="00:06:53:08" end="00:06:55:07" region="bottom">Number 12.</p>
+      <p begin="00:06:55:07" end="00:06:57:11" region="bottom">Let me reflect on that and get back to you.</p>
+      <p begin="00:06:57:11" end="00:07:00:12" region="bottom">Now, some of these, you might</p>
+      <p begin="00:07:00:12" end="00:07:04:13" region="bottom">be thinking, are kind of in the same under the same umbrella, and they are.</p>
+      <p begin="00:07:04:14" end="00:07:08:21" region="bottom">For instance, I need a minute, let's pause.</p>
+      <p begin="00:07:09:11" end="00:07:11:20" region="bottom">I'm not ready.</p>
+      <p begin="00:07:11:20" end="00:07:13:19" region="bottom">Let me reflect and get back to you.</p>
+      <p begin="00:07:13:19" end="00:07:16:18" region="bottom">So some of these are under the same umbrella, yes.</p>
+      <p begin="00:07:17:19" end="00:07:21:10" region="bottom">But the one I want to talk about the most right now is the number four.</p>
+      <p begin="00:07:21:11" end="00:07:25:01" region="bottom">I notice I'm feeling reactive right now.</p>
+      <p begin="00:07:25:19" end="00:07:27:18" region="bottom">Okay, what's that mean?</p>
+      <p begin="00:07:29:13" end="00:07:31:12" region="bottom">Yes, you're right.</p>
+      <p begin="00:07:31:12" end="00:07:32:11" region="bottom">That's exactly what it means.</p>
+      <p begin="00:07:32:11" end="00:07:33:14" region="bottom">So.</p>
+      <p begin="00:07:34:03" end="00:07:37:00" region="bottom">I am feeling reactive right now.</p>
+      <p begin="00:07:37:08" end="00:07:41:05" region="bottom">The most fascinating thing happens in our brains,</p>
+      <p begin="00:07:41:05" end="00:07:45:14" region="bottom">neurologically, when we become reactive.</p>
+      <p begin="00:07:45:14" end="00:07:48:22" region="bottom">Often it's called an amygdala</p>
+      <p begin="00:07:48:23" end="00:07:51:06" region="bottom">hijack or emotional flooding.</p>
+      <p begin="00:07:51:18" end="00:07:56:07" region="bottom">This is what happens in our brains during these reactive moments.</p>
+      <p begin="00:07:56:08" end="00:08:00:09" region="bottom">Our amygdala, that's the part of your brain that handles</p>
+      <p begin="00:08:00:10" end="00:08:02:16" region="bottom">threat detection.</p>
+      <p begin="00:08:02:16" end="00:08:05:01" region="bottom">That's our threat detection system.</p>
+      <p begin="00:08:05:02" end="00:08:07:01" region="bottom">And it essentially takes over.</p>
+      <p begin="00:08:07:06" end="00:08:09:23" region="bottom">Then give it like a home security alarm</p>
+      <p begin="00:08:10:21" end="00:08:13:18" region="bottom">at your house or apartment or whatever.</p>
+      <p begin="00:08:13:18" end="00:08:15:17" region="bottom">More on that in a minute.</p>
+      <p begin="00:08:15:17" end="00:08:18:00" region="bottom">When it perceives a threat, when our amygdala perceives a</p>
+      <p begin="00:08:18:01" end="00:08:21:22" region="bottom">threat, whether it's physical or emotional, it</p>
+      <p begin="00:08:21:22" end="00:08:24:23" region="bottom">will bypass your prefrontal cortex.</p>
+      <p begin="00:08:25:17" end="00:08:30:02" region="bottom">I'm sorry, it can bypass your prefrontal cortex.</p>
+      <p begin="00:08:30:03" end="00:08:33:05" region="bottom">And your prefrontal cortex is</p>
+      <p begin="00:08:33:06" end="00:08:38:05" region="bottom">the part of your brain that's responsible for rational thinking and decision making</p>
+      <p begin="00:08:39:06" end="00:08:41:11" region="bottom">and impulse control.</p>
+      <p begin="00:08:42:11" end="00:08:44:13" region="bottom">So we become reactive.</p>
+      <p begin="00:08:44:14" end="00:08:46:13" region="bottom">What happens?</p>
+      <p begin="00:08:46:13" end="00:08:49:00" region="bottom">Well, as we've discussed many times before,</p>
+      <p begin="00:08:49:00" end="00:08:53:23" region="bottom">we have the stress hormone cortisol, and then we have adrenaline flooding our system</p>
+      <p begin="00:08:54:23" end="00:08:58:06" region="bottom">Blood flow actually will decrease to</p>
+      <p begin="00:08:58:06" end="00:09:02:02" region="bottom">your prefontal cortex, and your body emotionally</p>
+      <p begin="00:09:02:02" end="00:09:07:08" region="bottom">and depending on the situation, emotionally and physically, into flight</p>
+      <p begin="00:09:08:05" end="00:09:10:10" region="bottom">fight, or freeze mode.</p>
+      <p begin="00:09:11:16" end="00:09:14:15" region="bottom">I know you've heard of fight or flight, but there's also freeze.</p>
+      <p begin="00:09:14:16" end="00:09:18:10" region="bottom">Some people, they freeze, like a deer in the headlights.</p>
+      <p begin="00:09:19:04" end="00:09:23:01" region="bottom">So once we are in this armed state,</p>
+      <p begin="00:09:23:01" end="00:09:28:19" region="bottom">our ability to process complex information becomes immensely limited</p>
+      <p begin="00:09:29:10" end="00:09:31:15" region="bottom">So back to the home security system.</p>
+      <p begin="00:09:32:10" end="00:09:35:15" region="bottom">You come home, you open the door, and</p>
+      <p begin="00:09:35:15" end="00:09:38:19" region="bottom">you hear a beeping to notify you that you have about 10 or</p>
+      <p begin="00:09:38:20" end="00:09:41:14" region="bottom">five or 15 seconds to enter your pin number</p>
+      <p begin="00:09:42:07" end="00:09:44:06" region="bottom">and disable the alarm.</p>
+      <p begin="00:09:44:15" end="00:09:47:16" region="bottom">Or for you fancy pants people out there, you open an app</p>
+      <p begin="00:09:47:17" end="00:09:51:04" region="bottom">on your phone, tap on something, to disarm it, or tell</p>
+      <p begin="00:09:51:04" end="00:09:54:13" region="bottom">your quote unquote smart device to disable it, whatever.</p>
+      <p begin="00:09:54:14" end="00:09:56:13" region="bottom">Then</p>
+      <p begin="00:09:56:13" end="00:09:59:11" region="bottom">some people, when they get home and in</p>
+      <p begin="00:09:59:12" end="00:10:04:07" region="bottom">their homes, they rearm their systems, but only certain zones.</p>
+      <p begin="00:10:04:07" end="00:10:09:14" region="bottom">An example would be like the perimeter of their abode, the doors and the windows.</p>
+      <p begin="00:10:10:15" end="00:10:13:21" region="bottom">So us, our amygdala,</p>
+      <p begin="00:10:13:21" end="00:10:17:18" region="bottom">our threat detection system, we have the same thing.</p>
+      <p begin="00:10:17:19" end="00:10:20:18" region="bottom">We have our baseline vigilance, which is</p>
+      <p begin="00:10:20:19" end="00:10:24:17" region="bottom">our perimeter zone is armed, and that's our basicual</p>
+      <p begin="00:10:24:18" end="00:10:27:08" region="bottom">situational awareness.</p>
+      <p begin="00:10:27:18" end="00:10:30:23" region="bottom">Then we have that initial alert, which is, you know, first motion</p>
+      <p begin="00:10:30:23" end="00:10:35:20" region="bottom">detected, and it can be, you know, your gut feeling that, oh, shit, something's off.</p>
+      <p begin="00:10:37:06" end="00:10:40:08" region="bottom">There's a verification period, a delay, and</p>
+      <p begin="00:10:40:09" end="00:10:45:01" region="bottom">that's where you consciously, your prefontal cortex, is assessing the situation situation.</p>
+      <p begin="00:10:46:02" end="00:10:51:09" region="bottom">Then, well, fuck, threat confirmed, DCon 1, sound the alarm</p>
+      <p begin="00:10:52:03" end="00:10:55:05" region="bottom">Senor amygdala has now taken controls.</p>
+      <p begin="00:10:55:06" end="00:10:57:07" region="bottom">It is his airplane now.</p>
+      <p begin="00:10:58:02" end="00:11:03:22" region="bottom">So using that analogy, think of what's something I don't do, but probably should.</p>
+      <p begin="00:11:03:22" end="00:11:06:21" region="bottom">Think about going out, going to a party, visiting friends,</p>
+      <p begin="00:11:06:22" end="00:11:10:06" region="bottom">going out to eat, something social, something that takes you out</p>
+      <p begin="00:11:10:19" end="00:11:13:12" region="bottom">of your comfortable safe space.</p>
+      <p begin="00:11:14:13" end="00:11:16:12" region="bottom">So what do we do?</p>
+      <p begin="00:11:16:12" end="00:11:18:19" region="bottom">We arm our body and minds security system.</p>
+      <p begin="00:11:18:19" end="00:11:20:18" region="bottom">All of it.</p>
+      <p begin="00:11:20:18" end="00:11:24:07" region="bottom">Motion sensors, our eyes, windows and doors, the perimeter, physical, our physical selves</p>
+      <p begin="00:11:25:01" end="00:11:27:16" region="bottom">our personal bubble, our space.</p>
+      <p begin="00:11:27:16" end="00:11:30:02" region="bottom">This is our baseline vigilance.</p>
+      <p begin="00:11:30:03" end="00:11:32:12" region="bottom">Basic situational awareness.</p>
+      <p begin="00:11:33:19" end="00:11:38:06" region="bottom">Somehow, we end up finding ourselves in a situation that's</p>
+      <p begin="00:11:39:07" end="00:11:42:00" region="bottom">we'll say not quite ideal.</p>
+      <p begin="00:11:43:07" end="00:11:46:12" region="bottom">And we have picked up with our motion sensors, our eyes,</p>
+      <p begin="00:11:46:12" end="00:11:48:18" region="bottom">that something alerted us.</p>
+      <p begin="00:11:50:04" end="00:11:52:13" region="bottom">That's our initial alert.</p>
+      <p begin="00:11:52:13" end="00:11:54:15" region="bottom">First motion detected.</p>
+      <p begin="00:11:54:15" end="00:11:57:05" region="bottom">And it can be your gut telling you something's off.</p>
+      <p begin="00:11:57:18" end="00:11:59:18" region="bottom">But it's not imminent.</p>
+      <p begin="00:11:59:19" end="00:12:02:21" region="bottom">And just like, you know, your home alarm system,</p>
+      <p begin="00:12:02:22" end="00:12:06:18" region="bottom">motion sensors can be set to not immediately sound the alarm</p>
+      <p begin="00:12:08:00" end="00:12:09:23" region="bottom">when motion is detected.</p>
+      <p begin="00:12:09:23" end="00:12:11:23" region="bottom">And this feature is great.</p>
+      <p begin="00:12:11:23" end="00:12:15:06" region="bottom">It was designed for people with animals or</p>
+      <p begin="00:12:15:06" end="00:12:21:05" region="bottom">robot vacuums running around their homes cleaning or babies, children running around the house, etc.</p>
+      <p begin="00:12:22:06" end="00:12:24:05" region="bottom">So we have this alert.</p>
+      <p begin="00:12:24:06" end="00:12:29:07" region="bottom">We enter our proverbial pin, and we disable the alarm.</p>
+      <p begin="00:12:29:07" end="00:12:31:06" region="bottom">So what's our proverbial pin?</p>
+      <p begin="00:12:31:23" end="00:12:35:22" region="bottom">Menacting mindfulness and other techniques more on that later.</p>
+      <p begin="00:12:37:11" end="00:12:43:16" region="bottom">So, disabled, we're good, rearmed, going around.</p>
+      <p begin="00:12:44:17" end="00:12:46:16" region="bottom">Shit.</p>
+      <p begin="00:12:46:16" end="00:12:47:15" region="bottom">Find ourselves in another situation.</p>
+      <p begin="00:12:48:13" end="00:12:51:23" region="bottom">A potential thing up ahead that we're aware of.</p>
+      <p begin="00:12:53:11" end="00:12:57:01" region="bottom">So we have our initial alert, again, and</p>
+      <p begin="00:12:57:01" end="00:13:00:13" region="bottom">we see that thing is escalating, and we see that the</p>
+      <p begin="00:13:00:14" end="00:13:03:00" region="bottom">situation is starting to go south quickly</p>
+      <p begin="00:13:03:21" end="00:13:07:09" region="bottom">zero questions or doubt. verification</p>
+      <p begin="00:13:07:10" end="00:13:12:10" region="bottom">has happened, and we are now have a full-on detection confirmed,</p>
+      <p begin="00:13:12:11" end="00:13:16:04" region="bottom">and it's not a dog or evacuum or a baby are running around the house.</p>
+      <p begin="00:13:16:04" end="00:13:19:03" region="bottom">This is a full alarm, and the control panel</p>
+      <p begin="00:13:19:04" end="00:13:22:09" region="bottom">is screaming that Senor amygdala is about</p>
+      <p begin="00:13:22:10" end="00:13:25:19" region="bottom">to take over with zero conscious inputput</p>
+      <p begin="00:13:26:03" end="00:13:28:02" region="bottom">from you.</p>
+      <p begin="00:13:28:10" end="00:13:30:10" region="bottom">So, it's screaming.</p>
+      <p begin="00:13:30:10" end="00:13:35:15" region="bottom">We've entered fight or flight freeze mode, quarisol and adrenaline squirting out through our bodies.</p>
+      <p begin="00:13:35:15" end="00:13:38:22" region="bottom">Blood flow decreases from your prefontal</p>
+      <p begin="00:13:38:23" end="00:13:43:19" region="bottom">cortex, as I said before, which is where your decisions impulse to all that is handled</p>
+      <p begin="00:13:44:07" end="00:13:48:11" region="bottom">And complex information</p>
+      <p begin="00:13:48:11" end="00:13:50:11" region="bottom">is especially difficult</p>
+      <p begin="00:13:52:06" end="00:13:54:15" region="bottom">to handle when you're reactive.</p>
+      <p begin="00:13:55:09" end="00:13:58:12" region="bottom">It becomes severely limited, and extreme</p>
+      <p begin="00:13:58:13" end="00:14:01:09" region="bottom">cases completely non nonexistent.</p>
+      <p begin="00:14:01:21" end="00:14:03:20" region="bottom">Can it be a false alarm?</p>
+      <p begin="00:14:03:21" end="00:14:08:14" region="bottom">Of course, just like physical alarm systems and tests can have false positives</p>
+      <p begin="00:14:09:01" end="00:14:15:09" region="bottom">our system can be hypervigilant, over sensitive?</p>
+      <p begin="00:14:16:15" end="00:14:20:08" region="bottom">Seemingly broken, huh, miscalibrated?</p>
+      <p begin="00:14:20:21" end="00:14:22:20" region="bottom">But why?</p>
+      <p begin="00:14:22:20" end="00:14:26:19" region="bottom">Why is our defense system perceived as</p>
+      <p begin="00:14:26:20" end="00:14:29:17" region="bottom">broken or miscalibrated by us?</p>
+      <p begin="00:14:29:17" end="00:14:33:02" region="bottom">Well, things in our</p>
+      <p begin="00:14:33:03" end="00:14:36:08" region="bottom">lives, our past, past trauma, stresses</p>
+      <p begin="00:14:37:08" end="00:14:42:18" region="bottom">lack of maintenance, which is not practicing emotional regulation techniques.</p>
+      <p begin="00:14:42:19" end="00:14:47:19" region="bottom">Think of it like your pin number to disarm the alarm.</p>
+      <p begin="00:14:47:19" end="00:14:49:22" region="bottom">If you don't use it often</p>
+      <p begin="00:14:50:15" end="00:14:53:16" region="bottom">or you forget it, or your inner</p>
+      <p begin="00:14:53:16" end="00:14:58:19" region="bottom">situation under massive amounts of stress, you cannot disable the alarm.</p>
+      <p begin="00:14:59:20" end="00:15:04:07" region="bottom">Without practice, without memorizing what to do, you can't disable the alarm.</p>
+      <p begin="00:15:05:14" end="00:15:08:22" region="bottom">Both systems, you know, the real alarm at wherever</p>
+      <p begin="00:15:08:22" end="00:15:13:05" region="bottom">you are, and your on personal</p>
+      <p begin="00:15:13:05" end="00:15:17:03" region="bottom">alarm, your brain, your amygdala, can be recalibrated</p>
+      <p begin="00:15:17:04" end="00:15:20:22" region="bottom">with maintenance and adjustments, just like a physical alarm.</p>
+      <p begin="00:15:22:13" end="00:15:28:07" region="bottom">We upgrade the firmware in our brains with sensitivity adjustments.</p>
+      <p begin="00:15:28:08" end="00:15:30:07" region="bottom">And what is that?</p>
+      <p begin="00:15:30:07" end="00:15:32:13" region="bottom">Well, professional therapy, practicing</p>
+      <p begin="00:15:32:14" end="00:15:35:06" region="bottom">mindfulness, practicing mindfulness.</p>
+      <p begin="00:15:35:07" end="00:15:37:06" region="bottom">And</p>
+      <p begin="00:15:37:06" end="00:15:40:04" region="bottom">both fortunately and unfortunately, experience.</p>
+      <p begin="00:15:40:05" end="00:15:43:10" region="bottom">You you got to do these things and get practice doing</p>
+      <p begin="00:15:43:10" end="00:15:48:18" region="bottom">this and being in the situation to help you do it.</p>
+      <p begin="00:15:48:18" end="00:15:50:17" region="bottom">It's not fun.</p>
+      <p begin="00:15:50:17" end="00:15:52:13" region="bottom">I'm not going to lie.</p>
+      <p begin="00:15:52:13" end="00:15:53:21" region="bottom">There are times when it is really not fun</p>
+      <p begin="00:15:54:10" end="00:15:56:09" region="bottom">but but you have to do it.</p>
+      <p begin="00:15:57:07" end="00:16:00:06" region="bottom">Now, what's really interesting in this,</p>
+      <p begin="00:16:00:21" end="00:16:04:14" region="bottom">when your amygdo takes over, it happens in milliseconds,</p>
+      <p begin="00:16:04:14" end="00:16:08:11" region="bottom">and that's way faster than our consciousness little brains can process it.</p>
+      <p begin="00:16:08:18" end="00:16:11:05" region="bottom">By the time you're aware, you're angry</p>
+      <p begin="00:16:12:12" end="00:16:15:13" region="bottom">that physiological response</p>
+      <p begin="00:16:15:14" end="00:16:18:15" region="bottom">in your body is long already underway.</p>
+      <p begin="00:16:18:15" end="00:16:20:14" region="bottom">That ship has sailed.</p>
+      <p begin="00:16:20:18" end="00:16:22:17" region="bottom">This is why</p>
+      <p begin="00:16:24:06" end="00:16:27:10" region="bottom">developing awareness of your</p>
+      <p begin="00:16:27:10" end="00:16:31:06" region="bottom">triggers and and practicing emotional regulation techniques</p>
+      <p begin="00:16:31:06" end="00:16:34:03" region="bottom">are required.</p>
+      <p begin="00:16:34:03" end="00:16:37:07" region="bottom">They help you recognize and manage these</p>
+      <p begin="00:16:37:08" end="00:16:40:07" region="bottom">responses before they take full control</p>
+      <p begin="00:16:42:05" end="00:16:45:22" region="bottom">I notice I'm feeling reactive right now.</p>
+      <p begin="00:16:46:11" end="00:16:50:03" region="bottom">How many of you know what that means?</p>
+      <p begin="00:16:50:04" end="00:16:52:03" region="bottom">Like, how many of you</p>
+      <p begin="00:16:52:07" end="00:16:55:08" region="bottom">know what it is to feel that you're being</p>
+      <p begin="00:16:55:09" end="00:17:00:12" region="bottom">reactive versus calmly, consciously</p>
+      <p begin="00:17:00:12" end="00:17:02:18" region="bottom">trying to make a decision and assess?</p>
+      <p begin="00:17:02:19" end="00:17:05:10" region="bottom">How do we know if we're feeling reactive?</p>
+      <p begin="00:17:05:20" end="00:17:07:22" region="bottom">Unfortunately, sometimes</p>
+      <p begin="00:17:08:23" end="00:17:13:05" region="bottom">if you don't have the skills yet, it's far too late.</p>
+      <p begin="00:17:13:05" end="00:17:16:06" region="bottom">And after whatever has happened happened, that we</p>
+      <p begin="00:17:16:07" end="00:17:19:14" region="bottom">realize, fuck, I was reactive.</p>
+      <p begin="00:17:19:14" end="00:17:21:13" region="bottom">I should not have done that.</p>
+      <p begin="00:17:21:13" end="00:17:23:02" region="bottom">Why did I do that?</p>
+      <p begin="00:17:23:02" end="00:17:24:11" region="bottom">Why am I like this?</p>
+      <p begin="00:17:25:04" end="00:17:29:09" region="bottom">Don't let yourself fall into a spiral like that.</p>
+      <p begin="00:17:29:16" end="00:17:32:19" region="bottom">It's not, why am I like this or why are you like this?</p>
+      <p begin="00:17:32:20" end="00:17:34:19" region="bottom">Why are you broken?</p>
+      <p begin="00:17:34:19" end="00:17:35:19" region="bottom">Why am I broken?</p>
+      <p begin="00:17:35:19" end="00:17:36:20" region="bottom">It's not.</p>
+      <p begin="00:17:36:20" end="00:17:37:13" region="bottom">We're not broken.</p>
+      <p begin="00:17:38:04" end="00:17:43:09" region="bottom">We just have to learn and practice more skills.</p>
+      <p begin="00:17:43:16" end="00:17:45:15" region="bottom">That's it.</p>
+      <p begin="00:17:45:15" end="00:17:47:03" region="bottom">I know it sounds.</p>
+      <p begin="00:17:47:16" end="00:17:50:02" region="bottom">Well, it sounds easy and it sounds hard.</p>
+      <p begin="00:17:50:19" end="00:17:52:18" region="bottom">And it is.</p>
+      <p begin="00:17:52:18" end="00:17:54:06" region="bottom">It's both.</p>
+      <p begin="00:17:54:06" end="00:17:55:04" region="bottom">It is easy and it's hard.</p>
+      <p begin="00:17:55:04" end="00:17:57:21" region="bottom">I don't know how to explain that, but</p>
+      <p begin="00:18:00:10" end="00:18:02:09" region="bottom">it is.</p>
+      <p begin="00:18:02:09" end="00:18:03:09" region="bottom">Trust the process.</p>
+      <p begin="00:18:03:09" end="00:18:04:14" region="bottom">It is.</p>
+      <p begin="00:18:04:14" end="00:18:05:02" region="bottom">It's easy and it's hard.</p>
+      <p begin="00:18:05:03" end="00:18:09:03" region="bottom">So I want you throughout this week.</p>
+      <p begin="00:18:10:21" end="00:18:13:02" region="bottom">Kind of. be mindful.</p>
+      <p begin="00:18:13:03" end="00:18:17:01" region="bottom">And throughout your</p>
+      <p begin="00:18:17:01" end="00:18:20:12" region="bottom">day, this week, see if you can find a</p>
+      <p begin="00:18:20:13" end="00:18:23:17" region="bottom">time where something has made you feel reactive.</p>
+      <p begin="00:18:23:17" end="00:18:27:15" region="bottom">Now, you don't have to to go, you know, all DEFCON 1 and to</p>
+      <p begin="00:18:28:01" end="00:18:30:16" region="bottom">later realize, oh, I was reactive.</p>
+      <p begin="00:18:30:16" end="00:18:32:15" region="bottom">That's not what I mean.</p>
+      <p begin="00:18:34:06" end="00:18:37:05" region="bottom">I want to know if you can feel</p>
+      <p begin="00:18:37:06" end="00:18:41:12" region="bottom">that you are reactive, but before you</p>
+      <p begin="00:18:41:12" end="00:18:44:21" region="bottom">actually react and do something, before</p>
+      <p begin="00:18:44:22" end="00:18:47:14" region="bottom">your amygdala has been taken over.</p>
+      <p begin="00:18:48:02" end="00:18:50:01" region="bottom">Try and see what that feels like.</p>
+      <p begin="00:18:50:01" end="00:18:51:22" region="bottom">See if you can determine</p>
+      <p begin="00:18:52:04" end="00:18:54:22" region="bottom">when you feel reactive.</p>
+      <p begin="00:18:54:23" end="00:18:59:08" region="bottom">And then backtrack and find out why.</p>
+      <p begin="00:19:01:14" end="00:19:03:19" region="bottom">What made you feel reactive?</p>
+      <p begin="00:19:04:16" end="00:19:06:15" region="bottom">Did someone say something?</p>
+      <p begin="00:19:06:15" end="00:19:08:06" region="bottom">Did someone do something?</p>
+      <p begin="00:19:08:14" end="00:19:10:13" region="bottom">Did it affect you directly?</p>
+      <p begin="00:19:10:13" end="00:19:12:00" region="bottom">Did it affect you in indirectly?</p>
+      <p begin="00:19:12:00" end="00:19:14:18" region="bottom">The only way we're going</p>
+      <p begin="00:19:14:19" end="00:19:17:17" region="bottom">to get better at not being reactive</p>
+      <p begin="00:19:18:09" end="00:19:22:07" region="bottom">is identifying when we're feeling reactive.</p>
+      <p begin="00:19:22:08" end="00:19:25:10" region="bottom">And the only way we can do that,</p>
+      <p begin="00:19:25:11" end="00:19:29:08" region="bottom">aside from someone telling us, but it's too weight by them, is</p>
+      <p begin="00:19:29:08" end="00:19:32:12" region="bottom">to practice all of these mental health techniques.</p>
+      <p begin="00:19:35:07" end="00:19:37:06" region="bottom">Thank you, everybody.</p>
+      <p begin="00:19:37:06" end="00:19:38:12" region="bottom">I hope you have a great day.</p>
+      <p begin="00:19:38:12" end="00:19:39:23" region="bottom">You are not alone.</p>
+      <p begin="00:19:39:23" end="00:19:41:06" region="bottom">You are not a burden.</p>
+      <p begin="00:19:41:13" end="00:19:43:12" region="bottom">You are you.</p>
+      <p begin="00:19:44:01" end="00:19:47:13" region="bottom">Let's try to be happy and love who we are.</p>
+      <p begin="00:19:47:14" end="00:19:50:18" region="bottom">Okay, that's all the time we have today.</p>
+      <p begin="00:19:50:18" end="00:19:53:19" region="bottom">Thank you, everyone who joined and listened.</p>
+      <p begin="00:19:53:19" end="00:19:57:09" region="bottom">I truly hope you were able to take something from this that</p>
+      <p begin="00:19:57:10" end="00:19:59:16" region="bottom">will help you better manage your mental health.</p>
+      <p begin="00:20:00:13" end="00:20:04:21" region="bottom">Please also keep in your mind that this takes work and time.</p>
+      <p begin="00:20:04:21" end="00:20:09:23" region="bottom">There is no quick fix, so please allow yourself some grace and compassion.</p>
+      <p begin="00:20:10:00" end="00:20:12:23" region="bottom">I hope you join again next time as we continue</p>
+      <p begin="00:20:13:00" end="00:20:17:07" region="bottom">dismantling the ridiculous stigma that surrounds mental health.</p>
+      <p begin="00:20:17:07" end="00:20:19:06" region="bottom">And until next time</p>
+      <p begin="00:20:19:06" end="00:20:21:06" region="bottom">don't throat punch anyone.</p>
+      <p begin="00:20:21:18" end="00:20:23:17" region="bottom">Bye-bye.</p>
+    </div>
+  </body>
+</tt>
