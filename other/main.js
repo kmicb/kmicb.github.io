@@ -22,7 +22,6 @@ const episodeData = [
     duration: "17:50",
     audioUrl: "https://u.pcloud.link/publink/show?code=XZpIPJ5ZDpxrgTwqz65uVTCqmK7HTbUVWi5X",
     videoUrl: "",
-    ittUrl: "/other/S01E01_captions.itt",
     srtUrl: "/other/S01E01_captions.srt",
     releaseTime: new Date("2024-11-12T10:00:00Z")
   },
@@ -35,7 +34,6 @@ const episodeData = [
     duration: "20:59",
     audioUrl: "https://u.pcloud.link/publink/show?code=XZ2GPJ5ZeWv70SqvhVXN67VHAYrOmbzuXYRk",
     videoUrl: "https://u.pcloud.link/publink/show?code=XZfGPJ5ZYHyeKQcuE3bkTJ9yiwXjBYg0b28k",
-    ittUrl: "/other/S01E02_captions.itt",
     srtUrl: "/other/S01E02_captions.srt",
     releaseTime: new Date("2024-11-19T10:00:00Z")
   },
@@ -48,7 +46,6 @@ const episodeData = [
     duration: "07:13",
     audioUrl: "https://u.pcloud.link/publink/show?code=XZWGPJ5ZFhxo27bxASy3eVoaQkf4CuDCXdyX",
     videoUrl: "",
-    ittUrl: "/other/S01E02_Sustained_captions.itt",
     srtUrl: "/other/S01E02_Sustained_captions.srt",
     releaseTime: new Date("2024-11-23T10:00:00Z")
   },
@@ -61,7 +58,6 @@ const episodeData = [
     duration: "01:00:12",
     audioUrl: "https://u.pcloud.link/publink/show?code=XZ1GPJ5Z4KM7UB7gQSfha4lnwyIeq5lS2nyk",
     videoUrl: "https://u.pcloud.link/publink/show?code=XZDGPJ5ZycLWLMe95M8GY5gHnn58hfdQTYbk",
-    ittUrl: "/other/S01E03_captions.itt",
     srtUrl: "/other/S01E03_captions_srt",
     releaseTime: new Date("2024-11-26T10:00:00Z")
   },
@@ -85,7 +81,6 @@ const episodeData = [
     duration: "51:05",
     audioUrl: "https://u.pcloud.link/publink/show?code=XZEGPJ5Z2UKOhbg2dkSILVpEYmCVW4df7lA7",
     videoUrl: "https://u.pcloud.link/publink/show?code=XZMGPJ5ZpXU263iGXdJPBGW5S5kHISR6MMt7",
-    ittUrl: "/other/S01E05_captions.itt",
     srtUrl: "/other/S01E05_captions.srt",
     releaseTime: new Date("2024-12-10T10:00:00Z")
   },
@@ -98,7 +93,6 @@ const episodeData = [
     duration: "11:16",
     audioUrl: "https://u.pcloud.link/publink/show?code=XZ3GPJ5Z22ehxmprSSjkbf6tnCWySmYheLJk",
     videoUrl: "https://u.pcloud.link/publink/show?code=XZUGPJ5ZAWtmSaENuwbULXIXRWWy5yRUXgkV",
-    ittUrl: "/other/S01E06_captions.itt",
     srtUrl: "/other/S01E06_captions.srt",
     releaseTime: new Date("2024-12-17T10:00:00Z")
   },
@@ -111,7 +105,6 @@ const episodeData = [
     duration: "20:08",
     audioUrl: "https://u.pcloud.link/publink/show?code=XZjEfL5ZIuatj3qAUzJseTAJaG8KV5Qk0XWV",
     videoUrl: "",
-    ittUrl: "/other/S01E07_captions.itt",
     srtUrl: "/other/S01E07_captions.srt",
     releaseTime: new Date("2025-05-05T10:00:00Z")
   },
@@ -124,11 +117,85 @@ const episodeData = [
     duration: "41:24",
     audioUrl: "https://u.pcloud.link/publink/show?code=XZX5ob5Zgz8PcPa6ir7m8VBip9hFXmYB34yV",
     videoUrl: "https://u.pcloud.link/publink/show?code=XZL5ob5ZUsXh3wUvqpS7KydshnvWCfMqYbAk",
-    ittUrl: "/other/S01E08_captions.itt",
     srtUrl: "/other/S01E08_captions.srt",
     releaseTime: new Date("2025-05-12T10:00:00Z")
   }
 ];
+
+function openCaptionViewer(url, type, episodeTitle) {
+  const newWindow = window.open('', '_blank');
+  
+  // Create the document structure using modern DOM methods
+  const doc = newWindow.document;
+  
+  // Set up the HTML structure
+  doc.documentElement.innerHTML = `
+    <head>
+      <title>${type.toUpperCase()} Captions - ${episodeTitle}</title>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <style>
+        body {
+          font-family: 'Courier New', monospace;
+          margin: 40px;
+          background: #f5f5f5;
+          line-height: 1.6;
+        }
+        .header {
+          background: white;
+          padding: 20px;
+          border-radius: 8px;
+          margin-bottom: 20px;
+          box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .content {
+          background: white;
+          padding: 20px;
+          border-radius: 8px;
+          white-space: pre-wrap;
+          box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .loading { 
+          text-align: center; 
+          padding: 40px; 
+        }
+        .error {
+          color: red;
+          text-align: center;
+          padding: 20px;
+        }
+      </style>
+    </head>
+    <body>
+      <div class="header">
+        <h1>${type.toUpperCase()} Captions</h1>
+        <h2>${episodeTitle}</h2>
+      </div>
+      <div class="content">
+        <div class="loading">Loading captions...</div>
+      </div>
+    </body>
+  `;
+  
+  // Fetch and display caption file
+  fetch(url)
+    .then(response => {
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+      return response.text();
+    })
+    .then(text => {
+      const contentDiv = doc.querySelector('.content');
+      contentDiv.textContent = text;
+    })
+    .catch(error => {
+      const contentDiv = doc.querySelector('.content');
+      contentDiv.innerHTML = `<div class="error">
+        Error loading captions: ${error.message}
+      </div>`;
+    });
+}
 
 // set to false to turn off individual episodes' images
 const showEpisodeImages = false;
@@ -258,30 +325,20 @@ function displayPodcastEpisodes() {
     rightButtonGroup.style.display = 'flex';
     rightButtonGroup.style.gap = '10px';
 
-    // only create buttons if URLs exist
-    if (episode.ittUrl) {
-      const ittButton = document.createElement('a');
-      ittButton.href = episode.ittUrl;
-      ittButton.target = '_blank';
-      ittButton.rel = 'noopener noreferrer';
-      ittButton.className = 'download-button';
-      ittButton.style.backgroundColor = colors.button;
-      ittButton.style.color = '#000000';
-      ittButton.style.fontWeight = 'bold';
-      ittButton.innerText = 'ITT Text';
-      rightButtonGroup.appendChild(ittButton);
-    }
-
     if (episode.srtUrl) {
-      const srtButton = document.createElement('a');
-      srtButton.href = episode.srtUrl;
-      srtButton.target = '_blank';
-      srtButton.rel = 'noopener noreferrer';
+      const srtButton = document.createElement('button');
       srtButton.className = 'download-button';
       srtButton.style.backgroundColor = colors.button;
       srtButton.style.color = '#000000';
       srtButton.style.fontWeight = 'bold';
+      srtButton.style.cursor = 'pointer';
+      srtButton.style.border = 'none';
+      srtButton.style.padding = '10px 15px';
+      srtButton.style.borderRadius = '4px';
       srtButton.innerText = 'SRT Text';
+      srtButton.addEventListener('click', () => {
+        openCaptionViewer(episode.srtUrl, 'srt', episode.title);
+      });
       rightButtonGroup.appendChild(srtButton);
     }
 
